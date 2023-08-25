@@ -1,12 +1,25 @@
 import pandas as pd
 import yfinance as yf
+import requests
 
-stocks_file = pd.read_csv("C:/Users/Maik/Downloads/EUNL_holdings.csv", usecols=[0])
+url = "https://pkgstore.datahub.io/core/s-and-p-500-companies/constituents_json/data/297344d8dc0a9d86b8d107449c851cc8/constituents_json.json"  # Ersetzen Sie dies durch die tatsächliche URL des JSON
+
+response = requests.get(url)
+
+# Überprüfen, ob die Anfrage erfolgreich war
+if response.status_code == 200:
+    stocks = response.json()  # Das JSON als Python-Objekt (meist ein dict oder eine Liste)
+    # print(stocks)
+else:
+    print(f"Fehler beim Abrufen des JSON: {response.status_code}")
 
 successful_stocks = []
 
-for stock in stocks_file.values:
-    stock_symbol = stock[0]
+for stock in stocks:
+    name = stock["Name"]
+    sector = stock["Sector"]
+    stock_symbol = stock["Symbol"]
+    # print(f"Name: {name}, Sektor: {sector}, Symbol: {symbol}")
 
     try:
         history = yf.Ticker(stock_symbol).history(start="1994-01-01", end="2009-01-01")
@@ -20,7 +33,7 @@ for stock in stocks_file.values:
     total_return = 0
     years_counted = 0
 
-    for year, value in annual_return.iteritems():
+    for year, value in annual_return.items():
         if pd.isna(value): continue
         total_return += value
         years_counted += 1
