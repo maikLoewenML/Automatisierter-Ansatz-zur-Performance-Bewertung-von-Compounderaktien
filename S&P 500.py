@@ -82,7 +82,7 @@ for stock in stocks:
 
 # Balkendiagramm erstellen
 x = list(returns_years_mapping.keys())
-y = [] # [len(years) for years in returns_years_mapping.values()]
+y = [len(years) for years in returns_years_mapping.values()]
 
 bars = plt.bar(x, y, align='center', width=8)
 
