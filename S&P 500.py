@@ -38,34 +38,40 @@ for stock in stocks:
     for year, value in annual_return.dropna().items():
         if value < -0.4:
             returns_years_mapping[-40].append(year.year)
+            break
         elif value < -0.3:
             returns_years_mapping[-30].append(year.year)
+            break
         elif value < -0.2:
             returns_years_mapping[-20].append(year.year)
+            break
         elif value < -0.1:
             returns_years_mapping[-10].append(year.year)
+            break
         elif value < 0.0:
             returns_years_mapping[0].append(year.year)
+            break
         elif value < 0.1:
             returns_years_mapping[10].append(year.year)
+            break
         elif value < 0.2:
             returns_years_mapping[20].append(year.year)
+            break
         elif value < 0.3:
             returns_years_mapping[30].append(year.year)
+            break
         elif value < 0.4:
             returns_years_mapping[40].append(year.year)
+            break
         elif value < 0.5:
             returns_years_mapping[50].append(year.year)
+            break
         elif value < 0.6:
             returns_years_mapping[60].append(year.year)
-        elif value >= 0.6:
-            returns_years_mapping[60].append(year.year)
+            break
         else:
-            key = int(value // 0.1 * 10) * 10
-            if key in returns_years_mapping:
-                returns_years_mapping[key].append(year.year)
-            else:
-                print(f"Unerwartete Rendite gefunden: {value * 100}% für {year.year}")
+            # Alle Renditen, die größer oder gleich 0.6 sind, werden hier behandelt
+            returns_years_mapping[60].append(year.year)
 
     total_return = 0
     years_counted = 0
@@ -93,6 +99,7 @@ for bar, years in zip(bars, returns_years_mapping.values()):
 
 plt.xticks(x, [f"{val}%" for val in x])
 plt.xlabel('Jährliche Rendite')
+plt.ylabel('Anzahl Jahre')
 plt.title('Jahre für jede Renditekategorie')
 plt.grid(axis='y')
 
