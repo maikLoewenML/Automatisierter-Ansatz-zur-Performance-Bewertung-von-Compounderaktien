@@ -14,7 +14,7 @@
 ### Vorgehensweise der Untersuchung
 - Entwicklung eines Skripts, das automatisch eine Vielzahl von Parameterkombinationen (Dauer am Markt und jährliche Rendite) durchläuft und diejenigen Kombinationen identifiziert, die das beste Verhältnis von Rendite zu Risiko innerhalb des S&P 500 ETF bieten
 ## Theoretischer Rahmen
-### Definition und Markmale von Compounder-Aktien
+### Definition und Merkmale von Compounder-Aktien
 ### Überblick über den S&P 500 ETF
 ### Relevanz von Rendite und Risiko in der Anlagestrategie
 ## Einführung in die y-finance-Bibliothek
