@@ -19,6 +19,21 @@
 ### Relevanz von Rendite und Risiko in der Anlagestrategie
 ## Einführung in die y-finance-Bibliothek
 ### Überblick und Funktionen von y-finance
+- yf.Ticker():
+  - Beschreibung: Erstellt ein Ticker-Objekt, das Daten für den angegebenen Aktienticker bereitstellt
+  - Verwendung: Abruf eines Ticker-Objekts für eine spezifische Aktie
+- .history(start="", end=""):
+  - Beschreibung: Methode des Ticker-Objekts, die historische Daten zwischen den angegebenen Start- und Enddaten zurückgibt
+  - Verwendung: Abruf historischer Daten zwischen einem Start- und Enddatum
+- .dropna():
+  - Beschreibung: Eine pandas-Methode, die Zeilen oder Spalten mit fehlenden Daten aus dem DataFrame entfernt.
+  - Verwendung: Entfernen von Zeilen ohne Renditedaten.
+- .items():
+  - Beschreibung: Eine Methode, um Schlüssel-Wert-Paare eines Objekts (normalerweise eines Dictionarys) als Liste von Tupeln zurückzugeben. 
+  - Verwendung: Durchlaufen von Jahren und ihrer jeweiligen Rendite.
+- .get():
+  - Beschreibung: Eine Methode, um den Wert für einen gegebenen Schlüssel aus einem Objekt (normalerweise einem Dictionary oder einer Serie) abzurufen. 
+  - Verwendung: Abrufen von Schlusspreisen für spezifische Daten.
 ### Relevanz und Vorteile für Aktienanalysen
 ## Skriptentwicklung und Automatisierung
 ### Beschreibung des zu entwickelnden Skripts unter Verwendung von y-finance
