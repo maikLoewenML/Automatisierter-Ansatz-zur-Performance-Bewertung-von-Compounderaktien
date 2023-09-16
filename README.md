@@ -15,6 +15,19 @@
 - Entwicklung eines Skripts, das automatisch eine Vielzahl von Parameterkombinationen (Dauer am Markt und jährliche Rendite) durchläuft und diejenigen Kombinationen identifiziert, die das beste Verhältnis von Rendite zu Risiko innerhalb des S&P 500 ETF bieten
 ## Theoretischer Rahmen
 ### Definition und Merkmale von Compounder-Aktien
+- Aktien, die nachhaltiges und langfristiges Wachstum können
+- positive Differenz zwischen der Rendite, des investierten Kapitals (ROIC) und den durchschnittlichen Kapitalkosten
+  - https://www.cworldwide.com/media/s10jt2v2/the-anatomy-of-a-compounder.pdf
+- es gibt relativ wenige Unternehmen, die in der Lage sind, das Vermögen der Aktionäre über die lange Frist hinweg mit überlegenen Renditen zu vermehren
+- Compounders neigen dazu, in wirtschaftlichen Abschwüngen relativ robust zu sein, mit stabilen operativen Cashflows und keiner übermäßigen Verschuldung
+- Qualität und Fokus des Managements
+- keine häufigen CEO-Wechsel
+- Compounders sind eher in Branchen zu finden, in denen relativ kapitalleichte Innovationen eine neue Nachfrage schaffen und die Preissetzungsmacht unterstützen könnte
+  - https://www.morganstanley.com/im/publication/insights/investment-insights/ii_equitycompounders_en.pdf
+- organisches Wachstum
+- wenn der ROIC zu niedrig ist, dann muss das Unternehmen viel investieren, um das Geschäft zu erweitern
+- es muss eine gute Kapitalallokation vorliegen --> vermeiden Unternehmen mit zu viel ungenutztem Bargeld in ihrer Bilanz
+  - https://hedgenordic.com/2021/11/uncovering-attractively-valued-compounders/
 ### Überblick über den S&P 500 ETF
 ### Relevanz von Rendite und Risiko in der Anlagestrategie
 ## Einführung in die y-finance-Bibliothek
