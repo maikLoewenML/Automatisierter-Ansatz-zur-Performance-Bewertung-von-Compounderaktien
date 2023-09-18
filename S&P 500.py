@@ -85,8 +85,8 @@ for stock in successful_stocks:
             end_date = f"{year}-12-31"
 
             # Die Methode asfreq gibt den letzten nicht fehlenden Wert in einem gegebenen Zeitraum zurück
-            start_price = history['Close'].asfreq('D').first_valid_index()
-            end_price = history['Close'].asfreq('D').last_valid_index()
+            start_price = history['Close'].asfreq('D').dropna().iloc[0]
+            end_price = history['Close'].asfreq('D').dropna().iloc[-1]
 
             if start_price is None or end_price is None:
                 print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
@@ -95,6 +95,8 @@ for stock in successful_stocks:
             yearly_return = (end_price / start_price) - 1
             annual_returns[year] += yearly_return
             stock_counts[year] += 1
+    except TypeError as e:
+        print("Fehler in der for-schleife!")
     except Exception as e:
         print(f"Konnte keine Daten für {stock} abrufen: {e}")
 
