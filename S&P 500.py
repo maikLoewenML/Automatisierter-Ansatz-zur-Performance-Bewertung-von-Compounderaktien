@@ -48,26 +48,6 @@ for stock in stocks:
 with open('successful_stocks.pkl', 'rb') as f:
     successful_stocks = pickle.load(f)
 
-'''
-# Balkendiagramm erstellen
-x = list(returns_years_mapping.keys())
-y = [len(years) for years in returns_years_mapping.values()]
-
-bars = plt.bar(x, y, align='center', width=8)
-
-plt.xticks(x, [f"{val}%" for val in x])
-plt.xlabel('Jährliche Rendite')
-plt.ylabel('Anzahl Jahre')
-plt.title('Jahre für jede Renditekategorie')
-plt.grid(axis='y')
-
-plt.tight_layout()
-plt.show()
-
-for k, v in returns_years_mapping.items():
-    print(f"Renditekategorie {k}%: {', '.join(map(str, v))}")
-'''
-
 if successful_stocks:
     print("Folgende Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
     for stock in successful_stocks:
@@ -127,10 +107,12 @@ for stock in successful_stocks:
 categories = list(range(-40, 80, 10))  # Von -40 % bis 70 % in 10 % Schritten
 category_counts = {cat: 0 for cat in categories}
 years_mapping = {cat: [] for cat in categories}
+average_returns = {}
 
 for year, total_return in annual_returns.items():
     if stock_counts[year] != 0:
         average_return = total_return / stock_counts[year] * 100
+        average_returns[year] = average_return
         print(f"Durchschnittliche Rendite für {year}: {average_return:.2f}%")
 
         for cat in categories:
@@ -144,6 +126,9 @@ for year, total_return in annual_returns.items():
                 break
     else:
         print(f"Keine Daten für {year} gefunden.")
+
+overall_average_return = sum(average_returns.values()) / len(average_returns)
+print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {overall_average_return:.2f}%")
 
 labels = [f"{cat}%" for cat in categories]
 values = [category_counts[cat] for cat in categories]
