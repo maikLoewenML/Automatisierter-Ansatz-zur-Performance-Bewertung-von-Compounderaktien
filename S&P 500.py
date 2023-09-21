@@ -126,6 +126,7 @@ for stock in successful_stocks:
 
 categories = list(range(-40, 80, 10))  # Von -40 % bis 70 % in 10 % Schritten
 category_counts = {cat: 0 for cat in categories}
+years_mapping = {cat: [] for cat in categories}
 
 for year, total_return in annual_returns.items():
     if stock_counts[year] != 0:
@@ -133,11 +134,13 @@ for year, total_return in annual_returns.items():
         print(f"Durchschnittliche Rendite für {year}: {average_return:.2f}%")
 
         for cat in categories:
-            if cat == 70 and average_return >= cat - 5:  # Für Werte, die 70% oder mehr sind
+            if cat == 70 and average_return >= cat - 5:  # Für Werte, die 70 % oder mehr sind
                 category_counts[cat] += 1
+                years_mapping[cat].append(year)  # Jahr zur Kategorie hinzufügen
                 break
             if cat - 5 <= average_return < cat + 5:
                 category_counts[cat] += 1
+                years_mapping[cat].append(year)  # Jahr zur Kategorie hinzufügen
                 break
     else:
         print(f"Keine Daten für {year} gefunden.")
@@ -152,11 +155,7 @@ plt.title('Jährliche Renditen in Kategorien')
 
 # Hinzufügen der Jahre an jeden Balken
 for bar, cat in zip(bars, categories):
-    # Liste der Jahre für diese Kategorie erstellen
-    years = [year for year, rendite in annual_returns.items()
-             if (cat == -40 and rendite < cat + 5) or
-             (cat == 70 and rendite >= cat - 5) or
-             (cat - 5 <= rendite < cat + 5)]
+    years = years_mapping[cat]
 
     # Jahre in einen String konvertieren und am Balken anzeigen
     y_position = bar.get_height() + 0.1
@@ -165,5 +164,4 @@ for bar, cat in zip(bars, categories):
 
 plt.tight_layout()
 plt.show()
-
 
