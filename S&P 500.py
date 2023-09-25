@@ -4,6 +4,9 @@ import requests
 import pickle
 import matplotlib.pyplot as plt
 
+import Unternehmenslisten
+
+'''
 url = "https://pkgstore.datahub.io/core/s-and-p-500-companies/constituents_json/data/297344d8dc0a9d86b8d107449c851cc8/constituents_json.json"
 
 response = requests.get(url)
@@ -11,14 +14,14 @@ if response.status_code == 200:
     stocks = response.json()
 else:
     print(f"Fehler beim Abrufen des JSON: {response.status_code}")
-
+    
 '''
+stocks = Unternehmenslisten.lese_sp500_unternehmen(2013)
+
 successful_stocks = []
 
-returns_years_mapping = {k: [] for k in range(-40, 70, 10)}
-
 for stock in stocks:
-    stock_symbol = stock["Symbol"]
+    stock_symbol = stock
 
     try:
         # Historische Daten für den gegebenen Zeitraum abrufen
@@ -26,27 +29,18 @@ for stock in stocks:
         # Jährliche Rendite berechnen
         annual_return = history['Close'].resample('Y').ffill().pct_change()
 
-        #Rendite in die entsprechende Kategorie einsortieren
-        for year, value in annual_return.dropna().items():
-            for k in returns_years_mapping.keys():
-                if k * 0.01 <= value < (k + 10) * 0.01:
-                    returns_years_mapping[k].append(year.year)
-                    break
-        
-
         # Durchschnittliche Rendite über den Zeitraum berechnen
         average_return = annual_return.mean()
-        # Stocks mit über 15% durchschnittlicher Rendite aufnehmen
+        # Stocks mit über 15 % durchschnittlicher Rendite aufnehmen
         if average_return >= 0.15:
             successful_stocks.append(stock_symbol)
             print(f"{stock_symbol} der erfolgreichen Stocks hinzugefügt")
     except Exception as e:
         # Fehlermeldung ausgeben, wenn Datenabruf fehlschlägt
         print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
-'''
 
-with open('successful_stocks.pkl', 'rb') as f:
-    successful_stocks = pickle.load(f)
+# with open('successful_stocks.pkl', 'rb') as f:
+#     successful_stocks = pickle.load(f)
 
 if successful_stocks:
     print("Folgende Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
@@ -59,7 +53,7 @@ else:
 annual_returns = {year: 0 for year in range(2013, 2018)}
 stock_counts = {year: 0 for year in range(2013, 2018)}
 
-#hier bin ich stehen geblieben. Es werden aktuell keine Daten von den jeweiligen stock_symbols gelesen.
+# hier bin ich stehen geblieben. Es werden aktuell keine Daten von den jeweiligen stock_symbols gelesen.
 # Deswegen will ich den stock erst mal printen lassen im nächsten Durchlauf und schauen, was passiert
 for stock in successful_stocks:
     print(stock)
@@ -149,4 +143,3 @@ for bar, cat in zip(bars, categories):
 
 plt.tight_layout()
 plt.show()
-
