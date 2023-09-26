@@ -6,17 +6,22 @@ import matplotlib.pyplot as plt
 
 import Unternehmenslisten
 
-'''
-url = "https://pkgstore.datahub.io/core/s-and-p-500-companies/constituents_json/data/297344d8dc0a9d86b8d107449c851cc8/constituents_json.json"
+# Startjahr und Zeitspanne vom Benutzer abfragen
+start_jahr = int(input("Bitte geben Sie das Startjahr ein (z.B. 2007): "))
+zeitspanne = int(input("Bitte wählen Sie eine Zeitspanne (5, 10, 15): "))
 
-response = requests.get(url)
-if response.status_code == 200:
-    stocks = response.json()
-else:
-    print(f"Fehler beim Abrufen des JSON: {response.status_code}")
-    
-'''
-stocks = Unternehmenslisten.lese_sp500_unternehmen(2013)
+# Überprüfen, ob die Zeitspanne gültig ist
+if zeitspanne not in [5, 10, 15]:
+    print("Ungültige Zeitspanne. Bitte wählen Sie 5, 10 oder 15 Jahre.")
+    exit()
+
+if start_jahr + zeitspanne > 2023:
+    print("Dieser Bereich liegt noch in der Zukunft und es gibt keine Daten dafür.")
+    exit()
+
+end_jahr = start_jahr + zeitspanne
+
+stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
 
 successful_stocks = []
 
@@ -25,7 +30,7 @@ for stock in stocks:
 
     try:
         # Historische Daten für den gegebenen Zeitraum abrufen
-        history = yf.Ticker(stock_symbol).history(start="2013-01-02", end="2018-01-02")
+        history = yf.Ticker(stock_symbol).history(start=f"{start_jahr}-01-02", end=f"{end_jahr}-01-02")
         # Jährliche Rendite berechnen
         annual_return = history['Close'].resample('Y').ffill().pct_change()
 
@@ -50,22 +55,20 @@ else:
     print("Keine Aktien gefunden, die die Kriterien erfüllen.")
 
 # Durchschnittsrendite für jedes Jahr berechnen und drucken
-annual_returns = {year: 0 for year in range(2013, 2018)}
-stock_counts = {year: 0 for year in range(2013, 2018)}
+annual_returns = {year: 0 for year in range(start_jahr, end_jahr)}
+stock_counts = {year: 0 for year in range(start_jahr, end_jahr)}
 
-# hier bin ich stehen geblieben. Es werden aktuell keine Daten von den jeweiligen stock_symbols gelesen.
-# Deswegen will ich den stock erst mal printen lassen im nächsten Durchlauf und schauen, was passiert
 for stock in successful_stocks:
     print(stock)
     try:
-        history = yf.Ticker(stock).history(start="2013-01-02", end="2018-01-02")
+        history = yf.Ticker(stock).history(start=f"{start_jahr}-01-02", end=f"{end_jahr}-01-02")
 
         # Überprüfen, ob Daten vorhanden sind
         if history.empty:
             print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
             continue
 
-        for year in range(2013, 2018):
+        for year in range(start_jahr, end_jahr):
             start_date = None
             end_date = None
 
