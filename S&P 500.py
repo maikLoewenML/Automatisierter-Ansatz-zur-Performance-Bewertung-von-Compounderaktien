@@ -55,74 +55,54 @@ else:
     print("Keine Aktien gefunden, die die Kriterien erfüllen.")
 
 # Durchschnittsrendite für jedes Jahr berechnen und drucken
-annual_returns = {year: 0 for year in range(start_jahr, end_jahr)}
-stock_counts = {year: 0 for year in range(start_jahr, end_jahr)}
-
+# Liste zur Speicherung der jährlichen Renditen für alle erfolgreichen Aktien
+all_annual_returns = {year: [] for year in range(start_jahr, end_jahr)}
 for stock in successful_stocks:
-    print(stock)
     try:
         history = yf.Ticker(stock).history(start=f"{start_jahr}-01-02", end=f"{end_jahr}-01-02")
-
-        # Überprüfen, ob Daten vorhanden sind
         if history.empty:
             print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
             continue
 
         for year in range(start_jahr, end_jahr):
-            start_date = None
-            end_date = None
+            start_date = (pd.Timestamp(f"{year}-01-01")).strftime('%Y-%m-%d')
+            end_date = (pd.Timestamp(f"{year}-12-31")).strftime('%Y-%m-%d')
 
-            # Suche nach gültigem start_date
-            for i in range(10):
-                potential_start_date = (pd.Timestamp(f"{year}-01-02") + pd.Timedelta(days=i)).strftime('%Y-%m-%d')
-                if not pd.isna(history['Close'].get(potential_start_date)):
-                    start_date = potential_start_date
-                    break
-
-            # Suche nach gültigem end_date
-            for i in range(10):
-                potential_end_date = (pd.Timestamp(f"{year}-12-31") - pd.Timedelta(days=i)).strftime('%Y-%m-%d')
-                if not pd.isna(history['Close'].get(potential_end_date)):
-                    end_date = potential_end_date
-                    break
-
-            # Überprüfen, ob sowohl start_date als auch end_date gefunden wurden
-            if start_date is None or end_date is None:
+            if start_date in history.index and end_date in history.index:
+                start_price = history.loc[start_date]['Close']
+                end_price = history.loc[end_date]['Close']
+                yearly_return = ((end_price - start_price) / start_price)
+                all_annual_returns[year].append(yearly_return)
+            else:
                 print(f"Es wurden keine Daten zu diesem Stock: {stock} für das Jahr {year} gefunden")
-                continue
 
-            start_price = history['Close'].get(start_date)
-            end_price = history['Close'].get(end_date)
-            yearly_return = (end_price / start_price) - 1
-            annual_returns[year] += yearly_return
-            stock_counts[year] += 1
-    except TypeError as e:
-        print("Fehler in der for-schleife!")
     except Exception as e:
         print(f"Konnte keine Daten für {stock} abrufen: {e}")
+
+# Durchschnittliche Renditen für jedes Jahr berechnen und anzeigen
+average_returns = {}
+for year, returns in all_annual_returns.items():
+    if returns:
+        average_return = sum(returns) / len(returns) * 100
+        average_returns[year] = average_return
+        print(f"Durchschnittliche Rendite für {year}: {average_return:.2f}%")
+    else:
+        print(f"Keine Daten für {year} gefunden.")
 
 categories = list(range(-40, 80, 10))  # Von -40 % bis 70 % in 10 % Schritten
 category_counts = {cat: 0 for cat in categories}
 years_mapping = {cat: [] for cat in categories}
-average_returns = {}
 
-for year, total_return in annual_returns.items():
-    if stock_counts[year] != 0:
-        average_return = total_return / stock_counts[year] * 100
-        average_returns[year] = average_return
-        print(f"Durchschnittliche Rendite für {year}: {average_return:.2f}%")
-
-        for cat in categories:
-            if cat == 70 and average_return >= cat - 5:  # Für Werte, die 70 % oder mehr sind
-                category_counts[cat] += 1
-                years_mapping[cat].append(year)  # Jahr zur Kategorie hinzufügen
-                break
-            if cat - 5 <= average_return < cat + 5:
-                category_counts[cat] += 1
-                years_mapping[cat].append(year)  # Jahr zur Kategorie hinzufügen
-                break
-    else:
-        print(f"Keine Daten für {year} gefunden.")
+for year, average_return in average_returns.items():
+    for cat in categories:
+        if cat == 70 and average_return >= cat - 5:  # Für Werte, die 70 % oder mehr sind
+            category_counts[cat] += 1
+            years_mapping[cat].append(year)  # Jahr zur Kategorie hinzufügen
+            break
+        if cat - 5 <= average_return < cat + 5:
+            category_counts[cat] += 1
+            years_mapping[cat].append(year)  # Jahr zur Kategorie hinzufügen
+            break
 
 overall_average_return = sum(average_returns.values()) / len(average_returns)
 print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {overall_average_return:.2f}%")
