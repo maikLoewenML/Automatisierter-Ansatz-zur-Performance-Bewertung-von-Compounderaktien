@@ -3,12 +3,19 @@ import yfinance as yf
 import requests
 import pickle
 import matplotlib.pyplot as plt
+from datetime import datetime, timedelta
+
+from numpy import double
 
 import Unternehmenslisten
 
 # Startjahr und Zeitspanne vom Benutzer abfragen
 start_jahr = int(input("Bitte geben Sie das Startjahr ein (z.B. 2007): "))
 zeitspanne = int(input("Bitte wählen Sie eine Zeitspanne (5, 10, 15): "))
+aktie_laenge_am_markt = int(input("Bitte wählen Sie eine Zeitspanne für die Länge am Markt der jeweiligen Aktie (10, "
+                                  "15, 20): "))
+durchschnittliche_rendite = double(input("Bitte wählen Sie die durchschnittliche Rendite der jeweiligen Aktie (0.10, "
+                                      "0.12, 0.15, 0.20): "))
 
 # Überprüfen, ob die Zeitspanne gültig ist
 if zeitspanne not in [5, 10, 15]:
@@ -29,17 +36,46 @@ for stock in stocks:
     stock_symbol = stock
 
     try:
-        # Historische Daten für den gegebenen Zeitraum abrufen
-        history = yf.Ticker(stock_symbol).history(start=f"{start_jahr}-01-02", end=f"{end_jahr}-01-02")
-        # Jährliche Rendite berechnen
-        annual_return = history['Close'].resample('Y').ffill().pct_change()
+        # Gesamte Historie abrufen
+        history = yf.Ticker(stock_symbol).history(period="max")
 
-        # Durchschnittliche Rendite über den Zeitraum berechnen
-        average_return = annual_return.mean()
-        # Stocks mit über 15 % durchschnittlicher Rendite aufnehmen
-        if average_return >= 0.15:
-            successful_stocks.append(stock_symbol)
-            print(f"{stock_symbol} den erfolgreichen Stocks hinzugefügt")
+        # Frühestes Datum bestimmen
+        earliest_date = history.index.min()
+        laenge_am_markt = start_jahr - earliest_date.year
+        if start_jahr - earliest_date.year < aktie_laenge_am_markt:
+            continue
+
+        # Versuchen, ein gültiges Datum bis zum `start_jahr` zu finden
+        latest_date = datetime.strptime(f"{start_jahr}-01-02", "%Y-%m-%d")
+
+        for i in range(10):
+            potential_latest_date = (pd.Timestamp(f"{start_jahr}-01-02") + pd.Timedelta(days=i)).strftime('%Y-%m-%d')
+            if not pd.isna(history['Close'].get(potential_latest_date)):
+                latest_date = potential_latest_date
+                break
+
+        print(latest_date)
+
+        # Überprüfen, ob ein gültiges Datum gefunden wurde
+        if latest_date in history.index:
+            # Daten bis zum gefundenen `latest_date` filtern
+            filtered_history = history.loc[:latest_date]
+
+            # Jährliche Rendite berechnen
+            annual_return = filtered_history['Close'].resample('Y').ffill().pct_change()
+            # print(f"Rendite für {stock}: {annual_return}")
+
+            # Durchschnittliche Rendite über den Zeitraum berechnen
+            average_return = annual_return.mean()
+            print(f"Durchschnittliche Rendite für {stock}: {average_return}")
+
+            # Stocks mit über 15 % durchschnittlicher Rendite aufnehmen
+            if average_return >= durchschnittliche_rendite:
+                successful_stocks.append(stock_symbol)
+                print(f"{stock_symbol} den erfolgreichen Stocks hinzugefügt")
+        else:
+            print(f"Konnte kein gültiges Datum für {stock_symbol} im angegebenen Zeitraum finden.")
+
     except Exception as e:
         # Fehlermeldung ausgeben, wenn Datenabruf fehlschlägt
         print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
