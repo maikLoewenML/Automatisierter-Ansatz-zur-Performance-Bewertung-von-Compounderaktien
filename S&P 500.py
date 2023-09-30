@@ -15,7 +15,7 @@ zeitspanne = int(input("Bitte wählen Sie eine Zeitspanne (5, 10, 15): "))
 aktie_laenge_am_markt = int(input("Bitte wählen Sie eine Zeitspanne für die Länge am Markt der jeweiligen Aktie (10, "
                                   "15, 20): "))
 durchschnittliche_rendite = double(input("Bitte wählen Sie die durchschnittliche Rendite der jeweiligen Aktie (0.10, "
-                                      "0.12, 0.15, 0.20): "))
+                                         "0.12, 0.15, 0.20): "))
 
 # Überprüfen, ob die Zeitspanne gültig ist
 if zeitspanne not in [5, 10, 15]:

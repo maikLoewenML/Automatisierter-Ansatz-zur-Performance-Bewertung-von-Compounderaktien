@@ -1,5 +1,4 @@
-# Compounderaktien: Ein automatisierter Ansatz zur Performancebewertung gegenüber dem S&P 500
-
+# Compounderaktien: Ein automatisierter Ansatz zur Performancebewertung
 ## Einleitung
 - Investoren und Marktanalysen suchen ständig nach Wegen, ihre Anlagestrategie zu optimieren
 - Könnte eine wertvolle Information sein, bo Compounder-Aktien tatsächlich im Schnitt eine überlegene Performance gegenüber dem S&P 500 ETF haben
@@ -39,6 +38,26 @@ https://www.standardandpoors.com
 https://www.investopedia.com
 https://www.vanguard.com
 ### Relevanz von Rendite und Risiko in der Anlagestrategie
+- Einführung in Rendite und Risiko:
+  - Definition von Rendite: Ertrag einer Investition im Verhältnis zum investierten Kapital
+  - Definition von Risiko: Unsicherheit der zukünftigen Rendite
+    - Bodie, Zvi, Alex Kane, and Alan Marcus. EBOOK: Investments-Global edition. McGraw Hill, 2014.
+  - Historische Renditen verschiedener Anlageklassen: Aktien, Anleihen, Rohstoffe, Immobilien
+  - Risiken variieren je nach Anlageklasse und Region
+    - Dimson, Elroy, Paul Marsh, and Mike Staunton. Triumph of the optimists: 101 years of global investment returns. Princeton University Press, 2002.
+- Rendite-Risiko-Profil:
+  - Das Rendite-Risiko-Verhältnis misst die Kompensation, die Anleger für das Eingehen eines zusätzlichen Risikos erhalten.
+    - Sharpe, William F. "Mutual fund performance." The Journal of business 39.1 (1966): 119-138.
+- Riskofaktoren und Compounder-Aktien:
+  - Größe, Buch-Markt-Verhältnis und Momentum als gemeinsame Risikofaktoren.
+  - Compounder-Aktien könnten unterschiedliche systematischen Risiken ausgesetzt sein
+    - Fama, Eugene F., and Kenneth R. French. "Common risk factors in the returns on stocks and bonds." Journal of financial economics 33.1 (1993): 3-56.
+- Relevanz von Rendite und Risiko für Compounder-Aktien:
+  - Compounder-Aktien bieten möglicherweise höhere Renditen bei niedrigerem Risiko
+- Rolle von Rendite und Risiko in der Strategieauswahl:
+  - Diversifikation als Schlüssel zum Management von Rendite und Risiko.
+  - Compounder-Aktien als potenzielles Instrument zur Portfolio-Optimierung
+    - Bernstein, William J., and Chris Ryan. The Four Pillars of Investing: lessons for building a winning portfolio. McGraw Hill, 2010.
 ## Einführung in die y-finance-Bibliothek
 ### Überblick und Funktionen von y-finance
 - yf.Ticker():
