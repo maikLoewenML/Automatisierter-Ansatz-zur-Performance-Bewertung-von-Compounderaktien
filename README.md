@@ -59,6 +59,14 @@ https://www.vanguard.com
   - Compounder-Aktien als potenzielles Instrument zur Portfolio-Optimierung
     - Bernstein, William J., and Chris Ryan. The Four Pillars of Investing: lessons for building a winning portfolio. McGraw Hill, 2010.
 ## Einführung in die y-finance-Bibliothek
+- Was ist die y-finance Bibliothek?
+  - Eine Python-Bibliothek, die einen schnellen Zugriff auf historische und aktuelle Finanzdaten ermöglicht
+  - https://github.com/ranaroussi/yfinance
+  - Wieso wurde sie entwickelt? 
+    - Antwort auf das Verschwinden von Yahoo Finance's alter API
+- Grundlegende Funktionalitäten
+  - Datenabfrage: Historische Daten, aktuelle Kurse
+  - Integration von Pandas: Einfache Handhabung und Analyse der Daten in DataFrame-Strukturen
 ### Überblick und Funktionen von y-finance
 - yf.Ticker():
   - Beschreibung: Erstellt ein Ticker-Objekt, das Daten für den angegebenen Aktienticker bereitstellt
@@ -76,7 +84,32 @@ https://www.vanguard.com
   - Beschreibung: Eine Methode, um den Wert für einen gegebenen Schlüssel aus einem Objekt (normalerweise einem Dictionary oder einer Serie) abzurufen. 
   - Verwendung: Abrufen von Schlusspreisen für spezifische Daten.
 ### Relevanz und Vorteile für Aktienanalysen
-## Skriptentwicklung und Automatisierung
+- Grundlagen der Aktienanalyse
+  - Definition und Hauptzweck: Bwertung von Aktien und Vorhersage zukünftiger Preisbewegungen
+    - Graham, Benjamin, et al. Security analysis: Principles and technique. Vol. 5. New York: McGraw-Hill, 1962.
+  - Relevanz von Aktienanalysen
+    - Bessere Investmententscheidungen durch fundierte Analysen
+    - Risikominderung: Besseres Verständnis von Unternehmen und Marktbedingungen
+  - Vorteile der Verwendung von y-finance für Aktienanalysen
+    - Schneller Zugriff auf eine Fülle von Daten: Reduziert den Zeitaufwand für die Datenbeschaffung
+    - Flexibilität: Anpassungsfähigkeit an verschiedene Analyseansätze und Analysetechniken
+    - Kostenlose Nutzung der Bibliothek
+    - Weitreichende Daten in die Vergangenheit
+## Skript-Entwicklung und Automatisierung
+- Testen der y-finance Bibliothek
+- Aktuelle Unternehmensliste des S&P 500 suchen
+- Filterung des Symbols dieser Unternehmensliste für alle Unternehmen
+- Filterung der Unternehmen nach einer festgelegten Compounderdefinition
+  - 15% durchschnittliche Rendite
+  - Zeitraum 2013 - 2018
+- Erstellung eines JSONs für die gefilterten Compounderaktien, da das herausfiltern zeitintensiv ist
+  - diente dazu, um die weitere Entwicklung schneller voranzutreiben
+- Berechnung der durchschnittlichen jährlichen Rendite für alle gefilterten Compounderaktien
+- Grafische Darstellung in eine Renditekategorie, welche Jahre in diesem festgelegten Zeitraum am besten liefen
+- Einbindung von Unternehmenslisten des S&P 500 seit 2007, um die Daten nicht zu verfälschen
+  - mithilfe der Wayback-Maschine
+- Zeitspanne für die Compounder-Definition soll in mehrere vordefinierte Bereiche geteilt werden
+- Länge am Markt soll variabel berechnet werden können
 ### Beschreibung des zu entwickelnden Skripts unter Verwendung von y-finance
 #### Auswahl der Parameter
 #### Filterung der Compounder-Aktien
