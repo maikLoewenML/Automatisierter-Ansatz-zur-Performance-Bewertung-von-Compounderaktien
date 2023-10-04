@@ -111,6 +111,15 @@ https://www.vanguard.com
 - Zeitspanne für die Compounder-Definition soll in mehrere vordefinierte Bereiche geteilt werden
 - Länge am Markt soll variabel berechnet werden können
 ### Beschreibung des zu entwickelnden Skripts unter Verwendung von y-finance
+- Einlesen aller Parameter (start_jahr, zeitspanne, aktie_laenge_am_markt und durchschnittliche_rendite)
+- Fehlermeldungen, falls einer dieser Parameter falsch eingegeben wurde
+- end_jahr wird aus der Summe vom start_jahr und der zeitspanne berechnet
+- abhängig vom startjahr werden die Unternehmenslisten aus jeweils diesem Jahr geholt
+  - dateipfand ist für alle Unternehmenslisten der gleiche
+  - Dateiendungen unterscheiden sich im Jahr
+  - das Jahr wird im Funktionsaufruf als Parameter übergeben
+  - passende Exceldatei wird geöffnet
+  - Es wird die erste Zeile von der Excelliste durchgelesen und die Aktiensymbole werden in einer Liste gespeichert
 #### Auswahl der Parameter
 #### Filterung der Compounder-Aktien
 #### Automatisierter Ansatz zur Datenanalyse
