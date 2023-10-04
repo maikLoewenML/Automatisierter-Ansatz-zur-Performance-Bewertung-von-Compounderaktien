@@ -9,30 +9,6 @@ from numpy import double
 
 import Unternehmenslisten
 
-# Startjahr und Zeitspanne vom Benutzer abfragen
-p_start_jahr = int(input("Bitte geben Sie das Startjahr ein (zwischen 2007 und 2023): "))
-p_zeitspanne = int(input("Bitte wählen Sie eine Zeitspanne (5, 10, 15): "))
-p_aktie_laenge_am_markt = int(input("Bitte wählen Sie eine Zeitspanne für die Länge am Markt der jeweiligen Aktie (10, "
-                                    "15, 20): "))
-p_durchschnittliche_rendite = double(input("Bitte wählen Sie die durchschnittliche Rendite der jeweiligen Aktie (0.10, "
-                                           "0.15, 0.20): "))
-
-if p_zeitspanne not in [5, 10, 15]:
-    print("Ungültige Zeitspanne. Bitte wählen Sie 5, 10 oder 15 Jahre.")
-    exit()
-
-if p_aktie_laenge_am_markt not in [10, 15, 20]:
-    print("Ungültige Länge am Markt für die Aktie. Bitte wählen Sie 10, 15 oder 20 Jahre.")
-    exit()
-
-if p_durchschnittliche_rendite not in [0.12, 0.15, 0.20]:
-    print("Ungültige durchschnittliche Rendite. Bitte wählen Sie 0.10, 0.15 oder 0.20 aus.")
-
-if p_start_jahr + p_zeitspanne > 2023:
-    print("Dieser Bereich liegt noch in der Zukunft und es gibt keine Daten dafür.")
-    exit()
-
-
 def analyse_stocks(start_jahr, zeitspanne, aktie_laenge_am_markt, durchschnittliche_rendite):
     end_jahr = start_jahr + zeitspanne
     stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
@@ -90,7 +66,7 @@ def analyse_stocks(start_jahr, zeitspanne, aktie_laenge_am_markt, durchschnittli
             if history.empty:
                 print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
                 continue
-            for year in range(2013, 2018):
+            for year in range(start_jahr, end_jahr):
                 start_date = None
                 end_date = None
                 # Suche nach gültigem start_date
@@ -173,10 +149,10 @@ def analyse_stocks(start_jahr, zeitspanne, aktie_laenge_am_markt, durchschnittli
 
 
 # Festlegen aller möglichen Optionen
-start_jahre = list(range(2007, 2019))
-zeitspannen_options = [5, 10, 15]
-aktie_laengen_am_markt_options = [10, 15, 20]
-durchschnittliche_renditen_options = [0.10, 0.15, 0.20]
+start_jahre = list(range(2008, 2010))
+zeitspannen_options = [5, 10]
+aktie_laengen_am_markt_options = [15, 20]
+durchschnittliche_renditen_options = [0.15, 0.20]
 
 # Liste zur Speicherung der Ergebnisse für jede Kombination
 results = []
@@ -184,13 +160,24 @@ results = []
 # Schleifen durch jede mögliche Kombination
 for start_jahr in start_jahre:
     for zeitspanne in zeitspannen_options:
-        for aktie_laenge in aktie_laengen_am_markt_options:
-            for rendite in durchschnittliche_renditen_options:
-                analyse_stocks(start_jahr, zeitspanne, aktie_laenge, rendite)
-                # Daten zum Ergebnis hinzufügen
-                results.append({
-                    "start_jahr": start_jahr,
-                    "zeitspanne": zeitspanne,
-                    "aktie_laenge_am_markt": aktie_laenge,
-                    "durchschnittliche_rendite": rendite,
-                })
+        if zeitspanne == 5:  # Analyse nur für die Zeitspanne von 5 Jahren
+            for aktie_laenge in aktie_laengen_am_markt_options:
+                for rendite in durchschnittliche_renditen_options:
+                    result = analyse_stocks(start_jahr, zeitspanne, aktie_laenge, rendite)
+                    results.append(result)
+
+# Plot der gesammelten Ergebnisse
+plt.figure(figsize=(10, 6))
+
+for aktie_laenge in aktie_laengen_am_markt_options:
+    x = [result['start_jahr'] for result in results if result['aktie_laenge_am_markt'] == aktie_laenge]
+    y = [result['overall_average_return'] for result in results if result['aktie_laenge_am_markt'] == aktie_laenge]
+    plt.plot(x, y, '-o', label=f"Aktienlänge: {aktie_laenge} Jahre")
+
+plt.xlabel("Startjahr")
+plt.ylabel("Durchschnittliche Rendite über Zeitspanne (%)")
+plt.title("Performance nach Startjahr und Aktienlänge am Markt")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()

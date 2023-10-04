@@ -11,7 +11,7 @@ from numpy import double
 import Unternehmenslisten
 
 # Startjahr und Zeitspanne vom Benutzer abfragen
-start_jahr = int(input("Bitte geben Sie das Startjahr ein (zwischen 2007 und 2023): "))
+start_jahr = int(input("Bitte geben Sie das Startjahr ein (zwischen 2008 und 2023): "))
 zeitspanne = int(input("Bitte wählen Sie eine Zeitspanne (5, 10, 15): "))
 aktie_laenge_am_markt = int(input("Bitte wählen Sie eine Zeitspanne für die Länge am Markt der jeweiligen Aktie (10, "
                                   "15, 20): "))
@@ -91,7 +91,7 @@ for stock in successful_stocks:
         if history.empty:
             print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
             continue
-        for year in range(2013, 2018):
+        for year in range(start_jahr, end_jahr):
             start_date = None
             end_date = None
             # Suche nach gültigem start_date
