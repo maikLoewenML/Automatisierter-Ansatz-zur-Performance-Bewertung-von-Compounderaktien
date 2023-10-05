@@ -9,8 +9,8 @@ from numpy import double
 
 import Unternehmenslisten
 
-def analyse_stocks(start_jahr, zeitspanne, aktie_laenge_am_markt, durchschnittliche_rendite):
-    end_jahr = start_jahr + zeitspanne
+def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite):
+    end_jahr = start_jahr + anlagehorizont
     stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
     successful_stocks = []
 
@@ -97,12 +97,12 @@ def analyse_stocks(start_jahr, zeitspanne, aktie_laenge_am_markt, durchschnittli
     categories = list(range(-40, 80, 10))  # Von -40 % bis 70 % in 10 % Schritten
     category_counts = {cat: 0 for cat in categories}
     years_mapping = {cat: [] for cat in categories}
-    average_returns = {}
+    average_yearly_returns = {}  # Hier werden die durchschnittlichen Renditen pro Jahr gespeichert
 
     for year, total_return in annual_returns.items():
         if stock_counts[year] != 0:
             average_return = total_return / stock_counts[year] * 100
-            average_returns[year] = average_return
+            average_yearly_returns[year] = average_return
             print(f"Durchschnittliche Rendite für {year}: {average_return:.2f}%")
             for cat in categories:
                 if cat == 70 and average_return >= cat - 5:  # Für Werte, die 70 % oder mehr sind
@@ -116,7 +116,7 @@ def analyse_stocks(start_jahr, zeitspanne, aktie_laenge_am_markt, durchschnittli
         else:
             print(f"Keine Daten für {year} gefunden.")
 
-    overall_average_return = sum(average_returns.values()) / len(average_returns)
+    overall_average_return = sum(average_yearly_returns.values()) / len(average_yearly_returns)
     print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {overall_average_return:.2f}%")
 
     labels = [f"{cat}%" for cat in categories]
@@ -140,40 +140,39 @@ def analyse_stocks(start_jahr, zeitspanne, aktie_laenge_am_markt, durchschnittli
 
     return {
         'start_jahr': start_jahr,
-        'zeitspanne': zeitspanne,
+        'anlagehorizont': anlagehorizont,
         'aktie_laenge_am_markt': aktie_laenge_am_markt,
         'durchschnittliche_rendite': durchschnittliche_rendite,
-        'average_returns': average_returns,
-        'overall_average_return': overall_average_return
+        'average_yearly_returns': average_yearly_returns,
+        'overall_average_return': overall_average_return,
+        'anzahl_aktien': len(successful_stocks)
     }
 
 
 # Festlegen aller möglichen Optionen
-start_jahre = list(range(2008, 2010))
-zeitspannen_options = [5, 10]
-aktie_laengen_am_markt_options = [15, 20]
-durchschnittliche_renditen_options = [0.15, 0.20]
+start_jahre = list(range(2008, 2023))
+anlagehorizont_options = [5, 10, 15]
+aktie_laengen_am_markt_options = [10, 15, 20]
+durchschnittliche_renditen_options = [0.10, 0.15, 0.20]
 
 # Liste zur Speicherung der Ergebnisse für jede Kombination
 results = []
 
 # Schleifen durch jede mögliche Kombination
 for start_jahr in start_jahre:
-    for zeitspanne in zeitspannen_options:
-        if zeitspanne == 5:  # Analyse nur für die Zeitspanne von 5 Jahren
-            for aktie_laenge in aktie_laengen_am_markt_options:
-                for rendite in durchschnittliche_renditen_options:
-                    result = analyse_stocks(start_jahr, zeitspanne, aktie_laenge, rendite)
-                    results.append(result)
+    for anlagehorizont in anlagehorizont_options:
+        for aktie_laenge in aktie_laengen_am_markt_options:
+            for rendite in durchschnittliche_renditen_options:
+                result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
+                results.append(result)
 
 # Plot der gesammelten Ergebnisse
 plt.figure(figsize=(10, 6))
 
-for aktie_laenge in aktie_laengen_am_markt_options:
-    x = [result['start_jahr'] for result in results if result['aktie_laenge_am_markt'] == aktie_laenge]
-    y = [result['overall_average_return'] for result in results if result['aktie_laenge_am_markt'] == aktie_laenge]
-    plt.plot(x, y, '-o', label=f"Aktienlänge: {aktie_laenge} Jahre")
+with open('results.pkl', 'wb') as f:
+    pickle.dump(results, f)
 
+'''
 plt.xlabel("Startjahr")
 plt.ylabel("Durchschnittliche Rendite über Zeitspanne (%)")
 plt.title("Performance nach Startjahr und Aktienlänge am Markt")
@@ -181,3 +180,4 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+'''

@@ -12,13 +12,13 @@ import Unternehmenslisten
 
 # Startjahr und Zeitspanne vom Benutzer abfragen
 start_jahr = int(input("Bitte geben Sie das Startjahr ein (zwischen 2008 und 2023): "))
-zeitspanne = int(input("Bitte wählen Sie eine Zeitspanne (5, 10, 15): "))
+anlagehorizont = int(input("Bitte wählen Sie eine Zeitspanne (5, 10, 15): "))
 aktie_laenge_am_markt = int(input("Bitte wählen Sie eine Zeitspanne für die Länge am Markt der jeweiligen Aktie (10, "
                                   "15, 20): "))
 durchschnittliche_rendite = double(input("Bitte wählen Sie die durchschnittliche Rendite der jeweiligen Aktie (0.10, "
                                          "0.12, 0.15, 0.20): "))
 
-if zeitspanne not in [5, 10, 15]:
+if anlagehorizont not in [5, 10, 15]:
     print("Ungültige Zeitspanne. Bitte wählen Sie 5, 10 oder 15 Jahre.")
     exit()
 
@@ -29,13 +29,13 @@ if aktie_laenge_am_markt not in [10, 15, 20]:
 if durchschnittliche_rendite not in [0.12, 0.15, 0.20]:
     print("Ungültige durchschnittliche Rendite. Bitte wählen Sie 0.12, 0.15 oder 0.20 aus.")
 
-if start_jahr + zeitspanne > 2023:
+if start_jahr + anlagehorizont > 2023:
     print("Dieser Bereich liegt noch in der Zukunft und es gibt keine Daten dafür.")
     exit()
 
 start_time = time.time()
 
-end_jahr = start_jahr + zeitspanne
+end_jahr = start_jahr + anlagehorizont
 stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
 successful_stocks = []
 
@@ -142,6 +142,14 @@ for year, total_return in annual_returns.items():
         print(f"Keine Daten für {year} gefunden.")
 
 overall_average_return = sum(average_returns.values()) / len(average_returns)
+
+print("Kriterien:")
+print(f"Startjahr: {start_jahr}")
+print(f"Anlagehorizont: {anlagehorizont}")
+print(f"Aktie Länge am Markt: {aktie_laenge_am_markt}")
+print(f"Durchschnittliche Rendite: {durchschnittliche_rendite}")
+print("\nErgebnis:")
+print(f"Anzahl an Aktien, die mit den obigen Kriterien ausgewählt wurden: {len(successful_stocks)}")
 print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {overall_average_return:.2f}%")
 
 labels = [f"{cat}%" for cat in categories]
