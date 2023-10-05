@@ -111,17 +111,75 @@ https://www.vanguard.com
 - Zeitspanne für die Compounder-Definition soll in mehrere vordefinierte Bereiche geteilt werden
 - Länge am Markt soll variabel berechnet werden können
 ### Beschreibung des zu entwickelnden Skripts unter Verwendung von y-finance
-- Einlesen aller Parameter (start_jahr, zeitspanne, aktie_laenge_am_markt und durchschnittliche_rendite)
-- Fehlermeldungen, falls einer dieser Parameter falsch eingegeben wurde
-- end_jahr wird aus der Summe vom start_jahr und der zeitspanne berechnet
-- abhängig vom startjahr werden die Unternehmenslisten aus jeweils diesem Jahr geholt
-  - dateipfand ist für alle Unternehmenslisten der gleiche
-  - Dateiendungen unterscheiden sich im Jahr
-  - das Jahr wird im Funktionsaufruf als Parameter übergeben
-  - passende Exceldatei wird geöffnet
-  - Es wird die erste Zeile von der Excelliste durchgelesen und die Aktiensymbole werden in einer Liste gespeichert
+1. Bibliothek und Module importieren
+   2. Datenmanipulation (pandas)
+   3. Datenabruf für Finanzdaten (yfinance)
+   4. Zeithandhabung (datetime, timedelta, time)
+   5. Visualisierung (matplotlib)
+   6. Weitere nützliche Tools (requests, pickle, numpy)
+   7. Benutzerdefinierte Module (Unternehmenslisten)
+8. Benutzereingabe abfragen
+   9. Startjahr der Analyse
+   10. Anlagehorizont (Dauer der Investition in Jahren)
+   11. Minimale Zeit, die die Aktie bereits am Markt ist
+   12. Durchschnittliche jährliche Rendite, die für eine Aktie erwartet wird
+13. Eingabevalidierung
+    14. Überprüfen, ob die Benutzereingaben gültig sind. Falls nicht, wird das Skript beendet
+15. Unternehmsndaten abrufen
+    16. Liste der Unternehmen im S&P 500 für das angegebene Startjahr abrufen
+17. Datenanalyse für jede Aktie
+    18. Historische Daten für jede Aktie abrufen
+    19. Filtern der Daten basierend auf Benutzereingaben
+    20. Berechnen der durschnittlichen jährlichen Rendite für jede Aktie
+    21. Speichern von Aktien, die die Kriterien erfüllen, in einer Liste
+22. Jährliche Renditen für erfolgreiche Aktien berechnen
+    23. Für jede erfolgreiche Aktie den jährlichen Renditeprozentsatz berechnen
+    24. Gesamtdurchschnitt der jährlichen Renditen berechnen
+25. Daten visualisieren
+    26. Darstellen der jährlichen Renditen in Balkendiagrammform
+    27. Jährliche Renditen werden in Kategorien unterteilt
+    28. Die Jahre werden zu den entsprechenden Balken im Diagramm hinzugefügt
 #### Auswahl der Parameter
+- Auswahl der Parameter konzentriert sich auf Benutzereingaben, um die Aktienanalyse zu steuern
+1. Startjahr (Bestimmt den Beginn des Analysezeitraums)
+2. Anlagehorizont (Legt die Dauer der Investitionsanalyse in Jahren fest)
+3. Aktie Länge am Markt (Filtert Aktien aus, die nicht mindestens die angegebene Anzahl von Jahren am Markt waren)
+4. Durchschnittliche Rendite (Erwartete Mindestrendite, die eine Aktie über den angegebenen Zeitraum erzielt haben sollte)
 #### Filterung der Compounder-Aktien
+1. Ausgangsparameter festlegen
+   2. Nutzereingaben für Startjahr, Anlagehorizont, Aktie Länge am Markt und durchschnittliche Rendite werden abgefragt
+3. Initialisierung der Aktienliste
+   4. Die Funktion 'Unternehmenslisten.lese_sp500_unternehmen' wird verwendet, um eine Liste der S&P 500 Unternehmen für das gegebene Startjahr zu erhalten.
+5. Durchlaufen der Aktienliste
+   6. Für jede Aktie in der Liste
+      7. Abrufen von historischen Daten mithilfe von yf.Ticker(stock_symbol).history(period="max") werden die historischen Daten für die jeweilige Aktie abgerufen
+      8. Filtern nach Marktpräsenz --> die Daten der Aktie werden geprüft, um sicherzustellen, dass die Aktie für die vom Benutzer angegebene Dauer ("Aktie Länge am Markt") existiert hat.
+      9. Finden eines gültigen Startdatums --> für das gegebene 'start_jahr' wird versucht, ein gültiges Daten zu finden, an dem Handelsdaten für die Aktie vorliegen. Dabei wird ein Zeitraum von 10 Tagen ab dem Beginn des Jahres in Betracht gezogen (Sonntage, Feiertage werden somit ausgeschlossen)
+      10. Berechnung der durchschnittlichen Rendite --> die jährliche Rendite für die Aktie wird basierend auf den Schlusskursen berechnet und dann die durchschnittliche Rendite ermittelt.
+      11. Filtern nach Rendite --> Wenn die durchschnittliche Rendite der Aktie größer oder gleich der vom Benutzer festgelegten "durchschnittlichen Renite" ist, wird die Aktie als "erfolgreich" betrachtet und der Liste 'successful_stocks' hinzugefügt.
+      12. Behandlung von Ausnahmen --> Während des Prozesses werden mögliche Fehler (z.B. fehlende Daten) abgefangen und entsprechende Meldungen werden ausgegeben
+      13. Ergebnisausgabe --> nach Durchlauf aller Aktien werden die "erfolgreichen Aktien", also diejenigen, die die Filterkriterien erfüllt haben, ausgedruckt.
+14. Weitere Analyse der erfolgreichen Aktien
+    15. Initialisierung der Datenstrukturen --> zwei Dicitionaries ('annual_returns' und 'stock_counts' werden erstellt, um die jährlichen Renditen und die Anzahl der analysierten Aktien pro Jahr zu speichern)
+    16. Durchlauf der erfolgreichen Aktien
+        17. Für jede in 'successful_stocks' ausgeführte Aktie
+            18. Abrufen der historischen Daten für den Analysezeitraum --> Mithilfe von 'yf.Ticker(stock).history(start, end)' werden die historischen Daten für die Aktien im Analysezeitraum (von 'start_jahr' bis 'end_jahr') geholt.
+            19. Jährliche Renditeberechnung
+                20. Für jedes Jahr im Analysezeitraum
+                    21. Ein gültiges Startdatum und Enddatum wird für dieses Jahr gesucht
+                    22. Diese Daten werden verwendet, um den Start- und Endpreis der Aktie für das jeweilige Jahr zu bestimmen
+                    23. Die jährliche Rendite wird berechnet mit: (end_price / start_price) - 1
+                    24. Die berechnete jährliche Rendite wird zu 'annual_returns' für das entsprechende Jahr hinzugefügt und die Anzahl der analysierten Aktien für dieses Jahr wird in 'stock_counts' inkrementiert.
+                25. Fehlerbehandlung --> Falls während der Datenabrufung oder Ananlyse ein Fehler auftritt (z.B. fehlende Daten für ein bestimmtes Jahr), wird eine Fehlermeldung ausgegeben und mit der nächsten Aktie fortgefahren.
+        26. Zusammenfassung und Kategorisierung der jährlichen Renditen
+            27. Für jedes Jahr, für das Daten vorhanden sind
+                28. Die durchschnittliche Rendite wird berechnet, indem die Gesamtrendite für dieses Jahr durch die Anzahl der analysierten Aktien geteilt wird.
+                29. Die durchschnittliche Rendite wird dann in vorgegebene Renditekategorien (z.B. -30%, -20%, ..., 70%) eingeordnet.
+                30. Jedes Jahr wird der entsprechenden Renditekategorie zugeordnet.
+31. Darstellung der Ergebnisse
+    32. Ein Balkendiagramm (plt.bar') wird erstellt, um die Anzahl der Jahr in jeder Renditekategorie darzustellen.
+    33. Zu jedem Balken werden die entsprechenden Jahr als Beschriftung hinzugefügt.
+    34. Das Diagramm wird angezeigt, um die Verteilung der durchschnittlichen Renditen über die Kategorie zu visualisieren.
 #### Automatisierter Ansatz zur Datenanalyse
 ### Datenquellen und deren Einbindung
 ### Kriterien zur Bewertung von Rendite und Risiko
