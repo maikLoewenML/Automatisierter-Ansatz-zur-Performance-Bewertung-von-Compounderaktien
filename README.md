@@ -183,6 +183,13 @@ https://www.vanguard.com
 #### Automatisierter Ansatz zur Datenanalyse
 ### Datenquellen und deren Einbindung
 ### Kriterien zur Bewertung von Rendite und Risiko
+- Rendite
+  - Historische Rendite: Dies bezieht sich auf die tatsächlich erzielte Rendite in der Vergangenheit.
+- Risiko
+  - Beta: Ein Maß für das systematische Risiko einer Aktie im Vergleich zum Markt. Ein Beta von 1 bedeutet, dass die Aktie sich im Allgemeinen parallel zum Markt bewegt (Sharpe, 1964) --> weitere Recherche notwendig
+  - Alpha: Ein Maß für die Über- oder Unterperformance einer Anlage im Vergleich zu einem Benchmark (Jensen, 1968) --> weitere Recherche notwendig
+- Diversifikation
+  - Die Idee, in verschiedene Anlageklassen oder Wertpapiere zu investieren, um das Risiko zu verringern (Markowitz, 1952)
 ## Evaluation der Strategie
 ### Was sind die Kriterien für die Evaluation?
 ### Mehrere Zeitpunkte
