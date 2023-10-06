@@ -11,6 +11,8 @@ import Unternehmenslisten
 
 def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite):
     end_jahr = start_jahr + anlagehorizont
+    if end_jahr >= 2023:
+        return
     stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
     successful_stocks = []
 
