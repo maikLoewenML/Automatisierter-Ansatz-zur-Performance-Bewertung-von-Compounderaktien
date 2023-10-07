@@ -9,6 +9,7 @@ from numpy import double
 
 import Unternehmenslisten
 
+
 def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite):
     end_jahr = start_jahr + anlagehorizont
     if end_jahr >= 2023:
@@ -46,9 +47,6 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                 print(f"Konnte kein gültiges Datum für {stock_symbol} im angegebenen Zeitraum finden.")
         except Exception as e:
             print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
-
-    # with open('successful_stocks.pkl', 'rb') as f:
-    #     successful_stocks = pickle.load(f)
 
     if successful_stocks:
         print("Folgende Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
@@ -153,7 +151,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
 
 # Festlegen aller möglichen Optionen
 start_jahre = list(range(2008, 2023))
-anlagehorizont_options = [5, 10, 15]
+anlagehorizont_options = [5, 10, 13]
 aktie_laengen_am_markt_options = [10, 15, 20]
 durchschnittliche_renditen_options = [0.10, 0.15, 0.20]
 
@@ -166,20 +164,8 @@ for start_jahr in start_jahre:
         for aktie_laenge in aktie_laengen_am_markt_options:
             for rendite in durchschnittliche_renditen_options:
                 result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
-                results.append(result)
-
-# Plot der gesammelten Ergebnisse
-plt.figure(figsize=(10, 6))
+                if result:
+                    results.append(result)
 
 with open('results.pkl', 'wb') as f:
     pickle.dump(results, f)
-
-'''
-plt.xlabel("Startjahr")
-plt.ylabel("Durchschnittliche Rendite über Zeitspanne (%)")
-plt.title("Performance nach Startjahr und Aktienlänge am Markt")
-plt.legend()
-plt.grid(True)
-plt.tight_layout()
-plt.show()
-'''
