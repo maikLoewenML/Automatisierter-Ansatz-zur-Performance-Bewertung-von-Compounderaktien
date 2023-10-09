@@ -205,6 +205,30 @@ https://www.vanguard.com
 ## Conclusio
 ### Zusammenfassung
 ### Weiterer Bezug von Merkmalen in die Filterung
+- Einführung in die Aktienfilterung
+  - Bedeutung der Datenanalyse bei der Aktienauswahl
+  - Bisherige Kriterien: Startjahr, Zeitspanne, Dauer der Aktie am Markt, durchschnittliche Rendite
+- Bedeutung weiterer Merkmale
+  - Erweiterung des Analyse-Spektrums für eine umfassendere Bewertung
+  - Möglichkeit, Risiken besser zu erkennen und Renditechancen zu optimieren
+- Marktkapitalisierung
+  - Ermöglicht eine Einschätzung der Größe und Stabilität eines Unternehmens
+  - Unterscheidung zwischen Small, Mid und Large Caps
+- Verschuldungsgrad
+  - Zeigt das Verhältnis von Fremd- und Eigenkapital
+  - Kann Aufschluss über die finanzielle Gesundheit und das Risikoprofil eines Unternehmens geben.
+- Gewinn pro Aktie 
+  - Maßstab für den Ertrag, den eine Aktie generiert
+  - Kann als Indikator für die Rentabilität und Wachstumspotenzial eines Unternehmens dienen.
+- ROCE (Return on Capital Employed)
+  - Misst die Rentabilität des eingesetzten Kapitals
+  - Hilft dabei, Unternehmen zu identifizieren, die effizient Kapital einsetzen
+- Weitere potenzielle Merkmale
+  - Dividendenrendite, Kurs-Buchwert-Verhältnis
+  - Integration weiterer Datenquellen und Analysetools
+- Integration dieser Merkmale in den Analyseprozess
+  - Automatisierung der Datenerfassung und Datenverarbeitung
+  - Berücksichtigung dieser Merkmale bei der Aktienselektion und Aktienbewertung
 #### Marktkapitalisierung
 #### Verschuldungsgrad
 #### Gewinn pro Aktie
