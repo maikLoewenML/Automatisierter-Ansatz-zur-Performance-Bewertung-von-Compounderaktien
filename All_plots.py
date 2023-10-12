@@ -7,6 +7,9 @@ from matplotlib.ticker import MultipleLocator
 with open('results.pkl', 'rb') as f:
     results = pickle.load(f)
 
+with open('results.json', 'w') as json_file:
+    json.dump(results, json_file, ensure_ascii=False, indent=4)
+
 print(json.dumps(results, indent=4))
 
 
