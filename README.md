@@ -293,10 +293,12 @@
   * Ab welcher Marktkapitalisierung ist eine Aktie eine Compounderaktie?
   * Entscheidung, ob Konzentration auf Large-Caps, Mid-Caps, Small-Caps oder eine Kombination sein soll
 * Marktkapitalisierung abrufen
-  * `market\_cap = ticker.info['marketCap']`
+  * `market_cap = ticker.info['marketCap']`
 * Zusätzliche Filterbedingung abrufen
-  * `if cagr >= durchschnittliche\_rendite and market\_cap >= MIN\_MARKET\_CAP:             successful\_stocks.append(stock\_symbol)`
-*
+  ```
+  if cagr >= durchschnittliche_rendite and market_cap >= MIN_MARKET_CAP:
+              successful_stocks.append(stock_symbol)
+  ```
 
 #### Verschuldungsgrad
 
