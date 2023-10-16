@@ -5,14 +5,6 @@ import plotly.graph_objects as go
 with open('results.json', 'r') as f:
     data = json.load(f)
 
-# Einfache Darstellung der Daten des ersten Eintrags
-fig = go.Figure(data=go.Scatter(
-    x=list(data[0]['average_yearly_returns'].keys()),
-    y=list(data[0]['average_yearly_returns'].values()),
-    mode='lines+markers'
-))
-
-fig.show()
 
 # Daten filtern basierend auf den Werten der Slider
 def filter_data(start_jahr, anlagehorizont, aktie_laenge, rendite):
@@ -38,7 +30,6 @@ anlagehorizonts = sorted(set(entry['anlagehorizont'] for entry in data))
 aktie_lengths = sorted(set(entry['aktie_laenge_am_markt'] for entry in data))
 renditen = sorted(set(entry['durchschnittliche_rendite'] for entry in data))
 
-# ...
 fig.update_layout(
     updatemenus=[
         go.layout.Updatemenu(

@@ -46,27 +46,42 @@ for stock in stocks:
         earliest_date = history.index.min()
         if start_jahr - earliest_date.year < aktie_laenge_am_markt:
             continue
-        # Versuchen, ein gültiges Datum bis zum `start_jahr` zu finden
-        latest_date = datetime.strptime(f"{start_jahr}-01-02", "%Y-%m-%d")
+
+        start_date = None
+        end_date = None
+        # Suche nach gültigem start_date
         for i in range(10):
-            potential_latest_date = (pd.Timestamp(f"{start_jahr}-01-02") + pd.Timedelta(days=i)).strftime(
-                '%Y-%m-%d')
-            if not pd.isna(history['Close'].get(potential_latest_date)):
-                latest_date = potential_latest_date
+            potential_start_date = (pd.Timestamp(f"{start_jahr}-01-02") + pd.Timedelta(days=i)).strftime('%Y-%m-%d')
+            if not pd.isna(history['Close'].get(potential_start_date)):
+                start_date = potential_start_date
                 break
-        print(latest_date)
-        # Überprüfen, ob ein gültiges Datum gefunden wurde
-        if latest_date in history.index:
-            # Daten bis zum gefundenen `latest_date` filtern
-            filtered_history = history.loc[:latest_date]
-            annual_return = filtered_history['Close'].resample('Y').ffill().pct_change()
-            average_return = annual_return.mean()
-            print(f"Durchschnittliche Rendite für {stock}: {average_return}")
-            if average_return >= durchschnittliche_rendite:
+        # Suche nach gültigem end_date
+        for i in range(10):
+            potential_end_date = (pd.Timestamp(f"{end_jahr}-12-31") - pd.Timedelta(days=i)).strftime('%Y-%m-%d')
+            if not pd.isna(history['Close'].get(potential_end_date)):
+                end_date = potential_end_date
+                break
+        if start_date is None or end_date is None:
+            print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
+            continue
+
+        # Filtern der Daten für den gegebenen Zeitraum
+        filtered_history = history.loc[start_date:end_date]
+
+        if not filtered_history.empty:
+            start_price = filtered_history.iloc[0]['Close']
+            end_price = filtered_history.iloc[-1]['Close']
+            num_years = end_jahr - start_jahr
+
+            # Berechnung der CAGR
+            cagr = (end_price / start_price) ** (1 / num_years) - 1
+
+            print(f"CAGR für {stock} in gegebenem Zeitbereich: {cagr}")
+            if cagr >= durchschnittliche_rendite:
                 successful_stocks.append(stock_symbol)
                 print(f"{stock_symbol} den erfolgreichen Stocks hinzugefügt")
         else:
-            print(f"Konnte kein gültiges Datum für {stock_symbol} im angegebenen Zeitraum finden.")
+            print(f"Keine historischen Daten für den angegebenen Zeitraum für {stock_symbol} gefunden.")
     except Exception as e:
         print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
 
@@ -74,7 +89,7 @@ for stock in stocks:
 #     successful_stocks = pickle.load(f)
 
 if successful_stocks:
-    print("Folgende Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
+    print(f"Folgende Aktien hatten eine durchschnittliche jährliche Rendite von {durchschnittliche_rendite} oder höher:")
     for stock in successful_stocks:
         print(stock)
 else:
@@ -141,7 +156,36 @@ for year, total_return in annual_returns.items():
     else:
         print(f"Keine Daten für {year} gefunden.")
 
-overall_average_return = sum(average_returns.values()) / len(average_returns)
+
+# Berechnung der durchschnittlichen Rendite über alle Jahre hinweg
+total_returns_all_time = 0
+total_stock_counts_all_time = 0
+
+for stock in successful_stocks:
+    # print(stock)
+    try:
+        history = yf.Ticker(stock).history(start=f"{start_jahr}-01-02", end=f"{end_jahr}-01-02")
+        if history.empty:
+            print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
+            continue
+
+        start_price = history.iloc[0]['Close']
+        end_price = history.iloc[-1]['Close']
+
+        # Gesamtrendite für diesen Bestand berechnen
+        total_return = (end_price / start_price) - 1
+        total_returns_all_time += total_return
+        total_stock_counts_all_time += 1
+
+    except Exception as e:
+        print(f"Konnte keine Daten für {stock} abrufen: {e}")
+
+# Durchschnittliche Rendite über alle Jahre hinweg berechnen
+if total_stock_counts_all_time > 0:
+    average_return_all_time = (total_returns_all_time / total_stock_counts_all_time) * 100 / anlagehorizont
+    print(f"Durchschnittliche Rendite über alle Jahre: {average_return_all_time:.2f}%")
+else:
+    print("Keine gültigen Daten für die Berechnung der durchschnittlichen Rendite über alle Jahre.")
 
 print("Kriterien:")
 print(f"Startjahr: {start_jahr}")
@@ -150,7 +194,7 @@ print(f"Aktie Länge am Markt: {aktie_laenge_am_markt}")
 print(f"Durchschnittliche Rendite: {durchschnittliche_rendite}")
 print("\nErgebnis:")
 print(f"Anzahl an Aktien, die mit den obigen Kriterien ausgewählt wurden: {len(successful_stocks)}")
-print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {overall_average_return:.2f}%")
+print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {average_return_all_time:.2f}%")
 
 labels = [f"{cat}%" for cat in categories]
 values = [category_counts[cat] for cat in categories]
