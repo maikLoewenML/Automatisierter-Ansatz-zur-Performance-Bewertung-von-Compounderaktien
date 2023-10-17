@@ -302,7 +302,21 @@
 
 #### Verschuldungsgrad
 
-#### Gewinn pro Aktie
+* Analyse des Verschuldungsgrades der Unternehmen, um finanzielle Risiken zu bewerten.
+* Verwendung von Bilanzdaten, um das Verhältnis von Fremd- und Eigenkapital zu berechnen.
+* Integration des Verschuldungsgrades in die Gesamtbeurteilung der Aktienperformance.
+* Automatisierte Abfrage und Verarbeitung der Verschuldungsdaten durch Skripte.
+* Berücksichtigung des Verschuldungsgrades bei der Entscheidungsfindung für eine geeignete Compounderdefinition
+
+#### Gewinn pro Aktie (EPS)
+
+* Definition
+  * Gewinn pro Aktie ist ein Maß dafür, wie viel Gewinn einem Unternehmen pro ausgegebener Aktie zur Verfügung steht
+  * dies ist ein Schlüsselindikator für die Rentabilität eines Unternehmens
+  * Formel: EPS = (Nettogewinn - Dividenden auf Vorzugsaktien) / (Durchschnittlich ausstehende Stammaktien)
+* Relevanz für Investoren
+  * EPS ist eine der am häufigsten verwendeten Metriken von Investoren, um die finanzielle Leistungsfähigkeit eines Unternehmens zu beurteilen.
+  * Höheres EPS wird oft als positiver Indikator für die Unternehmnsgesundheit genommen
 
 #### ROCE
 
