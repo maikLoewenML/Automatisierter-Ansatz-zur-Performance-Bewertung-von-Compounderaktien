@@ -155,6 +155,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
         except Exception as e:
             print(f"Konnte keine Daten für {stock} abrufen: {e}")
 
+    average_return_all_time = None
     # Durchschnittliche Rendite über alle Jahre hinweg berechnen
     if total_stock_counts_all_time > 0:
         average_return_all_time = (total_returns_all_time / total_stock_counts_all_time) * 100 / anlagehorizont
@@ -169,7 +170,10 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     print(f"Durchschnittliche Rendite: {durchschnittliche_rendite}")
     print("\nErgebnis:")
     print(f"Anzahl an Aktien, die mit den obigen Kriterien ausgewählt wurden: {len(successful_stocks)}")
-    print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {average_return_all_time:.2f}%")
+    if average_return_all_time is not None:
+        print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {average_return_all_time:.2f}%")
+    else:
+        print("Durchschnittliche Rendite über den gesamten Zeitraum: Nicht verfügbar")
 
     labels = [f"{cat}%" for cat in categories]
     values = [category_counts[cat] for cat in categories]
