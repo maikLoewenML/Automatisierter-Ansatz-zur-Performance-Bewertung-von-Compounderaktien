@@ -12,6 +12,8 @@ durchschnittliche_renditen_options = [0.10, 0.15, 0.20]
 with open('results.json', 'r') as f:
     data = json.load(f)
 
+print(json.dumps(data, indent=4))
+
 # Durchschnittsberechnung für jede Kombination
 for anlagehorizont in anlagehorizont_options:
     for aktie_laenge in aktie_laengen_am_markt_options:

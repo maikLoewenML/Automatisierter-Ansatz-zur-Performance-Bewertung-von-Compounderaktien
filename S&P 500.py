@@ -26,8 +26,8 @@ if aktie_laenge_am_markt not in [10, 15, 20]:
     print("Ungültige Länge am Markt für die Aktie. Bitte wählen Sie 10, 15 oder 20 Jahre.")
     exit()
 
-if durchschnittliche_rendite not in [0.12, 0.15, 0.20]:
-    print("Ungültige durchschnittliche Rendite. Bitte wählen Sie 0.12, 0.15 oder 0.20 aus.")
+if durchschnittliche_rendite not in [0.10, 0.12, 0.15, 0.20]:
+    print("Ungültige durchschnittliche Rendite. Bitte wählen Sie 0.10, 0.12, 0.15 oder 0.20 aus.")
 
 if start_jahr + anlagehorizont > 2023:
     print("Dieser Bereich liegt noch in der Zukunft und es gibt keine Daten dafür.")
