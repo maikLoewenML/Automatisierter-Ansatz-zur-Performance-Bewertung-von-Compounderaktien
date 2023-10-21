@@ -5,9 +5,7 @@ from matplotlib import pyplot as plt
 from matplotlib.ticker import MultipleLocator
 
 with open('results.json', 'w') as json_file:
-    json.dump(results, json_file, ensure_ascii=False, indent=4)
-
-print(json.dumps(results, indent=4))
+    json.dump(json_file, ensure_ascii=False, indent=4)
 
 
 def plot_best_entry_points(result_json, anlagehorizont, durchschnittliche_rendite, aktie_laenge_am_markt):
