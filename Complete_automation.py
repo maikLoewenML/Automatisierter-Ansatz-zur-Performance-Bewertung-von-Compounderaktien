@@ -222,6 +222,3 @@ for start_jahr in start_jahre:
                 result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
                 if result:
                     results.append(result)
-
-with open('results.pkl', 'wb') as f:
-    pickle.dump(results, f)
