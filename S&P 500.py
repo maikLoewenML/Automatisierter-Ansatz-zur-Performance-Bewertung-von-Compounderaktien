@@ -38,6 +38,7 @@ start_time = time.time()
 end_jahr = start_jahr + anlagehorizont
 stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
 successful_stocks = []
+stocks_cagr = {}
 
 for stock in stocks:
     stock_symbol = stock
@@ -87,6 +88,12 @@ for stock in stocks:
 
 # with open('successful_stocks.pkl', 'rb') as f:
 #     successful_stocks = pickle.load(f)
+
+# Sortieren der Aktien nach ihrer CAGR, in absteigender Reihenfolge
+sorted_stocks = sorted(stocks_cagr.items(), key=lambda item: item[1], reverse=True)
+
+# Auswahl der Top 10 Aktien
+top_10_stocks = sorted_stocks[:10]
 
 if successful_stocks:
     print(f"Folgende Aktien hatten eine durchschnittliche jährliche Rendite von {durchschnittliche_rendite} oder höher:")
