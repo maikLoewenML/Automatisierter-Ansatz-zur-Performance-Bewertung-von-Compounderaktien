@@ -58,6 +58,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                 print(f"CAGR für {stock}: {cagr}")
                 if cagr >= durchschnittliche_rendite:
                     successful_stocks.append(stock_symbol)
+                    stocks_cagr.append(stock_symbol)
                     print(f"{stock_symbol} den erfolgreichen Stocks hinzugefügt")
             else:
                 print(f"Keine historischen Daten für den angegebenen Zeitraum für {stock_symbol} gefunden.")
