@@ -10,6 +10,15 @@ from numpy import double
 import Unternehmenslisten
 
 
+'''
+Das Skript analysiert Aktien des S&P 500 hinsichtlich Ihrer durchschnittlichen
+Rendite (CAGR) über verschiedene Zeiträume und Anlagehorizonte. Es filtert
+Aktien basierend auf dem Jahr, in dem sie an der Börse gelistet wurden, un einem bestimmten
+Renditeziel.
+Dann gibt es noch eine grafische Darstellung der jährlichen Renditen in verschiedenen
+Kategorien.
+'''
+
 def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite):
     end_jahr = start_jahr + anlagehorizont
     stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)

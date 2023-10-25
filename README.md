@@ -220,7 +220,21 @@
 
 #### Automatisierter Ansatz zur Datenanalyse
 
+--> ist dieses Kapitel überhaupt notwendig. Davor habe ich eigentlich schon viel über dieses Thema geschrieben und der Text wäre redundant, würde ich dieses Unterkapitel auch nochmal ausführen
+
 ### Datenquellen und deren Einbindung
+
+* Analyse und Verarbeitung von Daten ist ein zentraler Aspekt in vielen wissenschaftlichen Anwendungen
+* Datenquellen
+  * Hauptquellen für die Daten sind Excel-Dateien, die Unternehmensdaten (interessant sind die Aktiensymbole a.k.a. Ticker) des S&P 500 für die Jahre 2008 - 2017 enthalten
+  * Zusätzlich werden diese Daten der Aktienticker über die y-finance Bibliothek bezogen, die historische Daten von Aktien bereitstellt
+* Einbindung der Daten
+  * Die pandas-Bibliothek wird verwendet, um Daten in einem tabellarischen Format zu manipulieren und zu analysieren
+  * Vor dem Zugriff auf eine Datei wird deren Existenz überprüft, um Fehler zu vermeiden
+  * Die Daten werden aus den Excel-Dateien mithilfe der openpyxl-Bibliothek extrahiert
+* Verknüpfung von Datenquellen
+  * Skripte wie z.B. Complete_automation.py greift auf die Funktionen in Unternehmenslisten.py zu, um Daten zu lesen und weiterzuverarbeiten.
+  * Das ermöglicht eine Modularisierung des Codes und eine klare Trennung zwischen Datenzugriff und Datenanalyse
 
 ### Kriterien zur Bewertung von Rendite und Risiko
 
@@ -236,7 +250,13 @@
 
 ### Was sind die Kriterien für die Evaluation?
 
+* TOP 5/10/20 Aktien pro Compounderdefinition suchen und die Berechnung damit ausführen
+* anschließend mit mehreren Startzeitpunkten und der durchschnittlichen Renite vergleichen
+
 ### Mehrere Zeitpunkte
+
+* Um die Strategie besser bewerten zu können, wird eine durchschnittliche Rendite von allen durchschnittlichen Rendite von allen Startzeitpunkten berechnet
+* Somit soll die Strategie nicht durch den Einstiegszeitpunkt verfälscht werden
 
 ## Ergebnisse
 
