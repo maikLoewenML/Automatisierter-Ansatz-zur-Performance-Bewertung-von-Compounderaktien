@@ -10,6 +10,16 @@ from numpy import double
 
 import Unternehmenslisten
 
+'''
+- Benutzereingabe
+- Gültigkeitsprüfungen
+- Datenabruf
+- Renditeberechnungen
+- Ergebnisanzeige
+- Visualisierung
+- Laufzeitinformationen
+'''
+
 # Startjahr und Zeitspanne vom Benutzer abfragen
 start_jahr = int(input("Bitte geben Sie das Startjahr ein (zwischen 2008 und 2023): "))
 anlagehorizont = int(input("Bitte wählen Sie eine Zeitspanne (5, 10, 15): "))
@@ -85,9 +95,6 @@ for stock in stocks:
             print(f"Keine historischen Daten für den angegebenen Zeitraum für {stock_symbol} gefunden.")
     except Exception as e:
         print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
-
-# with open('successful_stocks.pkl', 'rb') as f:
-#     successful_stocks = pickle.load(f)
 
 # Sortieren der Aktien nach ihrer CAGR, in absteigender Reihenfolge
 sorted_stocks = sorted(stocks_cagr.items(), key=lambda item: item[1], reverse=True)

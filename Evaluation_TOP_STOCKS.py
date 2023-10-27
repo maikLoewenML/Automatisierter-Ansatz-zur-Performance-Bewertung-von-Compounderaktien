@@ -65,10 +65,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
         except Exception as e:
             print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
 
-    # with open('successful_stocks.pkl', 'rb') as f:
-    #     successful_stocks = pickle.load(f)
-
-    # Sortieren der Aktien nach ihrer CAGR, in absteigender Reihenfolge, basierend auf dem zweiten Element, also der durchschnittlichen Rendite sortiert
+    # Sortieren der Aktien nach ihrer CAGR, in absteigender Reihenfolge
     sorted_stocks = sorted(stocks_cagr.items(), key=lambda item: item[1], reverse=True)
 
     # Auswahl der Top 10 Aktien
