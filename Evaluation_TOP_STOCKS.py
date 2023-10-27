@@ -72,8 +72,8 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     top_10_stocks = sorted_stocks[:10]
 
     if top_10_stocks:
-        print("Folgende Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
-        for stock in successful_stocks:
+        print("Folgende TOP 10 Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
+        for stock in top_10_stocks:
             print(stock)
     else:
         print("Keine Aktien gefunden, die die Kriterien erfüllen.")
