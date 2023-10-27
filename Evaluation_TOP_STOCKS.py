@@ -16,7 +16,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     end_jahr = start_jahr + anlagehorizont
     stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
     successful_stocks = []
-    stocks_cagr = []
+    stocks_cagr = {}
 
     for stock in stocks:
         stock_symbol = stock
@@ -58,7 +58,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                 print(f"CAGR für {stock}: {cagr}")
                 if cagr >= durchschnittliche_rendite:
                     successful_stocks.append(stock_symbol)
-                    stocks_cagr.append(stock_symbol)
+                    stocks_cagr[stock_symbol] = cagr
                     print(f"{stock_symbol} den erfolgreichen Stocks hinzugefügt")
             else:
                 print(f"Keine historischen Daten für den angegebenen Zeitraum für {stock_symbol} gefunden.")
@@ -68,7 +68,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     # with open('successful_stocks.pkl', 'rb') as f:
     #     successful_stocks = pickle.load(f)
 
-    # Sortieren der Aktien nach ihrer CAGR, in absteigender Reihenfolge
+    # Sortieren der Aktien nach ihrer CAGR, in absteigender Reihenfolge, basierend auf dem zweiten Element, also der durchschnittlichen Rendite sortiert
     sorted_stocks = sorted(stocks_cagr.items(), key=lambda item: item[1], reverse=True)
 
     # Auswahl der Top 10 Aktien
