@@ -85,35 +85,18 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     for stock in top_10_stocks:
         print(stock)
         try:
-            history = yf.Ticker(stock).history(start=f"{start_jahr}-01-02", end=f"{end_jahr}-01-02")
+            history = yf.Ticker(stock).history(start=f"{start_date}", end=f"{end_date}")
             if history.empty:
                 print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
                 continue
             for year in range(start_jahr, end_jahr):
-                start_date = None
-                end_date = None
-                # Suche nach gültigem start_date
-                for i in range(10):
-                    potential_start_date = (pd.Timestamp(f"{year}-01-02") + pd.Timedelta(days=i)).strftime('%Y-%m-%d')
-                    if not pd.isna(history['Close'].get(potential_start_date)):
-                        start_date = potential_start_date
-                        break
-                # Suche nach gültigem end_date
-                for i in range(10):
-                    potential_end_date = (pd.Timestamp(f"{year}-12-31") - pd.Timedelta(days=i)).strftime('%Y-%m-%d')
-                    if not pd.isna(history['Close'].get(potential_end_date)):
-                        end_date = potential_end_date
-                        break
-                if start_date is None or end_date is None:
-                    print(f"Es wurden keine Daten zu diesem Stock: {stock} für das Jahr {year} gefunden")
-                    continue
                 start_price = history['Close'].get(start_date)
                 end_price = history['Close'].get(end_date)
                 yearly_return = (end_price / start_price) - 1
                 annual_returns[year] += yearly_return
                 stock_counts[year] += 1
         except TypeError as e:
-            print("Fehler in der for-schleife!")
+            print(f"Fehler in der for-schleife!: {e}")
         except Exception as e:
             print(f"Konnte keine Daten für {stock} abrufen: {e}")
 
