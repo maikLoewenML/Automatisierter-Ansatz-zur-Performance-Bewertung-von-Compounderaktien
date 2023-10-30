@@ -85,7 +85,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     for stock in top_10_stocks:
         print(stock)
         try:
-            history = yf.Ticker(stock).history(start=f"{start_jahr}-01-02", end=f"{end_jahr}-01-02")
+            history = yf.Ticker(stock).history(start=f"{start_date}", end=f"{end_date}")
             if history.empty:
                 print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
                 continue
@@ -113,7 +113,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                 annual_returns[year] += yearly_return
                 stock_counts[year] += 1
         except TypeError as e:
-            print("Fehler in der for-schleife!")
+            print(f"Fehler in der for-schleife!": {e})
         except Exception as e:
             print(f"Konnte keine Daten für {stock} abrufen: {e}")
 
