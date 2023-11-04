@@ -17,6 +17,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
     successful_stocks = []
     stocks_cagr = {}
+    filtered_histories = {}
 
     for stock in stocks:
         stock_symbol = stock
@@ -48,6 +49,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
             filtered_history = history.loc[start_date:end_date]
 
             if not filtered_history.empty:
+                filtered_histories[stock_symbol] = filtered_history
                 start_price = filtered_history.iloc[0]['Close']
                 end_price = filtered_history.iloc[-1]['Close']
                 num_years = end_jahr - start_jahr
@@ -86,7 +88,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
         print(stock)
         stock_symbol = stock[0]
         try:
-            history = filtered_history
+            history = filtered_histories[stock_symbol]
             if history.empty:
                 print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
                 continue
@@ -146,9 +148,8 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
 
     for stock in top_10_stocks:
         print(stock)
-        stock_symbol = stock[0]
         try:
-            history = filtered_history
+            history = filtered_histories[stock_symbol]
             if history.empty:
                 print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
                 continue
