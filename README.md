@@ -103,6 +103,10 @@
   - Beschreibung: Eine Methode, um den Wert für einen gegebenen Schlüssel aus einem Objekt (normalerweise einem Dictionary oder einer Serie) abzurufen.
   - Verwendung: Abrufen von Schlusspreisen für spezifische Daten.
 
+REA## Einführung in die tkinter-Bibliothek
+
+### Überblick und Funktionen von tkinter
+
 ### Relevanz und Vorteile für Aktienanalysen
 
 - Grundlagen der Aktienanalyse
@@ -134,7 +138,7 @@
 - Zeitspanne für die Compounder-Definition soll in mehrere vordefinierte Bereiche geteilt werden
 - Länge am Markt soll variabel berechnet werden können
 
-### Beschreibung des zu entwickelnden Skripts unter Verwendung von y-finance
+### Beschreibung des zu entwickelnden Skripts "S&P 500" unter Verwendung von y-finance
 
 * Bibliothek und Module importieren
 
@@ -221,6 +225,76 @@
 #### Automatisierter Ansatz zur Datenanalyse
 
 --> ist dieses Kapitel überhaupt notwendig. Davor habe ich eigentlich schon viel über dieses Thema geschrieben und der Text wäre redundant, würde ich dieses Unterkapitel auch nochmal ausführen
+
+### Beschreibung des zu entwickelnden Skripts "Complete_automation"
+
+* die "S&P 500"-Funktion wurde in eine Methode in der Klasse "Complete_automation" erstellt
+* diese Methode wurde für jede einzelne Kombinationsmöglichkeit für folgende Parameter ausgeführt
+  * Startjahre: 2008-2017
+  * Anlagehorizont: 5, 10, 13
+  * Aktie_Länge_Am_Markt: 10, 15, 20
+  * Durchschnittliche_Rendite: 0.10, 0.15, 0.20
+
+### Beschreibung des zu entwickelnden Skripts "Evaluation_TOP_STOCKS"
+
+* Genau der gleiche Ablauf wie bei dem Skript "Complete_automation", nur dass die erfolgreichen Aktien auf eine bestimmte Anzahl (5, 10, 20) limitiert werden, um zu überprüfen, ob noch mehr Rendite möglich ist.
+
+### Beschreibung des zu entwickelnden Skripts "Evaluation_Durchschnittsrendite_Uber_Alle_Jahre"
+
+* Importiert das json-Modul, um die JSON-Daten zu arbeiten
+* Definiert einen Dateipfad für die JSON-Datei
+* Setzt feste Optionen für Anlagehorizonte, Aktienlängen am Markt und durchschnittliche Renditen
+* Liest die Daten aus der JSON-Datei in die Variable data
+* Durchläuft alle Kombinationen der vordefinierten Optionen für Anlagehorizonte, Aktienlängen am Markt und durchschnittliche Renditen
+* Filtert die Daten für jede Kombination, um die Einträge zu finden, die den aktuellen Kriterien entsprechen
+* Berechnet den Durchschnitt der overall_average_return für die gefilterten Daten
+* Ziel: Allgemeine Rendite unabhängig vom Startjahr
+* Grafik sollte noch eingefügt werden
+
+### Beschreibung des zu entwickelnden Skripts "Slider"
+
+* Aufgabe dieser Klasse
+  * Erstellung einer grafischen Benutzeroberfläche (GUI) mit 'tkinter' für Benutzerinteraktion
+  * Visualisierung von Finanzdaten aus einer JSON-Datei in einem interaktiven Diagramm
+  * Ermöglichung der Datenauswahl und Datenfilterung durch Benutzer mithilfe von Schiebereglern für verschiedene Parameter:
+    * Startjahr
+    * Anlagehorizont
+    * Aktienlänge am Markt
+    * Durchschnittliche Rendite
+  * Dynamische Aktualisierung des Diagramms basierend auf Benutzereingaben
+  * Anzeige durchschnittlicher jährlicher Renditen entsprechend den ausgewählten Filterkriterien
+  * Benutzerfreundliche Interaktion zur Analyse von Finanzdaten
+* Beschreibung des Skripts
+  * Importiert notwendige Module:
+    * json: Zum Lesen von JSON-Dateien
+    * tkinter: Ein Standard-GUI-Toolkit in Python zur Erstellung der Benutzeroberfläche
+    * matplotlib.figure: Zum Erstellen von Abbildungen
+    * matplotlib.backends.backend_tkagg: Verknüpft matplotlib mit tkinter
+  * Liest Daten aus der Datei "results.json"
+    * Öffnet Datei im Lesemodus
+    * Lädt Inhalt der Datei in die Variable 'data'
+  * Bereitet Daten für die Benutzeroberfläche vor
+    * Extrahiert und sortiert eindeutige Startjahre, Anlagehorizonte, Aktienlängen und durchschnittliche Renditen aus der geladenen 'data'
+  * Definiert eine Funktion 'filter_data'
+    * Filtert die Daten basierend auf Kriterien wie Startjahr, Anlagehorizont, Aktienlänge und Rendite
+  * Definiert eine Funktion update_plot
+    * Holt Werte von GUI_Slidern
+    * Filtert Daten basierend auf diesen Werten
+    * Bereitet Daten für das Zeichnen des Plots vor
+    * Zeichnet den Plot neu mit den gefilterten Daten oder leert den Plot, wenn keine Daten verfügbar sind
+    * Aktualisiert die Beschriftungen und das Raster des Plots
+    * Zeichnet das Canvas neu, um die Änderungen anzuzeigen
+  * Initialisiert das Hauptfenster 'tk.Tk()' für die GUI
+  * Erstellt Schieberegler ('tk.Scale') für
+    * Startjahr
+    * Anlagehorizont
+    * Aktienlänge am Markt
+    * Rendite
+    * Diese Schieberegler ermöglichen es dem Benutzer, die zu visualisierenden Daten zu filtern.
+  * Initialisiert eine 'Figure' und einen zugehörigen 'Subplot' für die Zeichnung der Daten
+  * Erstellt ein 'FigureCanvasTkAgg'-Objekt, um die 'matplotlib'-Figur in die 'tkinter'-GUI zu integrieren.
+  * Fügt einen Button hinzu, der die Funktion 'update_plot' beim Klicken ausführt
+  * Startet dei 'tkinter'-Event-Schleife, die das GUI-Fenster offen hält und auf Benutzerinteraktion wartet
 
 ### Datenquellen und deren Einbindung
 
