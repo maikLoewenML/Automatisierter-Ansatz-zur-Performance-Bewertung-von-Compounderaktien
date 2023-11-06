@@ -233,3 +233,6 @@ for start_jahr in start_jahre:
                 result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
                 if result:
                     results.append(result)
+
+with open('results.json', 'w', encoding='utf-8') as f:
+    json.dump(results, f, ensure_ascii=False, indent=4)
