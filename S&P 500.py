@@ -49,6 +49,7 @@ end_jahr = start_jahr + anlagehorizont
 stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
 successful_stocks = []
 stocks_cagr = {}
+filtered_histories = {}
 
 for stock in stocks:
     stock_symbol = stock
@@ -80,6 +81,7 @@ for stock in stocks:
         filtered_history = history.loc[start_date:end_date]
 
         if not filtered_history.empty:
+            filtered_histories[stock_symbol] = filtered_history
             start_price = filtered_history.iloc[0]['Close']
             end_price = filtered_history.iloc[-1]['Close']
             num_years = end_jahr - start_jahr
@@ -116,7 +118,7 @@ stock_counts = {year: 0 for year in range(start_jahr, end_jahr)}
 for stock in successful_stocks:
     print(stock)
     try:
-        history = yf.Ticker(stock).history(start=f"{start_jahr}-01-02", end=f"{end_jahr}-01-02")
+        history = filtered_histories[stock]
         if history.empty:
             print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
             continue
@@ -179,23 +181,8 @@ for stock in successful_stocks:
     # print(stock)
     start_date = None
     end_date = None
-    # Suche nach gültigem start_date
-    for i in range(10):
-        potential_start_date = (pd.Timestamp(f"{start_jahr}-01-02") + pd.Timedelta(days=i)).strftime('%Y-%m-%d')
-        if not pd.isna(history['Close'].get(potential_start_date)):
-            start_date = potential_start_date
-            break
-    # Suche nach gültigem end_date
-    for i in range(10):
-        potential_end_date = (pd.Timestamp(f"{end_jahr}-12-31") - pd.Timedelta(days=i)).strftime('%Y-%m-%d')
-        if not pd.isna(history['Close'].get(potential_end_date)):
-            end_date = potential_end_date
-            break
-    if start_date is None or end_date is None:
-        print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
-        continue
     try:
-        history = yf.Ticker(stock).history(start=f"{start_date}", end=f"{end_date}")
+        history = filtered_histories[stock]
         if history.empty:
             print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
             continue
