@@ -151,7 +151,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     for stock in successful_stocks:
         print(stock)
         try:
-            filtered_histories[stock]
+            history = filtered_histories[stock] ## muss nochmal ausgeführt werden. history wurde nicht überschrieben
             if history.empty:
                 print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
                 continue
