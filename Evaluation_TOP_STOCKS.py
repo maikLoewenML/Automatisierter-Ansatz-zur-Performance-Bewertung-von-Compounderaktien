@@ -70,12 +70,12 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     # Sortieren der Aktien nach ihrer CAGR, in absteigender Reihenfolge
     sorted_stocks = sorted(stocks_cagr.items(), key=lambda item: item[1], reverse=True)
 
-    # Auswahl der Top 10 Aktien
-    top_10_stocks = sorted_stocks[:10]
+    # Auswahl der Top 5 Aktien
+    top_5_stocks = sorted_stocks[:5]
 
-    if top_10_stocks:
-        print("Folgende TOP 10 Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
-        for stock in top_10_stocks:
+    if top_5_stocks:
+        print("Folgende TOP 5 Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
+        for stock in top_5_stocks:
             print(stock)
     else:
         print("Keine Aktien gefunden, die die Kriterien erfüllen.")
@@ -84,7 +84,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     # Liste zur Speicherung der jährlichen Renditen für alle erfolgreichen Aktien
     annual_returns = {year: 0 for year in range(start_jahr, end_jahr)}
     stock_counts = {year: 0 for year in range(start_jahr, end_jahr)}
-    for stock in top_10_stocks:
+    for stock in top_5_stocks:
         print(stock)
         stock_symbol = stock[0]
         try:
@@ -146,7 +146,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     total_returns_all_time = 0
     total_stock_counts_all_time = 0
 
-    for stock in top_10_stocks:
+    for stock in top_5_stocks:
         print(stock)
         try:
             history = filtered_histories[stock_symbol]
@@ -179,9 +179,9 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     print(f"Aktie Länge am Markt: {aktie_laenge_am_markt}")
     print(f"Durchschnittliche Rendite: {durchschnittliche_rendite}")
     print("\nErgebnis:")
-    print(f"Anzahl an Aktien, die mit den obigen Kriterien ausgewählt wurden: {len(top_10_stocks)}")
+    print(f"Anzahl an Aktien, die mit den obigen Kriterien ausgewählt wurden: {len(top_5_stocks)}")
     print("Aktiensymbole:")
-    for stock in top_10_stocks:
+    for stock in top_5_stocks:
         print(stock[0])  # stock[0] enthält das Symbol, wenn Sie eine Liste von Tupeln haben
     if average_return_all_time is not None:
         print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {average_return_all_time:.2f}%")
@@ -214,8 +214,8 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
         'durchschnittliche_rendite': durchschnittliche_rendite,
         'average_yearly_returns': average_returns,
         'overall_average_return': average_return_all_time,
-        'anzahl_aktien': len(top_10_stocks),
-        'aktien': [stock[0] for stock in top_10_stocks]
+        'anzahl_aktien': len(top_5_stocks),
+        'aktien': [stock[0] for stock in top_5_stocks]
     }
 
 
@@ -239,6 +239,6 @@ for start_jahr in start_jahre:
 
 
 # Speichern der Ergebnisse in einer JSON-Datei
-with open('top_10_stocks.json', 'w', encoding='utf-8') as f:
+with open('top_5_stocks.json', 'w', encoding='utf-8') as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
 

@@ -107,6 +107,19 @@ REA## Einführung in die tkinter-Bibliothek
 
 ### Überblick und Funktionen von tkinter
 
+* Tkinter ist eine Standard GUI (Graphical User Interface) Bibliothek für Python.
+* Es bietet ein robustes und plattformunabhängiges Windowing-Toolkit.
+* Überblick über die Funktionen
+
+  * Tk() --> Initalisiert ein Tkinter-Fenster oder Hauptanwendungsfenster
+  * title() --> Setzt den Fenstertitel
+  * Scale --> Ein Widget, das als Schieberegler dient und es dem Benutzer ermöglicht, einen Wert aus einem Bereich auszuwählen
+  * pack() --> Ein Geometrie-Manager, der die Widgets in einem Container anordnet.
+  * mainloop() --> Startet die Ereignis-Schleife des Tkinter-Fensters, was notwendig ist, um Ereignisse wie Mausklicks und Tastendrücke zu verarbeiten
+  * Button --> Ein Widget, das einen einfachen Button darstellt, auf den der Benutzer klicken kann
+  * Canvas --> Ein Widget, das zum Zeichnen verwendet wird, hier speziell zur Integration ein Matplotlib-Plots
+  * FigureCanvasTkAgg --> Eine Brück zwischen Matplotlib und Tkinter, die es ermöglicht, Matplolib-Graphen in einer Tkinter-Anwendung anzuzeigen
+
 ### Relevanz und Vorteile für Aktienanalysen
 
 - Grundlagen der Aktienanalyse
