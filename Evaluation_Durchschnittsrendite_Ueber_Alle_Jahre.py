@@ -28,8 +28,9 @@ for anlagehorizont in anlagehorizont_options:
             ]
 
             # Berechnung des Durchschnitts der durchschnittlichen Renditen für den gefilterten Datensatz
+            # TODO: Standardabweichung noch hinzufügen
             if filtered_data:
-                avg_rendite = sum(entry["overall_average_return"] for entry in filtered_data) / len(filtered_data)
+                avg_rendite = sum(entry["overall_average_return"] for entry in filtered_data) / len(filtered_data) # TODO:  muss noch angepasst werden
                 print(
                     f"Anlagehorizont: {anlagehorizont}, Aktienlänge am Markt: {aktie_laenge}, Durchschnittliche Rendite: {rendite:.2f}, Durchschnitt: {avg_rendite:.2f}")
             else:
