@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 from numpy import double
 
 import Unternehmenslisten
+import Datumsbereiche
 
 
 '''
@@ -32,25 +33,27 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
         try:
             history = yf.Ticker(stock_symbol).history(period="max")
             earliest_date = history.index.min()
+            earliest_year = earliest_date.year + 1
+            formatted_earliest_date = earliest_date.strftime("%Y-%m-%d")
             if start_jahr - earliest_date.year < aktie_laenge_am_markt:
                 continue
 
-            start_date_first_time_period, end_date_first_time_period = finde_gueltige_datumsbereiche(earliest_date.year,
+            start_date_first_time_period, end_date_first_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(earliest_year,
                                                                                                      start_jahr,
                                                                                                      history)
             if start_date_first_time_period is None or end_date_first_time_period is None:
                 print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
-                continue  # Füge continue hinzu
+                continue
 
-            history_first_time_period = history.loc[earliest_date:end_date_first_time_period]
+            history_first_time_period = history.loc[formatted_earliest_date:end_date_first_time_period]
             if not history_first_time_period.empty:
-                start_price = history_first_time_period.iloc[0]['Close']  # Ändere zu history_first_time_period
-                end_price = history_first_time_period.iloc[-1]['Close']  # Ändere zu history_first_time_period
+                start_price = history_first_time_period.iloc[0]['Close']
+                end_price = history_first_time_period.iloc[-1]['Close']
                 num_years = start_jahr - earliest_date.year
                 cagr = (end_price / start_price) ** (1 / num_years) - 1
                 if cagr >= durchschnittliche_rendite:
                     successful_stocks.append(stock_symbol)
-                    start_date_second_time_period, end_date_second_time_period = finde_gueltige_datumsbereiche(
+                    start_date_second_time_period, end_date_second_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(
                         start_jahr, end_jahr, history)
                     if start_date_second_time_period is None or end_date_second_time_period is None:
                         print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
@@ -89,7 +92,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                 continue
 
             for year in range(start_jahr, end_jahr):
-                start_date, end_date = finde_gueltige_datumsbereiche(year, year, history)
+                start_date, end_date = Datumsbereiche.finde_gueltige_datumsbereiche(year, year, history)
                 if start_date is None or end_date is None:
                     print(f"Es wurden keine Daten zu diesem Stock: {stock} für das Jahr {year} gefunden")
                     continue
@@ -222,5 +225,5 @@ for start_jahr in start_jahre:
                 if result:
                     results.append(result)
 
-with open('../results.json', 'w', encoding='utf-8') as f:
+with open('results.json', 'w', encoding='utf-8') as f:
     json.dump(results, f, ensure_ascii=False, indent=4)

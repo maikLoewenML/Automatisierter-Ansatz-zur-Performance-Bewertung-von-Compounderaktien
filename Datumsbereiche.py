@@ -19,14 +19,3 @@ def finde_gueltige_datumsbereiche(start_jahr, end_jahr, history):
             break
 
     return start_date, end_date
-
-# Verwendung der Methode
-start_date_second_time_period, end_date_second_time_period = finde_gueltige_datumsbereiche(start_jahr, end_jahr, history)
-if start_date_second_time_period is None or end_date_second_time_period is None:
-    print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
-    # continue, falls sich dieser Code in einer Schleife befindet
-
-start_date_first_time_period, end_date_first_time_period = finde_gueltige_datumsbereiche(start_jahr, end_jahr, history)
-if start_date_first_time_period is None or end_date_first_time_period is None:
-    print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
-    # continue, falls sich dieser Code in einer Schleife befindet
