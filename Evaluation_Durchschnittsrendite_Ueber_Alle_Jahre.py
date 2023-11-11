@@ -1,4 +1,5 @@
 import json
+import statistics
 
 # Dateipfad der JSON-Datei
 filename = 'results.json'
@@ -12,9 +13,10 @@ durchschnittliche_renditen_options = [0.10, 0.15, 0.20]
 with open('results.json', 'r') as f:
     data = json.load(f)
 
-print(json.dumps(data, indent=4))
+# Liste zum Speichern der Ergebnisse
+ergebnisse = []
 
-# Durchschnittsberechnung für jede Kombination
+# Durchschnittsberechnung und Standardabweichung für jede Kombination
 for anlagehorizont in anlagehorizont_options:
     for aktie_laenge in aktie_laengen_am_markt_options:
         for rendite in durchschnittliche_renditen_options:
@@ -25,14 +27,29 @@ for anlagehorizont in anlagehorizont_options:
                 if entry["anlagehorizont"] == anlagehorizont
                    and entry["aktie_laenge_am_markt"] == aktie_laenge
                    and entry["durchschnittliche_rendite"] == rendite
+                   and entry["overall_average_return"] is not None
             ]
 
-            # Berechnung des Durchschnitts der durchschnittlichen Renditen für den gefilterten Datensatz
-            # TODO: Standardabweichung noch hinzufügen
+            # Überprüfung, ob gefilterte Daten vorhanden sind
             if filtered_data:
-                avg_rendite = sum(entry["overall_average_return"] for entry in filtered_data) / len(filtered_data) # TODO:  muss noch angepasst werden
-                print(
-                    f"Anlagehorizont: {anlagehorizont}, Aktienlänge am Markt: {aktie_laenge}, Durchschnittliche Rendite: {rendite:.2f}, Durchschnitt: {avg_rendite:.2f}")
-            else:
-                print(
-                    f"Anlagehorizont: {anlagehorizont}, Aktienlänge am Markt: {aktie_laenge}, Durchschnittliche Rendite: {rendite:.2f}, Keine Daten gefunden.")
+                renditen = [entry["overall_average_return"] for entry in filtered_data]
+                avg_rendite = sum(renditen) / len(renditen)
+
+                # Berechnung der Standardabweichung, falls mehr als ein Datensatz vorhanden ist
+                if len(renditen) > 1:
+                    std_dev_rendite = statistics.stdev(renditen)
+                else:
+                    std_dev_rendite = 0
+
+                # Hinzufügen der Ergebnisse zur Liste
+                ergebnisse.append((
+                    anlagehorizont, aktie_laenge, rendite, avg_rendite, std_dev_rendite
+                ))
+
+# Sortieren der Ergebnisse nach Standardabweichung in absteigender Reihenfolge
+ergebnisse.sort(key=lambda x: x[4], reverse=False)
+
+# Ausdrucken der sortierten Ergebnisse
+for ergebnis in ergebnisse:
+    anlagehorizont, aktie_laenge, rendite, avg_rendite, std_dev_rendite = ergebnis
+    print(f"Anlagehorizont: {anlagehorizont}, Aktienlänge am Markt: {aktie_laenge}, Durchschnittliche Rendite: {rendite:.2f}, Durchschnitt: {avg_rendite:.2f}, Standardabweichung: {std_dev_rendite:.2f}")
