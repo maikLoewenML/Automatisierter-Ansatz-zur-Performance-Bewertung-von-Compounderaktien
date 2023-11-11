@@ -211,7 +211,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
 start_jahre = list(range(2008, 2017))
 anlagehorizont_options = [5, 10, 13]
 aktie_laengen_am_markt_options = [10, 15, 20]
-durchschnittliche_renditen_options = [0.10, 0.15, 0.20, 0.30]
+durchschnittliche_renditen_options = [0.10, 0.20, 0.30, 0.4, 0.5]
 
 # Liste zur Speicherung der Ergebnisse für jede Kombination
 results = []
