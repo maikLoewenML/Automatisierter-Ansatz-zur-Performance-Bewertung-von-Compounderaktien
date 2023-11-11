@@ -59,7 +59,7 @@ anlagehorizont_slider = tk.Scale(root, from_=min(anlagehorizonts), to=max(anlage
 anlagehorizont_slider.pack()
 
 aktie_length_slider = tk.Scale(root, from_=min(aktie_lengths), to=max(aktie_lengths), resolution=5,
-                               orient=tk.HORIZONTAL, label="Aktienlänge")
+                               orient=tk.HORIZONTAL, label="Aktien Länge am Markt")
 aktie_length_slider.pack()
 
 rendite_slider = tk.Scale(root, from_=min(renditen), to=max(renditen), resolution=0.05, orient=tk.HORIZONTAL,
