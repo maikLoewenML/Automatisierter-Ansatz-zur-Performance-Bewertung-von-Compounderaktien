@@ -222,7 +222,7 @@ for start_jahr in start_jahre:
         for aktie_laenge in aktie_laengen_am_markt_options:
             for rendite in durchschnittliche_renditen_options:
                 result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
-                if result:
+                if result and result.get('overall_average_return') is not None:
                     results.append(result)
 
 with open('results.json', 'w', encoding='utf-8') as f:
