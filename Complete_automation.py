@@ -211,7 +211,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
 start_jahre = list(range(2008, 2017))
 anlagehorizont_options = [5, 10, 13]
 aktie_laengen_am_markt_options = [10, 15, 20]
-durchschnittliche_renditen_options = [0.10, 0.15, 0.20, 0.30]
+durchschnittliche_renditen_options = [0.10, 0.20, 0.30, 0.50]
 
 # Liste zur Speicherung der Ergebnisse für jede Kombination
 results = []
@@ -221,7 +221,8 @@ for start_jahr in start_jahre:
     for anlagehorizont in anlagehorizont_options:
         for aktie_laenge in aktie_laengen_am_markt_options:
             for rendite in durchschnittliche_renditen_options:
-                result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
+                if start_jahr + anlagehorizont <= 2017:
+                    result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
                 if result and result.get('overall_average_return') is not None:
                     results.append(result)
 
