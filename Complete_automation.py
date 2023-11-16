@@ -26,6 +26,8 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
     successful_stocks = []
     filtered_histories = {}
+    start_price_all_successful_stocks = 0
+    end_price_all_successful_stocks = 0
 
     # Filterung der Aktien für die successful_stocks
     for stock in stocks:
@@ -60,6 +62,12 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                         continue
                     filtered_histories[stock_symbol] = history.loc[
                                                        start_date_second_time_period:end_date_second_time_period]
+                    # Berechnen der durchschnittlichen Rendite der zweiten Zeitperiode
+                    start_price_second_time_period = filtered_histories[stock_symbol].iloc[0]['Close']
+                    end_price_second_time_period = filtered_histories[stock_symbol].iloc[-1]['Close']
+                    start_price_all_successful_stocks += start_price_second_time_period
+                    end_price_all_successful_stocks += end_price_second_time_period
+                    # TODO: Hier muss unten noch die Berechnung von den kompletten Start- und Endprice sein
 
             else:
                 print(f"Keine historischen Daten für den angegebenen Zeitraum für {stock_symbol} gefunden.")
