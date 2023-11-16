@@ -2,26 +2,28 @@
 
 ## Einleitung
 
-- Investoren und Marktanalysen suchen ständig nach Wegen, ihre Anlagestrategie zu optimieren
-- Könnte eine wertvolle Information sein, bo Compounder-Aktien tatsächlich im Schnitt eine überlegene Performance gegenüber dem S&P 500 ETF haben
+- Investoren und Marktanalysten suchen ständig nach Wegen, ihre Anlagestrategie zu optimieren
+- ***eine wertvolle Information könnte sein, sogenannte Compounder-Aktien zu identifizieren***. ***Diese könnten tatsächlich*** im Schnitt eine überlegene Performance gegenüber dem S&P 500 ETF haben
 
 ### Kontext und Bedeutung der Compounder-Aktien im Investitionsbereich
 
-- Compounder-Aktien sind eine wichtige Anlageklasse für Investoren, die ihr Vermögen über einen langen Zeitraum hinweg steigern möchten. Sie bieten die Möglichkeit, von der Kraft des Zinseszinses zu profitieren, da die Gewinne des Unternehmens jedes Jahr reinvestiert werden. Dies kann zu einem exponentiellen Wachstum des Unternehmenswerts führen.
+- Compounder-Aktien ***definieren sich durch hohe Renditen per anno und dies über einen langen Zeitraum an der Börse und*** sind somit eine wichtige Anlageklasse für Investoren, die ihr Vermögen über einen langen Zeitraum hinweg steigern möchten. Sie bieten die Möglichkeit, von der Kraft des Zinseszinses zu profitieren, da die Gewinne des Unternehmens jedes Jahr reinvestiert werden. Dies kann zu einem exponentiellen Wachstum des Unternehmenswerts führen.
 - Die Bewertung der Performance von Compounder-Aktien gegenüber dem S&P 500 ist eine wichtige Aufgabe, wenn sie nach einer besseren Rendite suchen. Der S&P 500 ist ein Index, der die Performance der 500 größten Unternehmen in den USA abbildet. Die Performance von Compounder-Aktien gegenüber dem S&P 500 kann dabei helfen, zu beurteilen, ob diese Aktien alleine eine bessere Investition sind als der S&P 500 ETF.
+- ***Was ist denn das Problem, das wir hier in der Arbeit lösen möchten? --> (i) Identifizieren von Compounder Aktien nach gewissen Bedingungen und (ii) unklar welche Zusammensetzung den Markt schlagen kann*** 
 - Ein automatisierter Ansatz kann dabei helfen, diese Aufgabe effizienter und genauer zu erledigen. Zum Einen bei der Datenerfassung, der Berechnung als auch der Visualisierung der Ergebnisse. Dies kann den Zeitaufwand für die Performancebewertung erheblich reduzieren und die Ergebnisse genauer machen.
 
 ### Zielsetzung der Arbeit
 
 - Mehrdeutigkeit der Definiton von Compounder-Aktien analysieren
-- Analyse, ob Compounder-Aktien gegenüber dem S&P 500 auf Dauer besser performen
+- ***Automatisierte Identifikation vom Compounder Aktien***
+- Analyse, ***inwiefern gewissen Zusammensetzungen von*** Compounder-Aktien gegenüber dem S&P 500 auf Dauer besser performen
 - Identifizierung des optimalen Gleichgewichts zwischen Rendite und Risiko bei den Compounder-Aktien
 
 ### Vorgehensweise der Untersuchung
 
 - Entwicklung eines Skripts, das automatisch eine Vielzahl von Parameterkombinationen (Dauer am Markt und jährliche Rendite) durchläuft und diejenigen Kombinationen identifiziert, die das beste Verhältnis von Rendite zu Risiko innerhalb des S&P 500 ETF bieten
 
-## Theoretischer Rahmen
+## Theoretischer Rahmen --> Eher "Grundlagen"
 
 ### Definition und Merkmale von Compounder-Aktien
 
@@ -74,7 +76,9 @@
   - Compounder-Aktien als potenzielles Instrument zur Portfolio-Optimierung
     - Bernstein, William J., and Chris Ryan. The Four Pillars of Investing: lessons for building a winning portfolio. McGraw Hill, 2010.
 
-## Einführung in die y-finance-Bibliothek
+## Einführung in die y-finance-Bibliothek 
+
+***--> Eigenes Kapitel, da es hier nun um die eigentlichen Daten geht. Sollte auch weiter nach hinten als Teil der Implementierung***
 
 - Was ist die y-finance Bibliothek?
   - Eine Python-Bibliothek, die einen schnellen Zugriff auf historische und aktuelle Finanzdaten ermöglicht
@@ -122,6 +126,8 @@ REA## Einführung in die tkinter-Bibliothek
 
 ### Relevanz und Vorteile für Aktienanalysen
 
+***Hier wird die Implementierung mit dem eigentlichen Algorithmus und der grundlegenden Mathematik hinter dem Ansatz vermischt. Dies sollte man trennen***
+
 - Grundlagen der Aktienanalyse
   - Definition und Hauptzweck: Bwertung von Aktien und Vorhersage zukünftiger Preisbewegungen
     - Graham, Benjamin, et al. Security analysis: Principles and technique. Vol. 5. New York: McGraw-Hill, 1962.
@@ -152,6 +158,8 @@ REA## Einführung in die tkinter-Bibliothek
 - Länge am Markt soll variabel berechnet werden können
 
 ### Beschreibung des zu entwickelnden Skripts "S&P 500" unter Verwendung von y-finance
+
+*** Auch hier eine Vermischung des Algorithmus und der Implementierung. Sollte von einander getrennt werden***
 
 * Bibliothek und Module importieren
 

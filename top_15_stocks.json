@@ -5,14 +5,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2008": -31.70680098802452,
-            "2009": 27.999993098349883,
-            "2010": 645.0952920625599,
-            "2011": 180.30509713377293,
-            "2012": 15.810528685718428
+            "2008": -38.11769162042148,
+            "2009": 55.669142983559695,
+            "2010": 13.226755587255132,
+            "2011": -1.3649356089019486,
+            "2012": 15.873617792644263
         },
-        "overall_average_return": 70.3088279577801,
-        "anzahl_aktien": 229
+        "overall_average_return": 19.433311113138892,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "EBAY",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP",
+            "HD",
+            "IGT",
+            "QCOM",
+            "BBY",
+            "UNH"
+        ]
     },
     {
         "start_jahr": 2008,
@@ -20,14 +37,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2008": -30.46347693073515,
-            "2009": 40.75406970349604,
-            "2010": 18.90485183719211,
-            "2011": -0.07862245151562389,
-            "2012": 17.607269525196457
+            "2008": -38.11768481374219,
+            "2009": 55.669156524534394,
+            "2010": 13.226771207356594,
+            "2011": -1.3649487095068147,
+            "2012": 15.873634670464392
         },
-        "overall_average_return": 19.50645762038963,
-        "anzahl_aktien": 51
+        "overall_average_return": 19.43331347672258,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "EBAY",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP",
+            "HD",
+            "IGT",
+            "QCOM",
+            "BBY",
+            "UNH"
+        ]
     },
     {
         "start_jahr": 2008,
@@ -35,14 +69,26 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.3,
         "average_yearly_returns": {
-            "2008": -29.922160527461727,
-            "2009": 57.970980319038276,
-            "2010": 22.469294529018864,
-            "2011": -0.5997925887166157,
-            "2012": 23.008841966514208
+            "2008": -38.86993947258583,
+            "2009": 68.59655649461654,
+            "2010": 17.11559623623631,
+            "2011": -5.857168179744631,
+            "2012": 23.285712151938647
         },
-        "overall_average_return": 30.04573160741195,
-        "anzahl_aktien": 14
+        "overall_average_return": 21.817794335314325,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "EBAY",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP"
+        ]
     },
     {
         "start_jahr": 2008,
@@ -50,14 +96,17 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.5,
         "average_yearly_returns": {
-            "2008": -26.342505030004638,
-            "2009": 76.17364705718788,
-            "2010": 36.85102045381016,
-            "2011": 9.748323534605305,
-            "2012": 19.13212208081299
+            "2008": -43.96524524506996,
+            "2009": 137.08160086121248,
+            "2010": 56.602539053061406,
+            "2011": -14.662948151359123,
+            "2012": 12.41632925377505
         },
-        "overall_average_return": 52.572408747693636,
-        "anzahl_aktien": 4
+        "overall_average_return": 42.662129918441664,
+        "anzahl_aktien": 1,
+        "aktien": [
+            "CTSH"
+        ]
     },
     {
         "start_jahr": 2008,
@@ -65,14 +114,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2008": -30.45929413362395,
-            "2009": 25.69731469261938,
-            "2010": 18.47832582557435,
-            "2011": 0.9178987992394836,
-            "2012": 16.236536557996107
+            "2008": -35.13050556030144,
+            "2009": 39.2410884181847,
+            "2010": 8.293396565969658,
+            "2011": 1.5582023082025935,
+            "2012": 11.567412150731244
         },
-        "overall_average_return": 14.883787745970755,
-        "anzahl_aktien": 201
+        "overall_average_return": 14.56125093516423,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP",
+            "HD",
+            "IGT",
+            "QCOM",
+            "BBY",
+            "UNH",
+            "FAST",
+            "ADBE",
+            "SYK"
+        ]
     },
     {
         "start_jahr": 2008,
@@ -80,14 +146,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2008": -27.910372210387628,
-            "2009": 32.10030204593045,
-            "2010": 18.115808267942853,
-            "2011": 2.2450258658332842,
-            "2012": 18.328974783451343
+            "2008": -35.13049635170654,
+            "2009": 39.24108275373579,
+            "2010": 8.293403135729022,
+            "2011": 1.5582086794688044,
+            "2012": 11.567414478489638
         },
-        "overall_average_return": 20.226971897737105,
-        "anzahl_aktien": 50
+        "overall_average_return": 14.561253515803111,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP",
+            "HD",
+            "IGT",
+            "QCOM",
+            "BBY",
+            "UNH",
+            "FAST",
+            "ADBE",
+            "SYK"
+        ]
     },
     {
         "start_jahr": 2008,
@@ -95,29 +178,23 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.3,
         "average_yearly_returns": {
-            "2008": -24.65363362079399,
-            "2009": 42.41327328428689,
-            "2010": 18.826855549441444,
-            "2011": 0.595362336669105,
-            "2012": 18.80443814086048
+            "2008": -34.425602095987436,
+            "2009": 48.70257949981579,
+            "2010": 9.097324888977298,
+            "2011": -6.232223214583485,
+            "2012": 16.797468018222347
         },
-        "overall_average_return": 27.394192439409192,
-        "anzahl_aktien": 11
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -20.468249686287955,
-            "2009": 55.871002485391344,
-            "2010": 30.267181632293227,
-            "2011": 17.885412936462743,
-            "2012": 21.370729782081135
-        },
-        "overall_average_return": 55.875839269731344,
-        "anzahl_aktien": 3
+        "overall_average_return": 14.124835852311325,
+        "anzahl_aktien": 7,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP"
+        ]
     },
     {
         "start_jahr": 2008,
@@ -125,14 +202,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2008": -29.606013013850742,
-            "2009": 23.18258155726554,
-            "2010": 18.612173673369913,
-            "2011": 0.9094304609704479,
-            "2012": 15.660301603890264
+            "2008": -34.967310688241966,
+            "2009": 30.864944086157543,
+            "2010": 14.36769928524409,
+            "2011": -1.2179551458823605,
+            "2012": 17.131136205071883
         },
-        "overall_average_return": 14.218213613155402,
-        "anzahl_aktien": 173
+        "overall_average_return": 13.978946181983721,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "HD",
+            "BBY",
+            "UNH",
+            "FAST",
+            "ADBE",
+            "SYK",
+            "EXPD",
+            "GPS",
+            "HOG",
+            "STT",
+            "PGR",
+            "PAYX"
+        ]
     },
     {
         "start_jahr": 2008,
@@ -140,14 +234,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2008": -25.52720472975938,
-            "2009": 25.924659316262982,
-            "2010": 20.211355379356196,
-            "2011": 2.56269504510639,
-            "2012": 18.359012915259694
+            "2008": -34.967308662966325,
+            "2009": 30.86493377818853,
+            "2010": 14.36769142366742,
+            "2011": -1.2179553998647659,
+            "2012": 17.131137610619778
         },
-        "overall_average_return": 20.708194995758063,
-        "anzahl_aktien": 39
+        "overall_average_return": 13.978944489815802,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "HD",
+            "BBY",
+            "UNH",
+            "FAST",
+            "ADBE",
+            "SYK",
+            "EXPD",
+            "GPS",
+            "HOG",
+            "STT",
+            "PGR",
+            "PAYX"
+        ]
     },
     {
         "start_jahr": 2008,
@@ -155,389 +266,19 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.3,
         "average_yearly_returns": {
-            "2008": -20.062184937686627,
-            "2009": 38.4400094104854,
-            "2010": 22.711895353090757,
-            "2011": 1.635224438727978,
-            "2012": 21.34650599153463
+            "2008": -36.10145370009829,
+            "2009": 50.73678029816813,
+            "2010": 7.628841754461662,
+            "2011": -11.837335571041695,
+            "2012": 21.447440295770335
         },
-        "overall_average_return": 32.36065768321978,
-        "anzahl_aktien": 7
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2008": -18.282687855047914,
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006
-        },
-        "overall_average_return": 74.60938531646521,
-        "anzahl_aktien": 2
+        "overall_average_return": 11.595697991158202,
+        "anzahl_aktien": 3,
+        "aktien": [
+            "MSFT",
+            "ORCL",
+            "BEN"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -545,14 +286,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2009": 27.06633483092388,
-            "2010": 18.796214506474467,
-            "2011": 3.4241966594465594,
-            "2012": 16.468733867773814,
-            "2013": 32.44614685990623
+            "2009": 47.75376472068391,
+            "2010": 17.46186043881998,
+            "2011": -1.9151923341100576,
+            "2012": 17.87434475300394,
+            "2013": 46.50919880073439
         },
-        "overall_average_return": 38.995888918054355,
-        "anzahl_aktien": 184
+        "overall_average_return": 44.96656545123956,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "CTSH",
+            "ESRX",
+            "CSCO",
+            "AMZN",
+            "TWX",
+            "ORCL",
+            "HD",
+            "MSFT",
+            "QCOM",
+            "BEN",
+            "FAST",
+            "MCHP",
+            "GILD",
+            "BBY",
+            "EXPD"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -560,14 +318,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2009": 32.742014824113,
-            "2010": 19.277887182938098,
-            "2011": 1.120376556947544,
-            "2012": 18.825787582822393,
-            "2013": 37.45739677521196
+            "2009": 47.75376369399305,
+            "2010": 17.46187484101995,
+            "2011": -1.9152080120127597,
+            "2012": 17.874344623127296,
+            "2013": 46.509200885767484
         },
-        "overall_average_return": 40.99512627316978,
-        "anzahl_aktien": 38
+        "overall_average_return": 44.96656380722147,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "CTSH",
+            "ESRX",
+            "CSCO",
+            "AMZN",
+            "TWX",
+            "ORCL",
+            "HD",
+            "MSFT",
+            "QCOM",
+            "BEN",
+            "FAST",
+            "MCHP",
+            "GILD",
+            "BBY",
+            "EXPD"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -575,29 +350,21 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.3,
         "average_yearly_returns": {
-            "2009": 59.04729094678264,
-            "2010": 27.094674867313678,
-            "2011": 1.0848246840821454,
-            "2012": 21.751802740765548,
-            "2013": 39.91523325607326
+            "2009": 83.1325159757531,
+            "2010": 21.55106979714814,
+            "2011": -7.439020951017106,
+            "2012": 22.13663639318288,
+            "2013": 33.926710673925086
         },
-        "overall_average_return": 64.36247491805742,
-        "anzahl_aktien": 9
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2009": 55.871002485391344,
-            "2010": 30.267181632293227,
-            "2011": 17.885412936462743,
-            "2012": 21.370729782081135,
-            "2013": 44.321208680294646
-        },
-        "overall_average_return": 86.66607648018363,
-        "anzahl_aktien": 3
+        "overall_average_return": 63.06562411034918,
+        "anzahl_aktien": 5,
+        "aktien": [
+            "CTSH",
+            "ESRX",
+            "CSCO",
+            "AMZN",
+            "TWX"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -605,14 +372,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2009": 24.18570836235883,
-            "2010": 18.18038841407221,
-            "2011": 3.8478458421337876,
-            "2012": 16.803330306012196,
-            "2013": 33.37346878477629
+            "2009": 33.757657857196804,
+            "2010": 12.299311048983194,
+            "2011": -2.011108090725201,
+            "2012": 19.658935688804156,
+            "2013": 44.85611509886395
         },
-        "overall_average_return": 38.890701140336944,
-        "anzahl_aktien": 167
+        "overall_average_return": 37.79628568154381,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "ORCL",
+            "HD",
+            "MSFT",
+            "QCOM",
+            "BEN",
+            "FAST",
+            "MCHP",
+            "GILD",
+            "BBY",
+            "EXPD",
+            "GPS",
+            "SYK"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -620,14 +404,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2009": 27.56786719451115,
-            "2010": 18.07972213293112,
-            "2011": 2.036814014356971,
-            "2012": 19.65681454487624,
-            "2013": 39.645107877371885
+            "2009": 33.75767148592087,
+            "2010": 12.299315376450746,
+            "2011": -2.011117247945826,
+            "2012": 19.65891854072239,
+            "2013": 44.85612810196934
         },
-        "overall_average_return": 39.86749965713006,
-        "anzahl_aktien": 34
+        "overall_average_return": 37.79629101315551,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "ORCL",
+            "HD",
+            "MSFT",
+            "QCOM",
+            "BEN",
+            "FAST",
+            "MCHP",
+            "GILD",
+            "BBY",
+            "EXPD",
+            "GPS",
+            "SYK"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -635,29 +436,19 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.3,
         "average_yearly_returns": {
-            "2009": 35.26895276659129,
-            "2010": 21.831551745178075,
-            "2011": 4.351805033303251,
-            "2012": 20.4603674819201,
-            "2013": 38.80410186497499
+            "2009": 43.706565722021004,
+            "2010": 5.574675484365029,
+            "2011": -5.49862294356506,
+            "2012": 19.379814158900608,
+            "2013": 27.341722175546973
         },
-        "overall_average_return": 56.41595591934263,
-        "anzahl_aktien": 7
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2009": 55.871002485391344,
-            "2010": 30.267181632293227,
-            "2011": 17.885412936462743,
-            "2012": 21.370729782081135,
-            "2013": 44.321208680294646
-        },
-        "overall_average_return": 86.66607648018363,
-        "anzahl_aktien": 3
+        "overall_average_return": 43.659184149530134,
+        "anzahl_aktien": 3,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -665,14 +456,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2009": 21.972187789045552,
-            "2010": 17.444313338804967,
-            "2011": 3.131561422019298,
-            "2012": 15.75811761081623,
-            "2013": 33.76794437988272
+            "2009": 28.275378301038522,
+            "2010": 14.452484247876543,
+            "2011": -2.0036158542728053,
+            "2012": 18.03064267535141,
+            "2013": 46.21492039438496
         },
-        "overall_average_return": 36.37168256804325,
-        "anzahl_aktien": 143
+        "overall_average_return": 35.48314655622336,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "ORCL",
+            "HD",
+            "MSFT",
+            "BEN",
+            "FAST",
+            "BBY",
+            "EXPD",
+            "GPS",
+            "SYK",
+            "UNH",
+            "ADBE",
+            "HAS",
+            "PGR",
+            "AMGN",
+            "PAYX"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -680,44 +488,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2009": 26.073098055741646,
-            "2010": 20.552697426483743,
-            "2011": 1.8411815365050956,
-            "2012": 18.633489024160816,
-            "2013": 39.51093601492908
+            "2009": 28.275370169843594,
+            "2010": 14.4524849330848,
+            "2011": -2.0036173955506458,
+            "2012": 18.030640410424777,
+            "2013": 46.21490474352748
         },
-        "overall_average_return": 38.97604466897688,
-        "anzahl_aktien": 28
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.3,
-        "average_yearly_returns": {
-            "2009": 29.21743410525478,
-            "2010": 34.02419360645427,
-            "2011": 11.739627313826247,
-            "2012": 21.27077619996803,
-            "2013": 47.40088895565357
-        },
-        "overall_average_return": 66.17525206786118,
-        "anzahl_aktien": 4
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.5,
-        "average_yearly_returns": {
-            "2009": 57.584947666671525,
-            "2010": 34.3480219883321,
-            "2011": 37.13895489997158,
-            "2012": 24.6215042370006,
-            "2013": 53.339059323350746
-        },
-        "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "overall_average_return": 35.483136985135985,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "ORCL",
+            "HD",
+            "MSFT",
+            "BEN",
+            "FAST",
+            "BBY",
+            "EXPD",
+            "GPS",
+            "SYK",
+            "UNH",
+            "ADBE",
+            "HAS",
+            "PGR",
+            "AMGN",
+            "PAYX"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -732,7 +527,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -747,7 +546,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -762,7 +565,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -777,7 +584,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -792,7 +603,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -807,7 +622,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -822,7 +641,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -837,7 +660,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -852,7 +679,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -867,7 +698,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -882,7 +717,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -897,7 +736,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -912,7 +755,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -927,7 +774,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -942,7 +793,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -957,7 +812,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -972,7 +831,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -987,7 +850,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -1002,7 +869,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -1017,7 +888,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -1032,7 +907,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -1047,7 +926,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -1062,7 +945,11 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2009,
@@ -1077,7 +964,30 @@
             "2013": 53.339059323350746
         },
         "overall_average_return": 110.12788514890842,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.5,
+        "average_yearly_returns": {
+            "2009": 57.584947666671525,
+            "2010": 34.3480219883321,
+            "2011": 37.13895489997158,
+            "2012": 24.6215042370006,
+            "2013": 53.339059323350746
+        },
+        "overall_average_return": 110.12788514890842,
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1085,14 +995,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2010": 18.768958474584736,
-            "2011": 3.1860286732305156,
-            "2012": 15.925230275408687,
-            "2013": 32.08700797987933,
-            "2014": 17.61882594271293
+            "2010": 20.51266876718808,
+            "2011": 5.372951744685825,
+            "2012": 20.888845197656586,
+            "2013": 33.09506515957267,
+            "2014": 16.682836764254052
         },
-        "overall_average_return": 26.591379648211493,
-        "anzahl_aktien": 207
+        "overall_average_return": 36.21278487314865,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CTSH",
+            "AMZN",
+            "CSCO",
+            "ISRG",
+            "TWX",
+            "USB",
+            "BEN",
+            "HAS",
+            "ORCL",
+            "MSFT",
+            "MCHP",
+            "HD"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1100,14 +1027,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2010": 19.29757525496818,
-            "2011": 1.626243596765579,
-            "2012": 16.475087695056168,
-            "2013": 33.659704071030774,
-            "2014": 13.781923639980798
+            "2010": 20.51266876718808,
+            "2011": 5.372951744685825,
+            "2012": 20.888845197656586,
+            "2013": 33.09506515957267,
+            "2014": 16.682836764254052
         },
-        "overall_average_return": 26.731546033481784,
-        "anzahl_aktien": 52
+        "overall_average_return": 36.21278487314865,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CTSH",
+            "AMZN",
+            "CSCO",
+            "ISRG",
+            "TWX",
+            "USB",
+            "BEN",
+            "HAS",
+            "ORCL",
+            "MSFT",
+            "MCHP",
+            "HD"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1122,7 +1066,19 @@
             "2014": 15.804646928333115
         },
         "overall_average_return": 36.351198739386476,
-        "anzahl_aktien": 10
+        "anzahl_aktien": 10,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CTSH",
+            "AMZN",
+            "CSCO",
+            "ISRG",
+            "TWX",
+            "USB",
+            "BEN"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1137,7 +1093,12 @@
             "2014": 19.40922903547396
         },
         "overall_average_return": 57.69785063141882,
-        "anzahl_aktien": 3
+        "anzahl_aktien": 3,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1145,14 +1106,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2010": 18.401216069965884,
-            "2011": 3.0309267971810225,
-            "2012": 16.169761751537905,
-            "2013": 33.56062634234534,
-            "2014": 17.921078234337376
+            "2010": 19.10878388164884,
+            "2011": 2.796047474958052,
+            "2012": 23.366971484096418,
+            "2013": 34.549165344560485,
+            "2014": 17.32098705726832
         },
-        "overall_average_return": 27.02906282405005,
-        "anzahl_aktien": 190
+        "overall_average_return": 33.27061915274548,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "USB",
+            "BEN",
+            "HAS",
+            "ORCL",
+            "MSFT",
+            "MCHP",
+            "HD",
+            "GPS",
+            "HRL",
+            "QCOM"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1160,14 +1138,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2010": 20.064374547671417,
-            "2011": 1.8124229469595188,
-            "2012": 17.469432976480984,
-            "2013": 37.652027406673554,
-            "2014": 13.787371051860204
+            "2010": 19.10878388164884,
+            "2011": 2.796047474958052,
+            "2012": 23.366971484096418,
+            "2013": 34.549165344560485,
+            "2014": 17.32098705726832
         },
-        "overall_average_return": 27.756575000508935,
-        "anzahl_aktien": 43
+        "overall_average_return": 33.27061915274548,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "USB",
+            "BEN",
+            "HAS",
+            "ORCL",
+            "MSFT",
+            "MCHP",
+            "HD",
+            "GPS",
+            "HRL",
+            "QCOM"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1179,10 +1174,19 @@
             "2011": 6.8162056712969585,
             "2012": 22.44671466353177,
             "2013": 35.50987104519131,
-            "2014": 19.188010173787966
+            "2014": 19.18801017378796
         },
-        "overall_average_return": 33.69741612042179,
-        "anzahl_aktien": 7
+        "overall_average_return": 33.6974161204218,
+        "anzahl_aktien": 7,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "USB",
+            "BEN"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1197,7 +1201,12 @@
             "2014": 19.40922903547396
         },
         "overall_average_return": 57.69785063141882,
-        "anzahl_aktien": 3
+        "anzahl_aktien": 3,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1205,14 +1214,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2010": 16.76730056047024,
-            "2011": 2.571660162889229,
-            "2012": 15.180039760118264,
-            "2013": 33.80854351885906,
-            "2014": 17.58344867882302
+            "2010": 15.551578187815048,
+            "2011": 1.1673491943408232,
+            "2012": 19.72005395581773,
+            "2013": 49.754409840376326,
+            "2014": 15.253605603099796
         },
-        "overall_average_return": 24.536627507153867,
-        "anzahl_aktien": 159
+        "overall_average_return": 31.88187228633685,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "CSCO",
+            "USB",
+            "BEN",
+            "HAS",
+            "ORCL",
+            "MSFT",
+            "HD",
+            "GPS",
+            "HRL",
+            "ADBE",
+            "FAST",
+            "STT",
+            "BBY"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1220,14 +1246,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2010": 19.097797641084462,
-            "2011": 1.359725711261932,
-            "2012": 17.188083436760156,
-            "2013": 37.95077236216582,
-            "2014": 13.71009158552836
+            "2010": 15.551578187815048,
+            "2011": 1.1673491943408232,
+            "2012": 19.72005395581773,
+            "2013": 49.754409840376326,
+            "2014": 15.253605603099796
         },
-        "overall_average_return": 26.183000789831674,
-        "anzahl_aktien": 33
+        "overall_average_return": 31.88187228633685,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "CSCO",
+            "USB",
+            "BEN",
+            "HAS",
+            "ORCL",
+            "MSFT",
+            "HD",
+            "GPS",
+            "HRL",
+            "ADBE",
+            "FAST",
+            "STT",
+            "BBY"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1242,7 +1285,14 @@
             "2014": 16.25906178833262
         },
         "overall_average_return": 36.694679383330204,
-        "anzahl_aktien": 5
+        "anzahl_aktien": 5,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "CSCO",
+            "USB",
+            "BEN"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1257,7 +1307,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1272,7 +1326,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1287,7 +1345,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1302,7 +1364,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1317,7 +1383,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1332,7 +1402,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1347,7 +1421,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1362,7 +1440,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1377,7 +1459,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1392,7 +1478,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1407,7 +1497,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1422,7 +1516,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1437,7 +1535,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1452,7 +1554,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1467,7 +1573,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1482,7 +1592,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1497,7 +1611,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1512,7 +1630,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1527,7 +1649,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1542,7 +1668,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1557,7 +1687,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1572,7 +1706,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1587,7 +1725,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1602,7 +1744,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2010,
@@ -1617,7 +1763,11 @@
             "2014": 18.596370926001104
         },
         "overall_average_return": 76.79979642213797,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1625,14 +1775,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2011": 2.4678359529698235,
-            "2012": 15.53953430086639,
-            "2013": 31.261380598095563,
-            "2014": 17.24046433942294,
-            "2015": -1.419475667774602
+            "2011": 6.7943421078486335,
+            "2012": 21.328959757958536,
+            "2013": 33.362768642502225,
+            "2014": 16.034370637800453,
+            "2015": 15.263111667615217
         },
-        "overall_average_return": 23.347513575316228,
-        "anzahl_aktien": 222
+        "overall_average_return": 30.74609133583321,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CTSH",
+            "AMZN",
+            "USB",
+            "HAS",
+            "CSCO",
+            "TWX",
+            "BEN",
+            "ORCL",
+            "MCHP",
+            "HD",
+            "HRL",
+            "ISRG"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1640,14 +1807,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2011": 0.5400109114697789,
-            "2012": 15.697212775642633,
-            "2013": 30.947687539833474,
-            "2014": 15.386125383799595,
-            "2015": 3.1653521680531362
+            "2011": 6.7943421078486335,
+            "2012": 21.328959757958536,
+            "2013": 33.362768642502225,
+            "2014": 16.034370637800453,
+            "2015": 15.263111667615217
         },
-        "overall_average_return": 24.662282172196388,
-        "anzahl_aktien": 52
+        "overall_average_return": 30.74609133583321,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CTSH",
+            "AMZN",
+            "USB",
+            "HAS",
+            "CSCO",
+            "TWX",
+            "BEN",
+            "ORCL",
+            "MCHP",
+            "HD",
+            "HRL",
+            "ISRG"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1658,11 +1842,22 @@
             "2011": 1.0848246840821454,
             "2012": 21.751802740765548,
             "2013": 39.91523325607326,
-            "2014": 13.716694190379162,
-            "2015": 19.731027473201877
+            "2014": 13.716694190379158,
+            "2015": 19.731027473201884
         },
         "overall_average_return": 31.299895515247805,
-        "anzahl_aktien": 9
+        "anzahl_aktien": 9,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CTSH",
+            "AMZN",
+            "USB",
+            "HAS",
+            "CSCO",
+            "TWX"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1677,7 +1872,12 @@
             "2015": 14.372834987858543
         },
         "overall_average_return": 34.069650337486294,
-        "anzahl_aktien": 3
+        "anzahl_aktien": 3,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1685,14 +1885,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2011": 2.63660858612053,
-            "2012": 16.097162376927425,
-            "2013": 32.28958541793428,
-            "2014": 17.426163639513792,
-            "2015": -1.6902826996083702
+            "2011": 1.7778671470817968,
+            "2012": 23.811763961024038,
+            "2013": 34.988762294622674,
+            "2014": 18.024182989771433,
+            "2015": 4.376008992372205
         },
-        "overall_average_return": 23.593969649071376,
-        "anzahl_aktien": 201
+        "overall_average_return": 26.50912333792426,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "USB",
+            "HAS",
+            "CSCO",
+            "TWX",
+            "BEN",
+            "ORCL",
+            "MCHP",
+            "HD",
+            "HRL",
+            "SRCL",
+            "GPS",
+            "MSFT"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1700,14 +1917,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2011": 0.8374560732197049,
-            "2012": 17.374279753878312,
-            "2013": 35.502037713117616,
-            "2014": 13.823351217974386,
-            "2015": 1.7841307825214998
+            "2011": 1.7778671470817968,
+            "2012": 23.811763961024038,
+            "2013": 34.988762294622674,
+            "2014": 18.024182989771433,
+            "2015": 4.376008992372205
         },
-        "overall_average_return": 23.991747416675455,
-        "anzahl_aktien": 41
+        "overall_average_return": 26.50912333792426,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "USB",
+            "HAS",
+            "CSCO",
+            "TWX",
+            "BEN",
+            "ORCL",
+            "MCHP",
+            "HD",
+            "HRL",
+            "SRCL",
+            "GPS",
+            "MSFT"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1722,7 +1956,16 @@
             "2015": 6.364216188238121
         },
         "overall_average_return": 30.07841129316616,
-        "anzahl_aktien": 7
+        "anzahl_aktien": 7,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "USB",
+            "HAS",
+            "CSCO",
+            "TWX"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1737,7 +1980,12 @@
             "2015": 14.372834987858543
         },
         "overall_average_return": 34.069650337486294,
-        "anzahl_aktien": 3
+        "anzahl_aktien": 3,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1745,14 +1993,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2011": 2.8682511675579723,
-            "2012": 15.347706006289116,
-            "2013": 34.20228316814232,
-            "2014": 17.02494210938443,
-            "2015": -2.5928891458452665
+            "2011": 2.884715825137638,
+            "2012": 21.516211938390935,
+            "2013": 31.42970843689264,
+            "2014": 14.348270064791352,
+            "2015": 2.017403478244315
         },
-        "overall_average_return": 23.629861089709564,
-        "anzahl_aktien": 168
+        "overall_average_return": 23.49386508946685,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "USB",
+            "HAS",
+            "CSCO",
+            "BEN",
+            "ORCL",
+            "HD",
+            "HRL",
+            "GPS",
+            "MSFT",
+            "FAST",
+            "QCOM",
+            "EXPD",
+            "STT"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1760,14 +2025,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2011": 0.4452567936569573,
-            "2012": 18.347650227393036,
-            "2013": 38.35866168047936,
-            "2014": 13.171887421149926,
-            "2015": 0.9510174071486064
+            "2011": 2.884715825137638,
+            "2012": 21.516211938390935,
+            "2013": 31.42970843689264,
+            "2014": 14.348270064791352,
+            "2015": 2.017403478244315
         },
-        "overall_average_return": 24.647903865326505,
-        "anzahl_aktien": 32
+        "overall_average_return": 23.49386508946685,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "USB",
+            "HAS",
+            "CSCO",
+            "BEN",
+            "ORCL",
+            "HD",
+            "HRL",
+            "GPS",
+            "MSFT",
+            "FAST",
+            "QCOM",
+            "EXPD",
+            "STT"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1782,7 +2064,14 @@
             "2015": 12.748606898838904
         },
         "overall_average_return": 31.215353217616716,
-        "anzahl_aktien": 5
+        "anzahl_aktien": 5,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "USB",
+            "HAS",
+            "CSCO"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1797,7 +2086,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1812,7 +2105,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1827,7 +2124,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1842,7 +2143,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1857,7 +2162,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1872,7 +2181,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1887,7 +2200,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1902,7 +2219,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1917,7 +2238,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1932,7 +2257,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1947,7 +2276,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1962,7 +2295,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1977,7 +2314,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -1992,7 +2333,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2007,7 +2352,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2022,7 +2371,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2037,7 +2390,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2052,7 +2409,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2067,7 +2428,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2082,7 +2447,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2097,7 +2466,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2112,7 +2485,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2127,7 +2504,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2142,7 +2523,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2011,
@@ -2157,7 +2542,11 @@
             "2015": 19.92900907571612
         },
         "overall_average_return": 48.886002709120596,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2165,14 +2554,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2012": 15.452310927180207,
-            "2013": 32.8770185553258,
-            "2014": 17.800041930999384,
-            "2015": 0.1693008020422513,
-            "2016": 20.301494784708794
+            "2012": 19.801862670440297,
+            "2013": 34.607176030257065,
+            "2014": 12.217360273049536,
+            "2015": 8.420793949220167,
+            "2016": 15.095719935338472
         },
-        "overall_average_return": 33.18514963041217,
-        "anzahl_aktien": 221
+        "overall_average_return": 36.97789162577102,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CTSH",
+            "AMZN",
+            "ISRG",
+            "USB",
+            "TWX",
+            "CSCO",
+            "BEN",
+            "HAS",
+            "WYNN",
+            "HD",
+            "MCHP",
+            "FAST"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2180,14 +2586,31 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2012": 16.570459474502897,
-            "2013": 42.67054633289939,
-            "2014": 12.998219536098679,
-            "2015": 5.5130123012948955,
-            "2016": 17.339339782781458
+            "2012": 19.801862670440297,
+            "2013": 34.607176030257065,
+            "2014": 12.217360273049536,
+            "2015": 8.420793949220167,
+            "2016": 15.095719935338472
         },
-        "overall_average_return": 40.805948674381554,
-        "anzahl_aktien": 48
+        "overall_average_return": 36.97789162577102,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CTSH",
+            "AMZN",
+            "ISRG",
+            "USB",
+            "TWX",
+            "CSCO",
+            "BEN",
+            "HAS",
+            "WYNN",
+            "HD",
+            "MCHP",
+            "FAST"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2196,13 +2619,21 @@
         "durchschnittliche_rendite": 0.3,
         "average_yearly_returns": {
             "2012": 20.101943768180654,
-            "2013": 32.96182028447297,
+            "2013": 32.961820284472964,
             "2014": 13.65968086220622,
             "2015": 30.010981456571688,
             "2016": 0.11441275169736069
         },
         "overall_average_return": 41.123790737074714,
-        "anzahl_aktien": 6
+        "anzahl_aktien": 6,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "CTSH",
+            "AMZN",
+            "ISRG"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2217,7 +2648,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2225,14 +2660,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2012": 15.645153005979722,
-            "2013": 32.148814831157836,
-            "2014": 18.061484287357793,
-            "2015": -0.3759991701604569,
-            "2016": 18.98036434529495
+            "2012": 21.0556358623332,
+            "2013": 35.409272317149906,
+            "2014": 15.15370654269081,
+            "2015": 14.762524513698198,
+            "2016": 13.454613756254485
         },
-        "overall_average_return": 30.884245191273457,
-        "anzahl_aktien": 205
+        "overall_average_return": 39.8796474208457,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "AMZN",
+            "USB",
+            "TWX",
+            "CSCO",
+            "BEN",
+            "HAS",
+            "HD",
+            "MCHP",
+            "FAST",
+            "HRL",
+            "ORCL",
+            "MSFT"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2240,14 +2692,31 @@
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2012": 17.303367392839206,
-            "2013": 39.331078699292135,
-            "2014": 13.414001017017654,
-            "2015": 5.269865882168171,
-            "2016": 16.29973133590738
+            "2012": 21.0556358623332,
+            "2013": 35.409272317149906,
+            "2014": 15.15370654269081,
+            "2015": 14.762524513698198,
+            "2016": 13.454613756254485
         },
-        "overall_average_return": 35.735698141493955,
-        "anzahl_aktien": 39
+        "overall_average_return": 39.8796474208457,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "AMZN",
+            "USB",
+            "TWX",
+            "CSCO",
+            "BEN",
+            "HAS",
+            "HD",
+            "MCHP",
+            "FAST",
+            "HRL",
+            "ORCL",
+            "MSFT"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2262,7 +2731,13 @@
             "2016": -2.8885856430646895
         },
         "overall_average_return": 49.20447139905747,
-        "anzahl_aktien": 4
+        "anzahl_aktien": 4,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "AMZN"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2277,7 +2752,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2285,14 +2764,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2012": 16.233471570271927,
-            "2013": 35.05569268458928,
-            "2014": 18.14060210534395,
-            "2015": -0.9004000408829754,
-            "2016": 21.09535372296718
+            "2012": 24.05969443161184,
+            "2013": 31.774521095263076,
+            "2014": 17.01214906030749,
+            "2015": 1.447526809075997,
+            "2016": 10.86237380347012
         },
-        "overall_average_return": 32.49157684956681,
-        "anzahl_aktien": 173
+        "overall_average_return": 31.116134512128394,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "USB",
+            "TWX",
+            "CSCO",
+            "BEN",
+            "HAS",
+            "HD",
+            "FAST",
+            "HRL",
+            "ORCL",
+            "MSFT",
+            "GPS",
+            "QCOM"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2300,14 +2796,31 @@
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2012": 18.514955429982034,
-            "2013": 39.616908455652386,
-            "2014": 13.444817217623173,
-            "2015": 2.3528834997655426,
-            "2016": 16.815801391957887
+            "2012": 24.05969443161184,
+            "2013": 31.774521095263076,
+            "2014": 17.01214906030749,
+            "2015": 1.447526809075997,
+            "2016": 10.86237380347012
         },
-        "overall_average_return": 34.77519460246289,
-        "anzahl_aktien": 33
+        "overall_average_return": 31.116134512128394,
+        "anzahl_aktien": 15,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX",
+            "USB",
+            "TWX",
+            "CSCO",
+            "BEN",
+            "HAS",
+            "HD",
+            "FAST",
+            "HRL",
+            "ORCL",
+            "MSFT",
+            "GPS",
+            "QCOM"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2322,7 +2835,12 @@
             "2016": -9.758394240633413
         },
         "overall_average_return": 28.72424766719883,
-        "anzahl_aktien": 3
+        "anzahl_aktien": 3,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2337,7 +2855,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2352,7 +2874,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2367,7 +2893,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2382,7 +2912,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2397,7 +2931,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2412,7 +2950,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2427,7 +2969,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2442,7 +2988,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2457,7 +3007,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2472,7 +3026,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2487,7 +3045,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2502,7 +3064,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2517,7 +3083,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2532,7 +3102,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2547,7 +3121,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2562,7 +3140,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2577,7 +3159,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2592,7 +3178,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2607,7 +3197,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2622,7 +3216,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2637,7 +3235,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2652,7 +3254,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2667,7 +3273,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2682,7 +3292,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2697,7 +3311,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2712,7 +3330,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2727,7 +3349,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2742,7 +3368,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2757,7 +3387,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2772,7 +3406,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2787,7 +3425,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2802,7 +3444,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2817,7 +3463,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2832,7 +3482,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2847,7 +3501,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2862,7 +3520,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2877,7 +3539,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2892,7 +3558,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2907,7 +3577,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2922,7 +3596,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2937,7 +3615,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2952,7 +3634,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2967,7 +3653,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2982,7 +3672,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -2997,7 +3691,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3012,7 +3710,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3027,7 +3729,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3042,7 +3748,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3057,7 +3767,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3072,7 +3786,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3087,7 +3805,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3102,7 +3824,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3117,7 +3843,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3132,7 +3862,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3147,7 +3881,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3162,7 +3900,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3177,7 +3919,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3192,7 +3938,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3207,7 +3957,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3222,7 +3976,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3237,7 +3995,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3252,7 +4014,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3267,7 +4033,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3282,7 +4052,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3297,7 +4071,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3312,7 +4090,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3327,7 +4109,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3342,7 +4128,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3357,7 +4147,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3372,7 +4166,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3387,7 +4185,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3402,7 +4204,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3417,7 +4223,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3432,7 +4242,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3447,7 +4261,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3462,7 +4280,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3477,7 +4299,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3492,7 +4318,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3507,7 +4337,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3522,7 +4356,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3537,7 +4375,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3552,7 +4394,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3567,7 +4413,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3582,7 +4432,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3597,7 +4451,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3612,7 +4470,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3627,7 +4489,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3642,7 +4508,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3657,7 +4527,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3672,7 +4546,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3687,7 +4565,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3702,7 +4584,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3717,7 +4603,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3732,7 +4622,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3747,7 +4641,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3762,7 +4660,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3777,7 +4679,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3792,7 +4698,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3807,7 +4717,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3822,7 +4736,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3837,7 +4755,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3852,7 +4774,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3867,7 +4793,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3882,7 +4812,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3897,7 +4831,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3912,7 +4850,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3927,7 +4869,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3942,7 +4888,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3957,7 +4907,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3972,7 +4926,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -3987,7 +4945,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4002,7 +4964,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4017,7 +4983,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4032,7 +5002,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4047,7 +5021,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4062,7 +5040,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4077,7 +5059,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4092,7 +5078,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4107,7 +5097,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4122,7 +5116,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4137,7 +5135,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4152,7 +5154,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4167,7 +5173,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4182,7 +5192,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4197,7 +5211,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4212,7 +5230,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4227,7 +5249,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4242,7 +5268,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4257,7 +5287,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4272,7 +5306,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4287,7 +5325,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4302,7 +5344,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4317,7 +5363,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4332,7 +5382,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4347,7 +5401,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4362,7 +5420,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4377,7 +5439,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4392,7 +5458,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4407,7 +5477,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4422,7 +5496,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4437,7 +5515,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4452,7 +5534,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4467,7 +5553,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4482,7 +5572,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4497,7 +5591,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4512,7 +5610,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4527,7 +5629,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4542,7 +5648,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4557,7 +5667,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4572,7 +5686,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4587,7 +5705,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4602,7 +5724,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4617,7 +5743,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4632,7 +5762,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4647,7 +5781,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4662,7 +5800,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4677,7 +5819,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4692,7 +5838,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4707,7 +5857,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4722,7 +5876,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4737,7 +5895,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4752,7 +5914,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4767,7 +5933,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4782,7 +5952,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4797,7 +5971,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4812,7 +5990,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4827,7 +6009,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4842,7 +6028,11 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     },
     {
         "start_jahr": 2012,
@@ -4857,6 +6047,10 @@
             "2016": -4.3409291749272825
         },
         "overall_average_return": 37.20889818562497,
-        "anzahl_aktien": 2
+        "anzahl_aktien": 2,
+        "aktien": [
+            "TJX",
+            "NKE"
+        ]
     }
 ]

@@ -5,5243 +5,1216 @@
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2008": -27.43046708664166,
-            "2009": 70.38059725515474,
-            "2010": 14316.47031082515,
-            "2011": 4134.014438778347,
-            "2012": 9.230110866891883
+            "2008": -38.869939929987765,
+            "2009": 68.59657829951742,
+            "2010": 17.115613295147007,
+            "2011": -5.857160036783463,
+            "2012": 23.285725759989084
         },
-        "overall_average_return": 55.29922865220099,
+        "overall_average_return": 21.81779992385987,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "EBAY",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP"
+        ]
+    },
+    {
+        "start_jahr": 2008,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2008": -38.86993661964945,
+            "2009": 68.5965767177509,
+            "2010": 17.11560993069163,
+            "2011": -5.857166666467715,
+            "2012": 23.285719888177255
+        },
+        "overall_average_return": 21.817798076860193,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "EBAY",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP"
+        ]
+    },
+    {
+        "start_jahr": 2008,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2008": -38.86995137855379,
+            "2009": 68.59657068532593,
+            "2010": 17.11559805031691,
+            "2011": -5.857160848312019,
+            "2012": 23.285716049343232
+        },
+        "overall_average_return": 21.817797466271454,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "EBAY",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP"
+        ]
+    },
+    {
+        "start_jahr": 2008,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.5,
+        "average_yearly_returns": {
+            "2008": -43.96524241468329,
+            "2009": 137.08152770122618,
+            "2010": 56.60253520497322,
+            "2011": -14.662953657986455,
+            "2012": 12.416340314463747
+        },
+        "overall_average_return": 42.66211558393902,
+        "anzahl_aktien": 1,
+        "aktien": [
+            "CTSH"
+        ]
+    },
+    {
+        "start_jahr": 2008,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2008": -32.662713397218,
+            "2009": 44.134939272954895,
+            "2010": 8.837334455507191,
+            "2011": -1.3203410201121335,
+            "2012": 16.391738563024603
+        },
+        "overall_average_return": 16.625547016992375,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP",
+            "HD",
+            "IGT",
+            "QCOM"
+        ]
+    },
+    {
+        "start_jahr": 2008,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2008": -32.66271313878373,
+            "2009": 44.13494891574798,
+            "2010": 8.837319965598025,
+            "2011": -1.320334739379474,
+            "2012": 16.391731175289497
+        },
+        "overall_average_return": 16.625548109029573,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP",
+            "HD",
+            "IGT",
+            "QCOM"
+        ]
+    },
+    {
+        "start_jahr": 2008,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2008": -34.42558428472462,
+            "2009": 48.70257113746933,
+            "2010": 9.097341222145646,
+            "2011": -6.232209118978666,
+            "2012": 16.797461345159476
+        },
+        "overall_average_return": 14.124837231245616,
+        "anzahl_aktien": 7,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "MCHP"
+        ]
+    },
+    {
+        "start_jahr": 2008,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2008": -34.005463529925315,
+            "2009": 32.621147674674425,
+            "2010": 14.207860681988477,
+            "2011": -0.15169920722064245,
+            "2012": 12.106235707812312
+        },
+        "overall_average_return": 14.40362512853938,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "HD",
+            "BBY",
+            "UNH",
+            "FAST",
+            "ADBE",
+            "SYK",
+            "EXPD"
+        ]
+    },
+    {
+        "start_jahr": 2008,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2008": -34.005454732309225,
+            "2009": 32.62112511676772,
+            "2010": 14.207866808773309,
+            "2011": -0.1517048935079146,
+            "2012": 12.106237700970599
+        },
+        "overall_average_return": 14.403630763332876,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "MSFT",
+            "ORCL",
+            "BEN",
+            "HD",
+            "BBY",
+            "UNH",
+            "FAST",
+            "ADBE",
+            "SYK",
+            "EXPD"
+        ]
+    },
+    {
+        "start_jahr": 2008,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2008": -36.10147773702088,
+            "2009": 50.73683004383732,
+            "2010": 7.628836768177038,
+            "2011": -11.837321444147868,
+            "2012": 21.447510865547237
+        },
+        "overall_average_return": 11.595692331708989,
+        "anzahl_aktien": 3,
+        "aktien": [
+            "MSFT",
+            "ORCL",
+            "BEN"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2009": 61.9298828063237,
+            "2010": 16.415652710526526,
+            "2011": -3.9380816517918973,
+            "2012": 23.87148358877825,
+            "2013": 30.392618831246498
+        },
+        "overall_average_return": 52.446804864407184,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CTSH",
+            "ESRX",
+            "CSCO",
+            "AMZN",
+            "TWX",
+            "ORCL",
+            "HD",
+            "MSFT",
+            "QCOM",
+            "BEN"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2009": 61.92986030813405,
+            "2010": 16.415672907985897,
+            "2011": -3.938071889301008,
+            "2012": 23.87148671928867,
+            "2013": 30.392618232399336
+        },
+        "overall_average_return": 52.44679412165171,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CTSH",
+            "ESRX",
+            "CSCO",
+            "AMZN",
+            "TWX",
+            "ORCL",
+            "HD",
+            "MSFT",
+            "QCOM",
+            "BEN"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2009": 83.13252213185726,
+            "2010": 21.551052863506897,
+            "2011": -7.43902568450866,
+            "2012": 22.13661436104205,
+            "2013": 33.92672094616783
+        },
+        "overall_average_return": 63.06562463490785,
+        "anzahl_aktien": 5,
+        "aktien": [
+            "CTSH",
+            "ESRX",
+            "CSCO",
+            "AMZN",
+            "TWX"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2009": 40.86566367366776,
+            "2010": 14.348836190512888,
+            "2011": 3.589055938822764,
+            "2012": 19.09461882403241,
+            "2013": 25.477539547932643
+        },
+        "overall_average_return": 41.91090966866848,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "ORCL",
+            "HD",
+            "MSFT",
+            "QCOM",
+            "BEN",
+            "FAST",
+            "MCHP"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2009": 40.86568656582637,
+            "2010": 14.348823033949836,
+            "2011": 3.5890630625644127,
+            "2012": 19.09461418606036,
+            "2013": 25.47753698939085
+        },
+        "overall_average_return": 41.91092298271468,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "ORCL",
+            "HD",
+            "MSFT",
+            "QCOM",
+            "BEN",
+            "FAST",
+            "MCHP"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2009": 40.16136680641465,
+            "2010": 13.084974853061285,
+            "2011": 8.289491291604415,
+            "2012": 22.593943370279813,
+            "2013": 31.666603661797243
+        },
+        "overall_average_return": 58.21830443936199,
+        "anzahl_aktien": 5,
+        "aktien": [
+            "TJX",
+            "ESRX",
+            "CSCO",
+            "USB",
+            "TWX"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.5,
+        "average_yearly_returns": {
+            "2009": 55.871002485391344,
+            "2010": 30.267181632293227,
+            "2011": 17.885412936462743,
+            "2012": 21.370729782081135,
+            "2013": 44.321208680294646
+        },
+        "overall_average_return": 86.66607648018363,
+        "anzahl_aktien": 3,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "ESRX"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2009": 37.04023008081445,
+            "2010": 23.10919335975067,
+            "2011": 3.61338758406217,
+            "2012": 27.937635724756788,
+            "2013": 37.67166223089961
+        },
+        "overall_average_return": 55.101463996629846,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "TJX",
+            "NKE",
+            "USB",
+            "HAS",
+            "BEN",
+            "ORCL",
+            "HD",
+            "HRL",
+            "MSFT",
+            "GPS"
+        ]
+    },
+    {
+        "start_jahr": 2009,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2009": 32.16544816822564,
+            "2010": 23.355555180514965,
+            "2011": -5.015656207051437,
+            "2012": 17.032057513552274,
+            "2013": 50.06260051678508
+        },
+        "overall_average_return": 36.93177585230105,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "HAS",
+            "BEN",
+            "ORCL",
+            "HD",
+            "HRL",
+            "MSFT",
+            "GPS",
+            "FAST",
+            "EXPD",
+            "BBY"
+        ]
+    },
+    {
+        "start_jahr": 2010,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2010": 14.020530076165599,
+            "2011": 2.203740836763304,
+            "2012": 22.896562764927403,
+            "2013": 26.422601042951342,
+            "2014": 18.50937403307812
+        },
+        "overall_average_return": 30.757782622594863,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "CSCO",
+            "ISRG",
+            "TWX",
+            "ORCL",
+            "MSFT",
+            "HD",
+            "BEN"
+        ]
+    },
+    {
+        "start_jahr": 2010,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2010": 14.020529629568724,
+            "2011": 2.2037325966111676,
+            "2012": 22.896566603355744,
+            "2013": 26.422585121302976,
+            "2014": 18.509369193603995
+        },
+        "overall_average_return": 30.757778501505488,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "CSCO",
+            "ISRG",
+            "TWX",
+            "ORCL",
+            "MSFT",
+            "HD",
+            "BEN"
+        ]
+    },
+    {
+        "start_jahr": 2010,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2010": 15.2052816789078,
+            "2011": 5.82125375297022,
+            "2012": 19.106485678118744,
+            "2013": 24.47209034175684,
+            "2014": 17.706578536652774
+        },
+        "overall_average_return": 30.814099557923942,
+        "anzahl_aktien": 6,
+        "aktien": [
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "CSCO",
+            "ISRG",
+            "TWX"
+        ]
+    },
+    {
+        "start_jahr": 2010,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2010": 14.348824758367398,
+            "2011": 3.5890412913846723,
+            "2012": 19.09462874585389,
+            "2013": 25.477523873239623,
+            "2014": 17.440411277632816
+        },
+        "overall_average_return": 22.865307293116256,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "ORCL",
+            "MSFT",
+            "HD",
+            "BEN",
+            "QCOM",
+            "MCHP",
+            "FAST"
+        ]
+    },
+    {
+        "start_jahr": 2010,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2010": 14.348827476368447,
+            "2011": 3.58906575496644,
+            "2012": 19.094618921584573,
+            "2013": 25.477538237739694,
+            "2014": 17.440413427494796
+        },
+        "overall_average_return": 22.865310146838183,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX",
+            "ORCL",
+            "MSFT",
+            "HD",
+            "BEN",
+            "QCOM",
+            "MCHP",
+            "FAST"
+        ]
+    },
+    {
+        "start_jahr": 2010,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2010": 5.574675668109749,
+            "2011": -5.4986208067597016,
+            "2012": 19.37979743251009,
+            "2013": 27.341732887109423,
+            "2014": 27.50302239869778
+        },
+        "overall_average_return": 19.08483668920451,
+        "anzahl_aktien": 3,
+        "aktien": [
+            "ESRX",
+            "CSCO",
+            "TWX"
+        ]
+    },
+    {
+        "start_jahr": 2010,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2010": 6.041789314348502,
+            "2011": -3.986158079505242,
+            "2012": 19.516931798026597,
+            "2013": 49.549864814975805,
+            "2014": 17.29510672821124
+        },
+        "overall_average_return": 20.668567532412343,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CSCO",
+            "ORCL",
+            "MSFT",
+            "HD",
+            "BEN",
+            "FAST",
+            "BBY",
+            "GPS",
+            "ADBE",
+            "SYK"
+        ]
+    },
+    {
+        "start_jahr": 2010,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2010": 6.041791592272617,
+            "2011": -3.986166180087145,
+            "2012": 19.516939447500043,
+            "2013": 49.549872140693154,
+            "2014": 17.295106362818796
+        },
+        "overall_average_return": 20.668564440484467,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CSCO",
+            "ORCL",
+            "MSFT",
+            "HD",
+            "BEN",
+            "FAST",
+            "BBY",
+            "GPS",
+            "ADBE",
+            "SYK"
+        ]
+    },
+    {
+        "start_jahr": 2010,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2010": -18.06398652405431,
+            "2011": -10.764058845694136,
+            "2012": 7.951203589343625,
+            "2013": 12.7668225395567,
+            "2014": 29.488382823784963
+        },
+        "overall_average_return": 4.846019224346039,
+        "anzahl_aktien": 1,
+        "aktien": [
+            "CSCO"
+        ]
+    },
+    {
+        "start_jahr": 2011,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2011": 4104.633509260645,
+            "2012": 8.720924909577379,
+            "2013": 23.294293041853447,
+            "2014": 10.407274698888944,
+            "2015": 40638.74081211228
+        },
+        "overall_average_return": 22.62556631701474,
         "anzahl_aktien": 10,
         "aktien": [
             "TIE",
-            "ROST",
-            "BIIB",
-            "TJX",
-            "VFC",
-            "SBUX",
+            "CTSH",
             "AMZN",
-            "AZO",
-            "PXD",
-            "EL"
+            "ESRX",
+            "TWX",
+            "CSCO",
+            "ORCL",
+            "HD",
+            "ISRG",
+            "FFIV"
         ]
     },
     {
-        "start_jahr": 2008,
+        "start_jahr": 2011,
         "anlagehorizont": 5,
         "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
+        "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2008": -27.43046911962484,
-            "2009": 70.38060216748174,
-            "2010": 14316.470317658215,
-            "2011": 4134.014443808559,
-            "2012": 9.230140355096273
+            "2011": 4105.217246030281,
+            "2012": 8.765959727035003,
+            "2013": 25.6158165813562,
+            "2014": 8.316814009092097,
+            "2015": 40637.11897000186
         },
-        "overall_average_return": 55.299252616351986,
+        "overall_average_return": 22.394336367973587,
         "anzahl_aktien": 10,
         "aktien": [
             "TIE",
-            "ROST",
-            "BIIB",
-            "TJX",
-            "VFC",
-            "SBUX",
+            "CTSH",
             "AMZN",
-            "AZO",
-            "PXD",
-            "EL"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2008": -21.337466853333687,
-            "2009": 70.15753463129477,
-            "2010": 43.87014683779748,
-            "2011": 34.08930357103297,
-            "2012": 24.35211940031461
-        },
-        "overall_average_return": 55.26997518796585,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "BIIB",
-            "VFC",
-            "SBUX",
-            "AMZN",
-            "AZO",
-            "PXD",
-            "EL",
-            "HD"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2008": -8.477625568375405,
-            "2009": 39.91653991499303,
-            "2010": 38.79340452642762,
-            "2011": 36.69823446352486,
-            "2012": 27.53523123638576
-        },
-        "overall_average_return": 46.34113820401415,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "BIIB",
-            "VFC",
-            "SBUX",
-            "AZO",
+            "ESRX",
+            "TWX",
+            "CSCO",
             "HD",
-            "SHW",
-            "NKE",
-            "GWW"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2008": -8.477625568375405,
-            "2009": 39.91653991499303,
-            "2010": 38.79340452642762,
-            "2011": 36.69823446352486,
-            "2012": 27.53523123638576
-        },
-        "overall_average_return": 46.34113820401415,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "BIIB",
-            "VFC",
-            "SBUX",
-            "AZO",
-            "HD",
-            "SHW",
-            "NKE",
-            "GWW"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2008": -8.477625568375405,
-            "2009": 39.91653991499303,
-            "2010": 38.79340452642762,
-            "2011": 36.69823446352486,
-            "2012": 27.53523123638576
-        },
-        "overall_average_return": 46.34113820401415,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "BIIB",
-            "VFC",
-            "SBUX",
-            "AZO",
-            "HD",
-            "SHW",
-            "NKE",
-            "GWW"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2008": -8.70760717543341,
-            "2009": 30.268532839445673,
-            "2010": 35.52861035573153,
-            "2011": 26.245657099584758,
-            "2012": 37.032512486726844
-        },
-        "overall_average_return": 44.841937738065596,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "VFC",
-            "HD",
-            "SHW",
-            "NKE",
-            "GWW",
-            "PPG",
-            "CMCSA",
-            "MAT"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2008": -8.70760717543341,
-            "2009": 30.268532839445673,
-            "2010": 35.52861035573153,
-            "2011": 26.245657099584758,
-            "2012": 37.032512486726844
-        },
-        "overall_average_return": 44.841937738065596,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "VFC",
-            "HD",
-            "SHW",
-            "NKE",
-            "GWW",
-            "PPG",
-            "CMCSA",
-            "MAT"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2008": -8.70760717543341,
-            "2009": 30.268532839445673,
-            "2010": 35.52861035573153,
-            "2011": 26.245657099584758,
-            "2012": 37.032512486726844
-        },
-        "overall_average_return": 44.841937738065596,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "VFC",
-            "HD",
-            "SHW",
-            "NKE",
-            "GWW",
-            "PPG",
-            "CMCSA",
-            "MAT"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2008": -15.376760352671978,
-            "2009": 52.63201296775647,
-            "2010": 43.68803830730562,
-            "2011": 24.675326258337424,
-            "2012": 33.54946367813083,
-            "2013": 44.21169188987012,
-            "2014": 20.47653934190489,
-            "2015": 33.98712140313357,
-            "2016": 4.543009754744364,
-            "2017": 31.057292380902457
-        },
-        "overall_average_return": 59.47733431165197,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMZN",
-            "ROST",
-            "TJX",
-            "HD",
-            "SHW",
-            "SBUX",
-            "AZO",
-            "NKE",
-            "STZ",
-            "EL"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2008": -15.376760352671978,
-            "2009": 52.63201296775647,
-            "2010": 43.68803830730562,
-            "2011": 24.675326258337424,
-            "2012": 33.54946367813083,
-            "2013": 44.21169188987012,
-            "2014": 20.47653934190489,
-            "2015": 33.98712140313357,
-            "2016": 4.543009754744364,
-            "2017": 31.057292380902457
-        },
-        "overall_average_return": 59.47733431165197,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMZN",
-            "ROST",
-            "TJX",
-            "HD",
-            "SHW",
-            "SBUX",
-            "AZO",
-            "NKE",
-            "STZ",
-            "EL"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2008": -15.376760352671978,
-            "2009": 52.63201296775647,
-            "2010": 43.68803830730562,
-            "2011": 24.675326258337424,
-            "2012": 33.54946367813083,
-            "2013": 44.21169188987012,
-            "2014": 20.47653934190489,
-            "2015": 33.98712140313357,
-            "2016": 4.543009754744364,
-            "2017": 31.057292380902457
-        },
-        "overall_average_return": 59.47733431165197,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMZN",
-            "ROST",
-            "TJX",
-            "HD",
-            "SHW",
-            "SBUX",
-            "AZO",
-            "NKE",
-            "STZ",
-            "EL"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2008": -12.626606163416248,
-            "2009": 36.52831242208103,
-            "2010": 42.763865101503136,
-            "2011": 28.97647301353084,
-            "2012": 31.67283233436689,
-            "2013": 41.18475051162868,
-            "2014": 30.712238869463587,
-            "2015": 24.75723489551571,
-            "2016": 5.348086777190134,
-            "2017": 26.657190137869723
-        },
-        "overall_average_return": 58.3927847085924,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "HD",
-            "SHW",
-            "SBUX",
-            "AZO",
-            "NKE",
-            "STZ",
-            "INTU",
-            "MNST"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2008": -12.626606163416248,
-            "2009": 36.52831242208103,
-            "2010": 42.763865101503136,
-            "2011": 28.97647301353084,
-            "2012": 31.67283233436689,
-            "2013": 41.18475051162868,
-            "2014": 30.712238869463587,
-            "2015": 24.75723489551571,
-            "2016": 5.348086777190134,
-            "2017": 26.657190137869723
-        },
-        "overall_average_return": 58.3927847085924,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "HD",
-            "SHW",
-            "SBUX",
-            "AZO",
-            "NKE",
-            "STZ",
-            "INTU",
-            "MNST"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2008": -12.626606163416248,
-            "2009": 36.52831242208103,
-            "2010": 42.763865101503136,
-            "2011": 28.97647301353084,
-            "2012": 31.67283233436689,
-            "2013": 41.18475051162868,
-            "2014": 30.712238869463587,
-            "2015": 24.75723489551571,
-            "2016": 5.348086777190134,
-            "2017": 26.657190137869723
-        },
-        "overall_average_return": 58.3927847085924,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "HD",
-            "SHW",
-            "SBUX",
-            "AZO",
-            "NKE",
-            "STZ",
-            "INTU",
-            "MNST"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2008": -16.059577406638386,
-            "2009": 40.354561656844396,
-            "2010": 34.245482115114505,
-            "2011": 34.23250791542294,
-            "2012": 28.62836804959672,
-            "2013": 37.26853487940823,
-            "2014": 35.01834354091038,
-            "2015": 9.25776378157476,
-            "2016": 8.597907853073158,
-            "2017": 34.35953955212748
-        },
-        "overall_average_return": 45.756118228854284,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "HD",
-            "SHW",
-            "NKE",
-            "MNST",
-            "AAPL",
-            "CTAS",
-            "VFC",
-            "UNP"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2008": -16.059577406638386,
-            "2009": 40.354561656844396,
-            "2010": 34.245482115114505,
-            "2011": 34.23250791542294,
-            "2012": 28.62836804959672,
-            "2013": 37.26853487940823,
-            "2014": 35.01834354091038,
-            "2015": 9.25776378157476,
-            "2016": 8.597907853073158,
-            "2017": 34.35953955212748
-        },
-        "overall_average_return": 45.756118228854284,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "HD",
-            "SHW",
-            "NKE",
-            "MNST",
-            "AAPL",
-            "CTAS",
-            "VFC",
-            "UNP"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2008": -15.279859841250465,
-            "2009": 42.429073581417285,
-            "2010": 34.63755960831354,
-            "2011": 34.536022069166236,
-            "2012": 31.06555298892486,
-            "2013": 33.785828339277636,
-            "2014": 35.355994438095685,
-            "2015": 17.387432191273295,
-            "2016": 7.681037302694238,
-            "2017": 33.26851032918214
-        },
-        "overall_average_return": 52.82861971765091,
-        "anzahl_aktien": 8,
-        "aktien": [
-            "ROST",
-            "TJX",
-            "HD",
-            "SHW",
-            "NKE",
-            "MNST",
-            "AAPL",
-            "CTAS"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2008": -24.092883793879373,
-            "2009": 87.46008414758369,
-            "2010": 41.26417429852272,
-            "2011": 12.829185583176148,
-            "2012": 20.74837815743409,
-            "2013": 28.665426657787517,
-            "2014": 16.406414518496383,
-            "2015": 22.21016952247296,
-            "2016": 41.83305603839864,
-            "2017": 37.39525973059132,
-            "2018": 9.490387908949243,
-            "2019": 62.5376140935734,
-            "2020": 44.23043214936341
-        },
-        "overall_average_return": 125.6346446607963,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMZN",
-            "AAPL",
-            "INTU",
-            "HD",
-            "SHW",
-            "ROST",
-            "EL",
-            "AMD",
-            "AZO",
-            "TER"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2008": -24.092883793879373,
-            "2009": 87.46008414758369,
-            "2010": 41.26417429852272,
-            "2011": 12.829185583176148,
-            "2012": 20.74837815743409,
-            "2013": 28.665426657787517,
-            "2014": 16.406414518496383,
-            "2015": 22.21016952247296,
-            "2016": 41.83305603839864,
-            "2017": 37.39525973059132,
-            "2018": 9.490387908949243,
-            "2019": 62.5376140935734,
-            "2020": 44.23043214936341
-        },
-        "overall_average_return": 125.6346446607963,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMZN",
-            "AAPL",
-            "INTU",
-            "HD",
-            "SHW",
-            "ROST",
-            "EL",
-            "AMD",
-            "AZO",
-            "TER"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2008": -24.092883793879373,
-            "2009": 87.46008414758369,
-            "2010": 41.26417429852272,
-            "2011": 12.829185583176148,
-            "2012": 20.74837815743409,
-            "2013": 28.665426657787517,
-            "2014": 16.406414518496383,
-            "2015": 22.21016952247296,
-            "2016": 41.83305603839864,
-            "2017": 37.39525973059132,
-            "2018": 9.490387908949243,
-            "2019": 62.5376140935734,
-            "2020": 44.23043214936341
-        },
-        "overall_average_return": 125.6346446607963,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMZN",
-            "AAPL",
-            "INTU",
-            "HD",
-            "SHW",
-            "ROST",
-            "EL",
-            "AMD",
-            "AZO",
-            "TER"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2008": -22.886352178439438,
-            "2009": 71.92283994783838,
-            "2010": 34.60556951999904,
-            "2011": 11.996298375543809,
-            "2012": 19.303666478294936,
-            "2013": 28.535989156474383,
-            "2014": 23.031093770301318,
-            "2015": 11.186104065149568,
-            "2016": 51.98598003395263,
-            "2017": 30.60422067970364,
-            "2018": 8.617260487850627,
-            "2019": 66.29734502263022,
-            "2020": 41.65439576985722
-        },
-        "overall_average_return": 120.94730641673777,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "INTU",
-            "HD",
-            "SHW",
-            "ROST",
-            "AMD",
-            "AZO",
-            "TER",
-            "CTAS",
-            "DHR"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2008": -22.886352178439438,
-            "2009": 71.92283994783838,
-            "2010": 34.60556951999904,
-            "2011": 11.996298375543809,
-            "2012": 19.303666478294936,
-            "2013": 28.535989156474383,
-            "2014": 23.031093770301318,
-            "2015": 11.186104065149568,
-            "2016": 51.98598003395263,
-            "2017": 30.60422067970364,
-            "2018": 8.617260487850627,
-            "2019": 66.29734502263022,
-            "2020": 41.65439576985722
-        },
-        "overall_average_return": 120.94730641673777,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "INTU",
-            "HD",
-            "SHW",
-            "ROST",
-            "AMD",
-            "AZO",
-            "TER",
-            "CTAS",
-            "DHR"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2008": -22.886352178439438,
-            "2009": 71.92283994783838,
-            "2010": 34.60556951999904,
-            "2011": 11.996298375543809,
-            "2012": 19.303666478294936,
-            "2013": 28.535989156474383,
-            "2014": 23.031093770301318,
-            "2015": 11.186104065149568,
-            "2016": 51.98598003395263,
-            "2017": 30.60422067970364,
-            "2018": 8.617260487850627,
-            "2019": 66.29734502263022,
-            "2020": 41.65439576985722
-        },
-        "overall_average_return": 120.94730641673777,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "INTU",
-            "HD",
-            "SHW",
-            "ROST",
-            "AMD",
-            "AZO",
-            "TER",
-            "CTAS",
-            "DHR"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2008": -29.165190616692527,
-            "2009": 77.9988423850869,
-            "2010": 25.96829267454808,
-            "2011": 13.979800371683954,
-            "2012": 18.41077747908014,
-            "2013": 31.666921871607943,
-            "2014": 24.557405714588466,
-            "2015": 12.035157022536126,
-            "2016": 49.15187822471251,
-            "2017": 33.460515133784135,
-            "2018": 5.196814114416813,
-            "2019": 72.41836020314176,
-            "2020": 45.72259191493558
-        },
-        "overall_average_return": 117.50346220901783,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "HD",
-            "SHW",
-            "ROST",
-            "AMD",
-            "TER",
-            "CTAS",
-            "DHR",
-            "NKE",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2008": -29.165190616692527,
-            "2009": 77.9988423850869,
-            "2010": 25.96829267454808,
-            "2011": 13.979800371683954,
-            "2012": 18.41077747908014,
-            "2013": 31.666921871607943,
-            "2014": 24.557405714588466,
-            "2015": 12.035157022536126,
-            "2016": 49.15187822471251,
-            "2017": 33.460515133784135,
-            "2018": 5.196814114416813,
-            "2019": 72.41836020314176,
-            "2020": 45.72259191493558
-        },
-        "overall_average_return": 117.50346220901783,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "HD",
-            "SHW",
-            "ROST",
-            "AMD",
-            "TER",
-            "CTAS",
-            "DHR",
-            "NKE",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2008,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2008": -29.165190616692527,
-            "2009": 77.9988423850869,
-            "2010": 25.96829267454808,
-            "2011": 13.979800371683954,
-            "2012": 18.41077747908014,
-            "2013": 31.666921871607943,
-            "2014": 24.557405714588466,
-            "2015": 12.035157022536126,
-            "2016": 49.15187822471251,
-            "2017": 33.460515133784135,
-            "2018": 5.196814114416813,
-            "2019": 72.41836020314176,
-            "2020": 45.72259191493558
-        },
-        "overall_average_return": 117.50346220901783,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "HD",
-            "SHW",
-            "ROST",
-            "AMD",
-            "TER",
-            "CTAS",
-            "DHR",
-            "NKE",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2009": 174.90832259006476,
-            "2010": 35.190688214159074,
-            "2011": 13.550034069750112,
-            "2012": 26.953168875050025,
-            "2013": 58.705741335441765
-        },
-        "overall_average_return": 112.36407940493268,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "MU",
-            "ASH",
-            "THC",
-            "AAPL",
-            "SBUX",
-            "PXD",
-            "TJX",
-            "BIIB",
-            "F",
-            "M"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2009": 174.90832259006476,
-            "2010": 35.190688214159074,
-            "2011": 13.550034069750112,
-            "2012": 26.953168875050025,
-            "2013": 58.705741335441765
-        },
-        "overall_average_return": 112.36407940493268,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "MU",
-            "ASH",
-            "THC",
-            "AAPL",
-            "SBUX",
-            "PXD",
-            "TJX",
-            "BIIB",
-            "F",
-            "M"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2009": 174.90832259006476,
-            "2010": 35.190688214159074,
-            "2011": 13.550034069750112,
-            "2012": 26.953168875050025,
-            "2013": 58.705741335441765
-        },
-        "overall_average_return": 112.36407940493268,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "MU",
-            "ASH",
-            "THC",
-            "AAPL",
-            "SBUX",
-            "PXD",
-            "TJX",
-            "BIIB",
-            "F",
-            "M"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2009": 162.1517629152343,
-            "2010": 33.132083073807465,
-            "2011": 18.46650649648158,
-            "2012": 26.983129337227517,
-            "2013": 55.83215598994954
-        },
-        "overall_average_return": 110.58251312146754,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "MU",
-            "ASH",
-            "THC",
-            "AAPL",
-            "SBUX",
-            "TJX",
-            "BIIB",
-            "F",
-            "M",
-            "ROST"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2009": 162.1517629152343,
-            "2010": 33.132083073807465,
-            "2011": 18.46650649648158,
-            "2012": 26.983129337227517,
-            "2013": 55.83215598994954
-        },
-        "overall_average_return": 110.58251312146754,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "MU",
-            "ASH",
-            "THC",
-            "AAPL",
-            "SBUX",
-            "TJX",
-            "BIIB",
-            "F",
-            "M",
-            "ROST"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2009": 162.1517629152343,
-            "2010": 33.132083073807465,
-            "2011": 18.46650649648158,
-            "2012": 26.983129337227517,
-            "2013": 55.83215598994954
-        },
-        "overall_average_return": 110.58251312146754,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "MU",
-            "ASH",
-            "THC",
-            "AAPL",
-            "SBUX",
-            "TJX",
-            "BIIB",
-            "F",
-            "M",
-            "ROST"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2009": 163.8627028081101,
-            "2010": 30.576762215895815,
-            "2011": 14.250631396176153,
-            "2012": 28.537489262741193,
-            "2013": 46.68914574617203
-        },
-        "overall_average_return": 103.87325188837679,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "MU",
-            "ASH",
-            "THC",
-            "AAPL",
-            "TJX",
-            "F",
-            "ROST",
-            "MNST",
-            "JWN",
-            "PPG"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2009": 163.8627028081101,
-            "2010": 30.576762215895815,
-            "2011": 14.250631396176153,
-            "2012": 28.537489262741193,
-            "2013": 46.68914574617203
-        },
-        "overall_average_return": 103.87325188837679,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "MU",
-            "ASH",
-            "THC",
-            "AAPL",
-            "TJX",
-            "F",
-            "ROST",
-            "MNST",
-            "JWN",
-            "PPG"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2009": 163.8627028081101,
-            "2010": 30.576762215895815,
-            "2011": 14.250631396176153,
-            "2012": 28.537489262741193,
-            "2013": 46.68914574617203
-        },
-        "overall_average_return": 103.87325188837679,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "MU",
-            "ASH",
-            "THC",
-            "AAPL",
-            "TJX",
-            "F",
-            "ROST",
-            "MNST",
-            "JWN",
-            "PPG"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2009": 162.34307858642077,
-            "2010": 20.07342959623984,
-            "2011": 9.970561339251573,
-            "2012": 13.142612705763007,
-            "2013": 52.092099583482785,
-            "2014": 16.369799873898838,
-            "2015": 19.66319667635621,
-            "2016": 68.69531185902137,
-            "2017": 39.95957875388084,
-            "2018": 3.44872123253408
-        },
-        "overall_average_return": 144.65758705680918,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMZN",
-            "NVDA",
-            "AAPL",
-            "SBUX",
-            "AMD",
-            "MU",
-            "ROST",
-            "ASH",
-            "TJX",
-            "TER"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2009": 162.34307858642077,
-            "2010": 20.07342959623984,
-            "2011": 9.970561339251573,
-            "2012": 13.142612705763007,
-            "2013": 52.092099583482785,
-            "2014": 16.369799873898838,
-            "2015": 19.66319667635621,
-            "2016": 68.69531185902137,
-            "2017": 39.95957875388084,
-            "2018": 3.44872123253408
-        },
-        "overall_average_return": 144.65758705680918,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMZN",
-            "NVDA",
-            "AAPL",
-            "SBUX",
-            "AMD",
-            "MU",
-            "ROST",
-            "ASH",
-            "TJX",
-            "TER"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2009": 162.34307858642077,
-            "2010": 20.07342959623984,
-            "2011": 9.970561339251573,
-            "2012": 13.142612705763007,
-            "2013": 52.092099583482785,
-            "2014": 16.369799873898838,
-            "2015": 19.66319667635621,
-            "2016": 68.69531185902137,
-            "2017": 39.95957875388084,
-            "2018": 3.44872123253408
-        },
-        "overall_average_return": 144.65758705680918,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMZN",
-            "NVDA",
-            "AAPL",
-            "SBUX",
-            "AMD",
-            "MU",
-            "ROST",
-            "ASH",
-            "TJX",
-            "TER"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2009": 143.2797890256486,
-            "2010": 17.595979704574933,
-            "2011": 13.518908601877373,
-            "2012": 15.316599635943076,
-            "2013": 53.738577638048156,
-            "2014": 21.570393888483704,
-            "2015": 5.83588035787498,
-            "2016": 48.08276181113964,
-            "2017": 35.8779289839034,
-            "2018": 7.665390097490514
-        },
-        "overall_average_return": 125.81427668908877,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "SBUX",
-            "AMD",
-            "MU",
-            "ROST",
-            "ASH",
-            "TJX",
-            "TER",
-            "ADBE",
-            "CTAS"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2009": 143.2797890256486,
-            "2010": 17.595979704574933,
-            "2011": 13.518908601877373,
-            "2012": 15.316599635943076,
-            "2013": 53.738577638048156,
-            "2014": 21.570393888483704,
-            "2015": 5.83588035787498,
-            "2016": 48.08276181113964,
-            "2017": 35.8779289839034,
-            "2018": 7.665390097490514
-        },
-        "overall_average_return": 125.81427668908877,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "SBUX",
-            "AMD",
-            "MU",
-            "ROST",
-            "ASH",
-            "TJX",
-            "TER",
-            "ADBE",
-            "CTAS"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2009": 143.2797890256486,
-            "2010": 17.595979704574933,
-            "2011": 13.518908601877373,
-            "2012": 15.316599635943076,
-            "2013": 53.738577638048156,
-            "2014": 21.570393888483704,
-            "2015": 5.83588035787498,
-            "2016": 48.08276181113964,
-            "2017": 35.8779289839034,
-            "2018": 7.665390097490514
-        },
-        "overall_average_return": 125.81427668908877,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "SBUX",
-            "AMD",
-            "MU",
-            "ROST",
-            "ASH",
-            "TJX",
-            "TER",
-            "ADBE",
-            "CTAS"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2009": 136.31512414337067,
-            "2010": 14.194881487682572,
-            "2011": 12.278320099908369,
-            "2012": 13.676979641530995,
-            "2013": 52.684684938358764,
-            "2014": 24.96157610667233,
-            "2015": 1.1110980055408104,
-            "2016": 50.21746826417128,
-            "2017": 38.864235271596556,
-            "2018": 4.895247264338151
-        },
-        "overall_average_return": 123.54331704546453,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "AMD",
-            "MU",
-            "ROST",
-            "ASH",
-            "TJX",
-            "TER",
-            "ADBE",
-            "CTAS",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2009": 136.31512414337067,
-            "2010": 14.194881487682572,
-            "2011": 12.278320099908369,
-            "2012": 13.676979641530995,
-            "2013": 52.684684938358764,
-            "2014": 24.96157610667233,
-            "2015": 1.1110980055408104,
-            "2016": 50.21746826417128,
-            "2017": 38.864235271596556,
-            "2018": 4.895247264338151
-        },
-        "overall_average_return": 123.54331704546453,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "AMD",
-            "MU",
-            "ROST",
-            "ASH",
-            "TJX",
-            "TER",
-            "ADBE",
-            "CTAS",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2009": 136.31512414337067,
-            "2010": 14.194881487682572,
-            "2011": 12.278320099908369,
-            "2012": 13.676979641530995,
-            "2013": 52.684684938358764,
-            "2014": 24.96157610667233,
-            "2015": 1.1110980055408104,
-            "2016": 50.21746826417128,
-            "2017": 38.864235271596556,
-            "2018": 4.895247264338151
-        },
-        "overall_average_return": 123.54331704546453,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "AMD",
-            "MU",
-            "ROST",
-            "ASH",
-            "TJX",
-            "TER",
-            "ADBE",
-            "CTAS",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2009": 126.8501890857149,
-            "2010": 18.192836357921625,
-            "2011": 16.68722863035627,
-            "2012": 12.786711110860569,
-            "2013": 37.177638018385586,
-            "2014": 17.61747516011862,
-            "2015": 27.18839588808001,
-            "2016": 67.63646892769886,
-            "2017": 33.70393215769563,
-            "2018": 9.482556246977436,
-            "2019": 59.836258670656264,
-            "2020": 49.080893367925114,
-            "2021": 43.1567673408211
-        },
-        "overall_average_return": 151.66845794826125,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "AAPL",
-            "AMZN",
-            "KLAC",
-            "AMD",
-            "SBUX",
-            "ASH",
-            "UNH",
-            "CTAS",
-            "TJX"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2009": 126.8501890857149,
-            "2010": 18.192836357921625,
-            "2011": 16.68722863035627,
-            "2012": 12.786711110860569,
-            "2013": 37.177638018385586,
-            "2014": 17.61747516011862,
-            "2015": 27.18839588808001,
-            "2016": 67.63646892769886,
-            "2017": 33.70393215769563,
-            "2018": 9.482556246977436,
-            "2019": 59.836258670656264,
-            "2020": 49.080893367925114,
-            "2021": 43.1567673408211
-        },
-        "overall_average_return": 151.66845794826125,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "AAPL",
-            "AMZN",
-            "KLAC",
-            "AMD",
-            "SBUX",
-            "ASH",
-            "UNH",
-            "CTAS",
-            "TJX"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2009": 126.8501890857149,
-            "2010": 18.192836357921625,
-            "2011": 16.68722863035627,
-            "2012": 12.786711110860569,
-            "2013": 37.177638018385586,
-            "2014": 17.61747516011862,
-            "2015": 27.18839588808001,
-            "2016": 67.63646892769886,
-            "2017": 33.70393215769563,
-            "2018": 9.482556246977436,
-            "2019": 59.836258670656264,
-            "2020": 49.080893367925114,
-            "2021": 43.1567673408211
-        },
-        "overall_average_return": 151.66845794826125,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "AAPL",
-            "AMZN",
-            "KLAC",
-            "AMD",
-            "SBUX",
-            "ASH",
-            "UNH",
-            "CTAS",
-            "TJX"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2009": 116.67386095506842,
-            "2010": 21.812295893894447,
-            "2011": 18.46055183040655,
-            "2012": 13.831169507023313,
-            "2013": 32.33752518432224,
-            "2014": 19.55703910613621,
-            "2015": 10.193777648810727,
-            "2016": 52.797419199244565,
-            "2017": 27.641159198578986,
-            "2018": 8.537741294117792,
-            "2019": 67.48882778308699,
-            "2020": 41.80218302297541,
-            "2021": 38.78295661426082
-        },
-        "overall_average_return": 145.72151158915426,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "KLAC",
-            "AMD",
-            "SBUX",
-            "ASH",
-            "UNH",
-            "CTAS",
-            "TJX",
-            "DHR",
-            "TER"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2009": 116.67386095506842,
-            "2010": 21.812295893894447,
-            "2011": 18.46055183040655,
-            "2012": 13.831169507023313,
-            "2013": 32.33752518432224,
-            "2014": 19.55703910613621,
-            "2015": 10.193777648810727,
-            "2016": 52.797419199244565,
-            "2017": 27.641159198578986,
-            "2018": 8.537741294117792,
-            "2019": 67.48882778308699,
-            "2020": 41.80218302297541,
-            "2021": 38.78295661426082
-        },
-        "overall_average_return": 145.72151158915426,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "KLAC",
-            "AMD",
-            "SBUX",
-            "ASH",
-            "UNH",
-            "CTAS",
-            "TJX",
-            "DHR",
-            "TER"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2009": 116.67385715273373,
-            "2010": 21.812299269946315,
-            "2011": 18.460550728272622,
-            "2012": 13.83116769849852,
-            "2013": 32.33752477477487,
-            "2014": 19.55704239198463,
-            "2015": 10.193777965185333,
-            "2016": 52.797411879666086,
-            "2017": 27.64116063186447,
-            "2018": 8.537742932784715,
-            "2019": 67.48882987142663,
-            "2020": 41.80218274796982,
-            "2021": 38.878752616345984
-        },
-        "overall_average_return": 145.72151158915426,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "KLAC",
-            "AMD",
-            "SBUX",
-            "ASH",
-            "UNH",
-            "CTAS",
-            "TJX",
-            "DHR",
-            "TER"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2009": 113.12383032356783,
-            "2010": 17.77335940763489,
-            "2011": 15.529109864834384,
-            "2012": 14.193083442880402,
-            "2013": 33.76584787848119,
-            "2014": 20.709285695896007,
-            "2015": 9.496585584373204,
-            "2016": 52.22973272175524,
-            "2017": 32.04058330972908,
-            "2018": 6.4821201134748065,
-            "2019": 64.49103615306228,
-            "2020": 39.74227718577236,
-            "2021": 38.70728776361682
-        },
-        "overall_average_return": 139.43370839075777,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "KLAC",
-            "AMD",
-            "ASH",
-            "UNH",
-            "CTAS",
-            "TJX",
-            "DHR",
-            "TER",
-            "CI"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2009": 113.12383032356783,
-            "2010": 17.77335940763489,
-            "2011": 15.529109864834384,
-            "2012": 14.193083442880402,
-            "2013": 33.76584787848119,
-            "2014": 20.709285695896007,
-            "2015": 9.496585584373204,
-            "2016": 52.22973272175524,
-            "2017": 32.04058330972908,
-            "2018": 6.4821201134748065,
-            "2019": 64.49103615306228,
-            "2020": 39.74227718577236,
-            "2021": 38.70728776361682
-        },
-        "overall_average_return": 139.43370839075777,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "KLAC",
-            "AMD",
-            "ASH",
-            "UNH",
-            "CTAS",
-            "TJX",
-            "DHR",
-            "TER",
-            "CI"
-        ]
-    },
-    {
-        "start_jahr": 2009,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2009": 113.12383032356783,
-            "2010": 17.77335940763489,
-            "2011": 15.529109864834384,
-            "2012": 14.193083442880402,
-            "2013": 33.76584787848119,
-            "2014": 20.709285695896007,
-            "2015": 9.496585584373204,
-            "2016": 52.22973272175524,
-            "2017": 32.04058330972908,
-            "2018": 6.4821201134748065,
-            "2019": 64.49103615306228,
-            "2020": 39.74227718577236,
-            "2021": 38.70728776361682
-        },
-        "overall_average_return": 139.43370839075777,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "KLAC",
-            "AMD",
-            "ASH",
-            "UNH",
-            "CTAS",
-            "TJX",
-            "DHR",
-            "TER",
-            "CI"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2010": 35.37080070862052,
-            "2011": 22.142331862439192,
-            "2012": 33.07406786589046,
-            "2013": 55.76101329579011,
-            "2014": 25.36519814615335
-        },
-        "overall_average_return": 77.15032933679876,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "ORLY",
-            "BIIB",
-            "SBUX",
-            "ROST",
-            "HD",
-            "AMZN",
-            "KR",
-            "NKE",
-            "VLO"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2010": 35.37080070862052,
-            "2011": 22.142331862439192,
-            "2012": 33.07406786589046,
-            "2013": 55.76101329579011,
-            "2014": 25.36519814615335
-        },
-        "overall_average_return": 77.15032933679876,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "ORLY",
-            "BIIB",
-            "SBUX",
-            "ROST",
-            "HD",
-            "AMZN",
-            "KR",
-            "NKE",
-            "VLO"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2010": 35.37080070862052,
-            "2011": 22.142331862439192,
-            "2012": 33.07406786589046,
-            "2013": 55.76101329579011,
-            "2014": 25.36519814615335
-        },
-        "overall_average_return": 77.15032933679876,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "ORLY",
-            "BIIB",
-            "SBUX",
-            "ROST",
-            "HD",
-            "AMZN",
-            "KR",
-            "NKE",
-            "VLO"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2010": 34.913430422988306,
-            "2011": 28.30114642899947,
-            "2012": 32.67965878868767,
-            "2013": 55.339691932218685,
-            "2014": 28.618325582994373
-        },
-        "overall_average_return": 75.16583394862678,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "ORLY",
-            "BIIB",
-            "SBUX",
-            "ROST",
-            "HD",
-            "KR",
-            "NKE",
-            "VLO",
-            "TJX"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2010": 34.913430422988306,
-            "2011": 28.30114642899947,
-            "2012": 32.67965878868767,
-            "2013": 55.339691932218685,
-            "2014": 28.618325582994373
-        },
-        "overall_average_return": 75.16583394862678,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "ORLY",
-            "BIIB",
-            "SBUX",
-            "ROST",
-            "HD",
-            "KR",
-            "NKE",
-            "VLO",
-            "TJX"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2010": 34.913430422988306,
-            "2011": 28.30114642899947,
-            "2012": 32.67965878868767,
-            "2013": 55.339691932218685,
-            "2014": 28.618325582994373
-        },
-        "overall_average_return": 75.16583394862678,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "ORLY",
-            "BIIB",
-            "SBUX",
-            "ROST",
-            "HD",
-            "KR",
-            "NKE",
-            "VLO",
-            "TJX"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2010": 34.137442123081414,
-            "2011": 19.134888721272766,
-            "2012": 32.73016833473089,
-            "2013": 46.067039484169854,
-            "2014": 27.997636079936143
-        },
-        "overall_average_return": 69.99455950844208,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "HD",
-            "KR",
-            "NKE",
-            "VLO",
-            "TJX",
-            "TSN",
-            "HRL",
-            "SHW",
-            "SNA"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2010": 34.137442123081414,
-            "2011": 19.134888721272766,
-            "2012": 32.73016833473089,
-            "2013": 46.067039484169854,
-            "2014": 27.997636079936143
-        },
-        "overall_average_return": 69.99455950844208,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "HD",
-            "KR",
-            "NKE",
-            "VLO",
-            "TJX",
-            "TSN",
-            "HRL",
-            "SHW",
-            "SNA"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2010": 34.137442123081414,
-            "2011": 19.134888721272766,
-            "2012": 32.73016833473089,
-            "2013": 46.067039484169854,
-            "2014": 27.997636079936143
-        },
-        "overall_average_return": 69.99455950844208,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ROST",
-            "HD",
-            "KR",
-            "NKE",
-            "VLO",
-            "TJX",
-            "TSN",
-            "HRL",
-            "SHW",
-            "SNA"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2010": 23.912165178143947,
-            "2011": 6.844308532405761,
-            "2012": 28.764211703714953,
-            "2013": 39.4376212071265,
-            "2014": 26.86745796708734,
-            "2015": 31.27577560545044,
-            "2016": 46.29453628849898,
-            "2017": 49.490424608602915,
-            "2018": 4.151480811288062,
-            "2019": 47.10287066637819
-        },
-        "overall_average_return": 118.47469677598679,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "AMZN",
-            "AAPL",
-            "CTAS",
-            "STZ",
-            "SHW",
-            "INTU",
-            "ADBE",
-            "UNH",
-            "DHR"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2010": 23.912165178143947,
-            "2011": 6.844308532405761,
-            "2012": 28.764211703714953,
-            "2013": 39.4376212071265,
-            "2014": 26.86745796708734,
-            "2015": 31.27577560545044,
-            "2016": 46.29453628849898,
-            "2017": 49.490424608602915,
-            "2018": 4.151480811288062,
-            "2019": 47.10287066637819
-        },
-        "overall_average_return": 118.47469677598679,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "AMZN",
-            "AAPL",
-            "CTAS",
-            "STZ",
-            "SHW",
-            "INTU",
-            "ADBE",
-            "UNH",
-            "DHR"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2010": 23.912165178143947,
-            "2011": 6.844308532405761,
-            "2012": 28.764211703714953,
-            "2013": 39.4376212071265,
-            "2014": 26.86745796708734,
-            "2015": 31.27577560545044,
-            "2016": 46.29453628849898,
-            "2017": 49.490424608602915,
-            "2018": 4.151480811288062,
-            "2019": 47.10287066637819
-        },
-        "overall_average_return": 118.47469677598679,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "AMZN",
-            "AAPL",
-            "CTAS",
-            "STZ",
-            "SHW",
-            "INTU",
-            "ADBE",
-            "UNH",
-            "DHR"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2010": 33.92776193394364,
-            "2011": 17.834067363030144,
-            "2012": 28.289420727996077,
-            "2013": 37.45771991892688,
-            "2014": 29.484705434849683,
-            "2015": 16.105553751094483,
-            "2016": 22.331241495874306,
-            "2017": 43.96704672977131,
-            "2018": 5.558703034724268,
-            "2019": 47.60298344026809
-        },
-        "overall_average_return": 114.3708792438966,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "CTAS",
-            "STZ",
-            "SHW",
-            "INTU",
-            "ADBE",
-            "UNH",
-            "DHR",
-            "ROST",
-            "EL"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2010": 33.92776193394364,
-            "2011": 17.834067363030144,
-            "2012": 28.289420727996077,
-            "2013": 37.45771991892688,
-            "2014": 29.484705434849683,
-            "2015": 16.105553751094483,
-            "2016": 22.331241495874306,
-            "2017": 43.96704672977131,
-            "2018": 5.558703034724268,
-            "2019": 47.60298344026809
-        },
-        "overall_average_return": 114.3708792438966,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "CTAS",
-            "STZ",
-            "SHW",
-            "INTU",
-            "ADBE",
-            "UNH",
-            "DHR",
-            "ROST",
-            "EL"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2010": 33.92776193394364,
-            "2011": 17.834067363030144,
-            "2012": 28.289420727996077,
-            "2013": 37.45771991892688,
-            "2014": 29.484705434849683,
-            "2015": 16.105553751094483,
-            "2016": 22.331241495874306,
-            "2017": 43.96704672977131,
-            "2018": 5.558703034724268,
-            "2019": 47.60298344026809
-        },
-        "overall_average_return": 114.3708792438966,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "CTAS",
-            "STZ",
-            "SHW",
-            "INTU",
-            "ADBE",
-            "UNH",
-            "DHR",
-            "ROST",
-            "EL"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2010": 28.767580961592493,
-            "2011": 15.442972924868403,
-            "2012": 26.722960823495978,
-            "2013": 36.23695778976109,
-            "2014": 30.51959199902549,
-            "2015": 15.542388816648991,
-            "2016": 21.220340116246504,
-            "2017": 38.83981175619159,
-            "2018": 8.70746461819424,
-            "2019": 47.52906287421674
-        },
-        "overall_average_return": 108.18849404401396,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "CTAS",
-            "SHW",
-            "ADBE",
-            "UNH",
-            "DHR",
-            "ROST",
-            "HD",
-            "ADSK",
-            "NKE"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2010": 28.767580961592493,
-            "2011": 15.442972924868403,
-            "2012": 26.722960823495978,
-            "2013": 36.23695778976109,
-            "2014": 30.51959199902549,
-            "2015": 15.542388816648991,
-            "2016": 21.220340116246504,
-            "2017": 38.83981175619159,
-            "2018": 8.70746461819424,
-            "2019": 47.52906287421674
-        },
-        "overall_average_return": 108.18849404401396,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "CTAS",
-            "SHW",
-            "ADBE",
-            "UNH",
-            "DHR",
-            "ROST",
-            "HD",
-            "ADSK",
-            "NKE"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2010": 28.767580961592493,
-            "2011": 15.442972924868403,
-            "2012": 26.722960823495978,
-            "2013": 36.23695778976109,
-            "2014": 30.51959199902549,
-            "2015": 15.542388816648991,
-            "2016": 21.220340116246504,
-            "2017": 38.83981175619159,
-            "2018": 8.70746461819424,
-            "2019": 47.52906287421674
-        },
-        "overall_average_return": 108.18849404401396,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AAPL",
-            "CTAS",
-            "SHW",
-            "ADBE",
-            "UNH",
-            "DHR",
-            "ROST",
-            "HD",
-            "ADSK",
-            "NKE"
-        ]
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2010,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2011": 21.421941908791837,
-            "2012": 21.135560434535048,
-            "2013": 50.529506534064325,
-            "2014": 35.61449580872594,
-            "2015": 29.78874409926774
-        },
-        "overall_average_return": 65.9345094450937,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "STZ",
-            "UNH",
-            "NOC",
-            "ORLY",
-            "CTAS",
-            "LMT",
-            "ROST",
-            "HD",
-            "AET"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2011": 21.421941908791837,
-            "2012": 21.135560434535048,
-            "2013": 50.529506534064325,
-            "2014": 35.61449580872594,
-            "2015": 29.78874409926774
-        },
-        "overall_average_return": 65.9345094450937,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "STZ",
-            "UNH",
-            "NOC",
-            "ORLY",
-            "CTAS",
-            "LMT",
-            "ROST",
-            "HD",
-            "AET"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2011": 21.421941908791837,
-            "2012": 21.135560434535048,
-            "2013": 50.529506534064325,
-            "2014": 35.61449580872594,
-            "2015": 29.78874409926774
-        },
-        "overall_average_return": 65.9345094450937,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "STZ",
-            "UNH",
-            "NOC",
-            "ORLY",
-            "CTAS",
-            "LMT",
-            "ROST",
-            "HD",
-            "AET"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2011": 29.037369492997822,
-            "2012": 25.243065051983315,
-            "2013": 56.2979987088838,
-            "2014": 34.85534223676424,
-            "2015": 22.100938704444182
-        },
-        "overall_average_return": 64.39880936026842,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "UNH",
-            "NOC",
-            "ORLY",
-            "CTAS",
-            "LMT",
-            "ROST",
-            "HD",
-            "AET",
-            "BIIB"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2011": 29.037369492997822,
-            "2012": 25.243065051983315,
-            "2013": 56.2979987088838,
-            "2014": 34.85534223676424,
-            "2015": 22.100938704444182
-        },
-        "overall_average_return": 64.39880936026842,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "UNH",
-            "NOC",
-            "ORLY",
-            "CTAS",
-            "LMT",
-            "ROST",
-            "HD",
-            "AET",
-            "BIIB"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2011": 29.037369492997822,
-            "2012": 25.243065051983315,
-            "2013": 56.2979987088838,
-            "2014": 34.85534223676424,
-            "2015": 22.100938704444182
-        },
-        "overall_average_return": 64.39880936026842,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "UNH",
-            "NOC",
-            "ORLY",
-            "CTAS",
-            "LMT",
-            "ROST",
-            "HD",
-            "AET",
-            "BIIB"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2011": 34.75954906031855,
-            "2012": 20.28452692558113,
-            "2013": 53.6104417312734,
-            "2014": 29.14769711488279,
-            "2015": 18.038613028030703
-        },
-        "overall_average_return": 59.11467802540136,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "UNH",
-            "NOC",
-            "CTAS",
-            "LMT",
-            "ROST",
-            "HD",
-            "BIIB",
-            "TSN",
-            "TJX",
-            "NI"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2011": 34.75954906031855,
-            "2012": 20.28452692558113,
-            "2013": 53.6104417312734,
-            "2014": 29.14769711488279,
-            "2015": 18.038613028030703
-        },
-        "overall_average_return": 59.11467802540136,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "UNH",
-            "NOC",
-            "CTAS",
-            "LMT",
-            "ROST",
-            "HD",
-            "BIIB",
-            "TSN",
-            "TJX",
-            "NI"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2011": 34.75954906031855,
-            "2012": 20.28452692558113,
-            "2013": 53.6104417312734,
-            "2014": 29.14769711488279,
-            "2015": 18.038613028030703
-        },
-        "overall_average_return": 59.11467802540136,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "UNH",
-            "NOC",
-            "CTAS",
-            "LMT",
-            "ROST",
-            "HD",
-            "BIIB",
-            "TSN",
-            "TJX",
-            "NI"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2011": 7.412846478218624,
-            "2012": 11.080484950448229,
-            "2013": 40.96331210390366,
-            "2014": 20.912303161147552,
-            "2015": 28.67844195315157,
-            "2016": 68.98129295545475,
-            "2017": 45.93411732322295,
-            "2018": 10.80723527728499,
-            "2019": 68.69494008411475,
-            "2020": 56.3336766404723
-        },
-        "overall_average_return": 141.8799696461503,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "CTAS",
-            "KLAC",
-            "ADBE",
-            "AMZN",
-            "AAPL",
-            "AMD",
-            "MCO",
-            "UNH",
-            "MSFT"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2011": 7.412846478218624,
-            "2012": 11.080484950448229,
-            "2013": 40.96331210390366,
-            "2014": 20.912303161147552,
-            "2015": 28.67844195315157,
-            "2016": 68.98129295545475,
-            "2017": 45.93411732322295,
-            "2018": 10.80723527728499,
-            "2019": 68.69494008411475,
-            "2020": 56.3336766404723
-        },
-        "overall_average_return": 141.8799696461503,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "CTAS",
-            "KLAC",
-            "ADBE",
-            "AMZN",
-            "AAPL",
-            "AMD",
-            "MCO",
-            "UNH",
-            "MSFT"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2011": 7.412846478218624,
-            "2012": 11.080484950448229,
-            "2013": 40.96331210390366,
-            "2014": 20.912303161147552,
-            "2015": 28.67844195315157,
-            "2016": 68.98129295545475,
-            "2017": 45.93411732322295,
-            "2018": 10.80723527728499,
-            "2019": 68.69494008411475,
-            "2020": 56.3336766404723
-        },
-        "overall_average_return": 141.8799696461503,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "CTAS",
-            "KLAC",
-            "ADBE",
-            "AMZN",
-            "AAPL",
-            "AMD",
-            "MCO",
-            "UNH",
-            "MSFT"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2011": 11.506704246911111,
-            "2012": 14.839745693466416,
-            "2013": 39.289557897467944,
-            "2014": 24.595708271720635,
-            "2015": 14.10664844219191,
-            "2016": 51.957173941425935,
-            "2017": 37.678874097733626,
-            "2018": 12.039630511802416,
-            "2019": 67.71423193942587,
-            "2020": 44.137725837350274
-        },
-        "overall_average_return": 140.9234079448425,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "ADBE",
-            "AAPL",
-            "AMD",
-            "MCO",
-            "UNH",
-            "MSFT",
-            "DHR",
-            "HD"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2011": 11.506704246911111,
-            "2012": 14.839745693466416,
-            "2013": 39.289557897467944,
-            "2014": 24.595708271720635,
-            "2015": 14.10664844219191,
-            "2016": 51.957173941425935,
-            "2017": 37.678874097733626,
-            "2018": 12.039630511802416,
-            "2019": 67.71423193942587,
-            "2020": 44.137725837350274
-        },
-        "overall_average_return": 140.9234079448425,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "ADBE",
-            "AAPL",
-            "AMD",
-            "MCO",
-            "UNH",
-            "MSFT",
-            "DHR",
-            "HD"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2011": 11.506704246911111,
-            "2012": 14.839745693466416,
-            "2013": 39.289557897467944,
-            "2014": 24.595708271720635,
-            "2015": 14.10664844219191,
-            "2016": 51.957173941425935,
-            "2017": 37.678874097733626,
-            "2018": 12.039630511802416,
-            "2019": 67.71423193942587,
-            "2020": 44.137725837350274
-        },
-        "overall_average_return": 140.9234079448425,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "ADBE",
-            "AAPL",
-            "AMD",
-            "MCO",
-            "UNH",
-            "MSFT",
-            "DHR",
-            "HD"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2011": 9.502599399870752,
-            "2012": 17.41318564435515,
-            "2013": 35.755577629315965,
-            "2014": 26.615985373555528,
-            "2015": 13.493385294065652,
-            "2016": 52.78544778062615,
-            "2017": 37.05656016337446,
-            "2018": 11.944341624999865,
-            "2019": 65.70340521429414,
-            "2020": 45.04417952342717
-        },
-        "overall_average_return": 130.83754578327483,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "ADBE",
-            "AAPL",
-            "AMD",
-            "UNH",
-            "MSFT",
-            "DHR",
-            "HD",
-            "SHW"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2011": 9.502599399870752,
-            "2012": 17.41318564435515,
-            "2013": 35.755577629315965,
-            "2014": 26.615985373555528,
-            "2015": 13.493385294065652,
-            "2016": 52.78544778062615,
-            "2017": 37.05656016337446,
-            "2018": 11.944341624999865,
-            "2019": 65.70340521429414,
-            "2020": 45.04417952342717
-        },
-        "overall_average_return": 130.83754578327483,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "ADBE",
-            "AAPL",
-            "AMD",
-            "UNH",
-            "MSFT",
-            "DHR",
-            "HD",
-            "SHW"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2011": 9.502599399870752,
-            "2012": 17.41318564435515,
-            "2013": 35.755577629315965,
-            "2014": 26.615985373555528,
-            "2015": 13.493385294065652,
-            "2016": 52.78544778062615,
-            "2017": 37.05656016337446,
-            "2018": 11.944341624999865,
-            "2019": 65.70340521429414,
-            "2020": 45.04417952342717
-        },
-        "overall_average_return": 130.83754578327483,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "ADBE",
-            "AAPL",
-            "AMD",
-            "UNH",
-            "MSFT",
-            "DHR",
-            "HD",
-            "SHW"
-        ]
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2011,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2012": 43.97171942105267,
-            "2013": 97.89137331511996,
-            "2014": 29.509128928091556,
-            "2015": 39.52452584875142,
-            "2016": 39.50298869881895
-        },
-        "overall_average_return": 89.3841486271086,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NFLX",
-            "NVDA",
-            "STZ",
-            "LUV",
-            "AMZN",
-            "ADBE",
-            "MU",
-            "NOC",
-            "VLO",
-            "PHM"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2012": 43.97171942105267,
-            "2013": 97.89137331511996,
-            "2014": 29.509128928091556,
-            "2015": 39.52452584875142,
-            "2016": 39.50298869881895
-        },
-        "overall_average_return": 89.3841486271086,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NFLX",
-            "NVDA",
-            "STZ",
-            "LUV",
-            "AMZN",
-            "ADBE",
-            "MU",
-            "NOC",
-            "VLO",
-            "PHM"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2012": 43.97171942105267,
-            "2013": 97.89137331511996,
-            "2014": 29.509128928091556,
-            "2015": 39.52452584875142,
-            "2016": 39.50298869881895
-        },
-        "overall_average_return": 89.3841486271086,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NFLX",
-            "NVDA",
-            "STZ",
-            "LUV",
-            "AMZN",
-            "ADBE",
-            "MU",
-            "NOC",
-            "VLO",
-            "PHM"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2012": 53.50993384360302,
-            "2013": 73.30885816441958,
-            "2014": 32.894139499756506,
-            "2015": 17.08709137032929,
-            "2016": 26.37441325411613
-        },
-        "overall_average_return": 87.9170045280829,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "LUV",
-            "AMZN",
-            "ADBE",
-            "MU",
-            "NOC",
-            "VLO",
-            "PHM",
-            "AMAT",
-            "BAC"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2012": 53.50993384360302,
-            "2013": 73.30885816441958,
-            "2014": 32.894139499756506,
-            "2015": 17.08709137032929,
-            "2016": 26.37441325411613
-        },
-        "overall_average_return": 87.9170045280829,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "LUV",
-            "AMZN",
-            "ADBE",
-            "MU",
-            "NOC",
-            "VLO",
-            "PHM",
-            "AMAT",
-            "BAC"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2012": 53.50993384360302,
-            "2013": 73.30885816441958,
-            "2014": 32.894139499756506,
-            "2015": 17.08709137032929,
-            "2016": 26.37441325411613
-        },
-        "overall_average_return": 87.9170045280829,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "LUV",
-            "AMZN",
-            "ADBE",
-            "MU",
-            "NOC",
-            "VLO",
-            "PHM",
-            "AMAT",
-            "BAC"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2012": 54.49563702721325,
-            "2013": 71.05112219897754,
-            "2014": 38.17035489651518,
-            "2015": 8.223355343044522,
-            "2016": 25.049692312485295
-        },
-        "overall_average_return": 82.17027079768454,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "LUV",
-            "ADBE",
-            "MU",
-            "NOC",
-            "VLO",
-            "PHM",
-            "AMAT",
-            "BAC",
-            "HD"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2012": 54.49563702721325,
-            "2013": 71.05112219897754,
-            "2014": 38.17035489651518,
-            "2015": 8.223355343044522,
-            "2016": 25.049692312485295
-        },
-        "overall_average_return": 82.17027079768454,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "LUV",
-            "ADBE",
-            "MU",
-            "NOC",
-            "VLO",
-            "PHM",
-            "AMAT",
-            "BAC",
-            "HD"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2012": 54.49563702721325,
-            "2013": 71.05112219897754,
-            "2014": 38.17035489651518,
-            "2015": 8.223355343044522,
-            "2016": 25.049692312485295
-        },
-        "overall_average_return": 82.17027079768454,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "STZ",
-            "LUV",
-            "ADBE",
-            "MU",
-            "NOC",
-            "VLO",
-            "PHM",
-            "AMAT",
-            "BAC",
-            "HD"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2012": 19.620933433418205,
-            "2013": 82.11518555574611,
-            "2014": 21.321197807207575,
-            "2015": 32.596700042898846,
-            "2016": 45.984767212342426,
-            "2017": 36.852574495936025,
-            "2018": 2.8053364089783837,
-            "2019": 39.3339919604059,
-            "2020": 61.33112134210208,
-            "2021": 121.049723132793
-        },
-        "overall_average_return": 108.955083517818,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "NFLX",
-            "GME",
-            "CTAS",
-            "KLAC",
-            "TMO",
-            "STZ",
-            "UNH",
-            "NDAQ",
-            "DHR"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2012": 19.620933433418205,
-            "2013": 82.11518555574611,
-            "2014": 21.321197807207575,
-            "2015": 32.596700042898846,
-            "2016": 45.984767212342426,
-            "2017": 36.852574495936025,
-            "2018": 2.8053364089783837,
-            "2019": 39.3339919604059,
-            "2020": 61.33112134210208,
-            "2021": 121.049723132793
-        },
-        "overall_average_return": 108.955083517818,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "NFLX",
-            "GME",
-            "CTAS",
-            "KLAC",
-            "TMO",
-            "STZ",
-            "UNH",
-            "NDAQ",
-            "DHR"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2012": 19.620933433418205,
-            "2013": 82.11518555574611,
-            "2014": 21.321197807207575,
-            "2015": 32.596700042898846,
-            "2016": 45.984767212342426,
-            "2017": 36.852574495936025,
-            "2018": 2.8053364089783837,
-            "2019": 39.3339919604059,
-            "2020": 61.33112134210208,
-            "2021": 121.049723132793
-        },
-        "overall_average_return": 108.955083517818,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "NFLX",
-            "GME",
-            "CTAS",
-            "KLAC",
-            "TMO",
-            "STZ",
-            "UNH",
-            "NDAQ",
-            "DHR"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2012": 17.057489947201216,
-            "2013": 50.20429468596179,
-            "2014": 24.8752524448188,
-            "2015": 19.802895856657816,
-            "2016": 51.76432954129175,
-            "2017": 31.820315871333282,
-            "2018": 12.671804114846655,
-            "2019": 55.45213117029944,
-            "2020": 35.71050280565947,
-            "2021": 42.41956308312713
-        },
-        "overall_average_return": 103.89435583903692,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "TMO",
-            "STZ",
-            "UNH",
-            "DHR",
-            "AMD",
-            "ADBE",
-            "LLY",
-            "NOC"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2012": 17.057489947201216,
-            "2013": 50.20429468596179,
-            "2014": 24.8752524448188,
-            "2015": 19.802895856657816,
-            "2016": 51.76432954129175,
-            "2017": 31.820315871333282,
-            "2018": 12.671804114846655,
-            "2019": 55.45213117029944,
-            "2020": 35.71050280565947,
-            "2021": 42.41956308312713
-        },
-        "overall_average_return": 103.89435583903692,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "TMO",
-            "STZ",
-            "UNH",
-            "DHR",
-            "AMD",
-            "ADBE",
-            "LLY",
-            "NOC"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2012": 17.057489947201216,
-            "2013": 50.20429468596179,
-            "2014": 24.8752524448188,
-            "2015": 19.802895856657816,
-            "2016": 51.76432954129175,
-            "2017": 31.820315871333282,
-            "2018": 12.671804114846655,
-            "2019": 55.45213117029944,
-            "2020": 35.71050280565947,
-            "2021": 42.41956308312713
-        },
-        "overall_average_return": 103.89435583903692,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "TMO",
-            "STZ",
-            "UNH",
-            "DHR",
-            "AMD",
-            "ADBE",
-            "LLY",
-            "NOC"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2012": 17.057489947201216,
-            "2013": 50.20429468596179,
-            "2014": 24.8752524448188,
-            "2015": 19.802895856657816,
-            "2016": 51.76432954129175,
-            "2017": 31.820315871333282,
-            "2018": 12.671804114846655,
-            "2019": 55.45213117029944,
-            "2020": 35.71050280565947,
-            "2021": 42.41956308312713
-        },
-        "overall_average_return": 103.89435583903692,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "TMO",
-            "STZ",
-            "UNH",
-            "DHR",
-            "AMD",
-            "ADBE",
-            "LLY",
-            "NOC"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2012": 17.057489947201216,
-            "2013": 50.20429468596179,
-            "2014": 24.8752524448188,
-            "2015": 19.802895856657816,
-            "2016": 51.76432954129175,
-            "2017": 31.820315871333282,
-            "2018": 12.671804114846655,
-            "2019": 55.45213117029944,
-            "2020": 35.71050280565947,
-            "2021": 42.41956308312713
-        },
-        "overall_average_return": 103.89435583903692,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "TMO",
-            "STZ",
-            "UNH",
-            "DHR",
-            "AMD",
-            "ADBE",
-            "LLY",
-            "NOC"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2012": 17.057489947201216,
-            "2013": 50.20429468596179,
-            "2014": 24.8752524448188,
-            "2015": 19.802895856657816,
-            "2016": 51.76432954129175,
-            "2017": 31.820315871333282,
-            "2018": 12.671804114846655,
-            "2019": 55.45213117029944,
-            "2020": 35.71050280565947,
-            "2021": 42.41956308312713
-        },
-        "overall_average_return": 103.89435583903692,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "CTAS",
-            "KLAC",
-            "TMO",
-            "STZ",
-            "UNH",
-            "DHR",
-            "AMD",
-            "ADBE",
-            "LLY",
-            "NOC"
-        ]
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2012,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2013": 102.15809807795446,
-            "2014": 14.18992983217704,
-            "2015": 45.272826357256655,
-            "2016": 72.35461642247529,
-            "2017": 49.7319599761564
-        },
-        "overall_average_return": 77.79314558168892,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NFLX",
-            "NVDA",
-            "AMD",
-            "BSX",
-            "ADBE",
-            "AMZN",
-            "EA",
-            "BBY",
-            "UNH",
-            "BA"
-        ]
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2013": 102.15809807795446,
-            "2014": 14.18992983217704,
-            "2015": 45.272826357256655,
-            "2016": 72.35461642247529,
-            "2017": 49.7319599761564
-        },
-        "overall_average_return": 77.79314558168892,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NFLX",
-            "NVDA",
-            "AMD",
-            "BSX",
-            "ADBE",
-            "AMZN",
-            "EA",
-            "BBY",
-            "UNH",
-            "BA"
-        ]
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2013": 102.15809807795446,
-            "2014": 14.18992983217704,
-            "2015": 45.272826357256655,
-            "2016": 72.35461642247529,
-            "2017": 49.7319599761564
-        },
-        "overall_average_return": 77.79314558168892,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NFLX",
-            "NVDA",
-            "AMD",
-            "BSX",
-            "ADBE",
-            "AMZN",
-            "EA",
-            "BBY",
-            "UNH",
-            "BA"
-        ]
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2013": 100.23076148052017,
-            "2014": 30.65250264481641,
-            "2015": 19.91203399192461,
-            "2016": 55.0863404565798,
-            "2017": 47.0702488154663
-        },
-        "overall_average_return": 73.41967883646754,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMD",
-            "BSX",
-            "ADBE",
-            "AMZN",
-            "EA",
-            "BBY",
-            "UNH",
-            "BA",
-            "MU",
-            "LUV"
-        ]
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2013": 100.23076148052017,
-            "2014": 30.65250264481641,
-            "2015": 19.91203399192461,
-            "2016": 55.0863404565798,
-            "2017": 47.0702488154663
-        },
-        "overall_average_return": 73.41967883646754,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMD",
-            "BSX",
-            "ADBE",
-            "AMZN",
-            "EA",
-            "BBY",
-            "UNH",
-            "BA",
-            "MU",
-            "LUV"
-        ]
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2013": 100.23076148052017,
-            "2014": 30.65250264481641,
-            "2015": 19.91203399192461,
-            "2016": 55.0863404565798,
-            "2017": 47.0702488154663
-        },
-        "overall_average_return": 73.41967883646754,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMD",
-            "BSX",
-            "ADBE",
-            "AMZN",
-            "EA",
-            "BBY",
-            "UNH",
-            "BA",
-            "MU",
-            "LUV"
-        ]
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2013": 103.4703532429716,
-            "2014": 37.0323945007459,
-            "2015": 12.723819457288766,
-            "2016": 54.31622133265752,
-            "2017": 46.4822512288777
-        },
-        "overall_average_return": 69.19061240475881,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMD",
-            "BSX",
-            "ADBE",
-            "EA",
-            "BBY",
-            "UNH",
-            "BA",
-            "MU",
-            "LUV",
-            "STZ"
-        ]
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2013": 103.4703532429716,
-            "2014": 37.0323945007459,
-            "2015": 12.723819457288766,
-            "2016": 54.31622133265752,
-            "2017": 46.4822512288777
-        },
-        "overall_average_return": 69.19061240475881,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMD",
-            "BSX",
-            "ADBE",
-            "EA",
-            "BBY",
-            "UNH",
-            "BA",
-            "MU",
-            "LUV",
-            "STZ"
-        ]
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2013": 103.4703532429716,
-            "2014": 37.0323945007459,
-            "2015": 12.723819457288766,
-            "2016": 54.31622133265752,
-            "2017": 46.4822512288777
-        },
-        "overall_average_return": 69.19061240475881,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "AMD",
-            "BSX",
-            "ADBE",
-            "EA",
-            "BBY",
-            "UNH",
-            "BA",
-            "MU",
-            "LUV",
-            "STZ"
-        ]
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2013,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2014": 37.44503373315455,
-            "2015": 45.96881095267597,
-            "2016": 41.62201242646513,
-            "2017": 53.566598964162196,
-            "2018": 9.29704966712934
-        },
-        "overall_average_return": 72.86327736904083,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "EW",
-            "NFLX",
-            "LRCX",
-            "ADBE",
-            "CTAS",
-            "MSFT",
-            "EA",
             "ISRG",
-            "AMZN"
+            "FFIV",
+            "BEN"
         ]
     },
     {
-        "start_jahr": 2014,
+        "start_jahr": 2011,
         "anlagehorizont": 5,
         "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
+        "durchschnittliche_rendite": 0.3,
         "average_yearly_returns": {
-            "2014": 37.44503373315455,
-            "2015": 45.96881095267597,
-            "2016": 41.62201242646513,
-            "2017": 53.566598964162196,
-            "2018": 9.29704966712934
+            "2011": 6831.8147289713625,
+            "2012": 1.8198257637974224,
+            "2013": 37.06014884435655,
+            "2014": -5.489343857597062,
+            "2015": 67732.51650796874
         },
-        "overall_average_return": 72.86327736904083,
+        "overall_average_return": 20.773080398313773,
+        "anzahl_aktien": 6,
+        "aktien": [
+            "TIE",
+            "CTSH",
+            "AMZN",
+            "ESRX",
+            "TWX",
+            "CSCO"
+        ]
+    },
+    {
+        "start_jahr": 2011,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.5,
+        "average_yearly_returns": {
+            "2011": 41028.08350017964,
+            "2012": -99.76414285387311,
+            "2013": 52.727272727272734,
+            "2014": -99.98438922088303,
+            "2015": 406280.5703972309
+        },
+        "overall_average_return": -16.50646302041087,
+        "anzahl_aktien": 1,
+        "aktien": [
+            "TIE"
+        ]
+    },
+    {
+        "start_jahr": 2011,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2011": 4095.7306277639673,
+            "2012": 8.429691986638195,
+            "2013": 29.6497863933585,
+            "2014": 7.97323221390247,
+            "2015": 40622.219551364105
+        },
+        "overall_average_return": 15.461947297253488,
         "anzahl_aktien": 10,
         "aktien": [
-            "NVDA",
-            "EW",
-            "NFLX",
-            "LRCX",
-            "ADBE",
-            "CTAS",
+            "TIE",
+            "ESRX",
+            "TWX",
+            "CSCO",
+            "ORCL",
+            "HD",
+            "BEN",
+            "SRCL",
             "MSFT",
-            "EA",
+            "NTAP"
+        ]
+    },
+    {
+        "start_jahr": 2011,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2011": 4095.7306328010573,
+            "2012": 8.429684116164875,
+            "2013": 29.649773277943403,
+            "2014": 7.973249864462289,
+            "2015": 40622.219554901334
+        },
+        "overall_average_return": 15.461945773317845,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "TIE",
+            "ESRX",
+            "TWX",
+            "CSCO",
+            "ORCL",
+            "HD",
+            "BEN",
+            "SRCL",
+            "MSFT",
+            "NTAP"
+        ]
+    },
+    {
+        "start_jahr": 2011,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2011": 10252.89691167973,
+            "2012": -10.406170848936169,
+            "2013": 33.68810849162463,
+            "2014": -4.368829501465507,
+            "2015": 101565.51732077738
+        },
+        "overall_average_return": 13.372080962001409,
+        "anzahl_aktien": 4,
+        "aktien": [
+            "TIE",
+            "ESRX",
+            "TWX",
+            "CSCO"
+        ]
+    },
+    {
+        "start_jahr": 2011,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.5,
+        "average_yearly_returns": {
+            "2011": 41028.08350017964,
+            "2012": -99.76414285387311,
+            "2013": 52.727272727272734,
+            "2014": -99.98438922088303,
+            "2015": 406280.5703972309
+        },
+        "overall_average_return": -16.50646302041087,
+        "anzahl_aktien": 1,
+        "aktien": [
+            "TIE"
+        ]
+    },
+    {
+        "start_jahr": 2011,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2011": -3.7071913335888955,
+            "2012": 16.500876799436053,
+            "2013": 42.93440263003737,
+            "2014": 12.96341264396393,
+            "2015": -9.340928191124638
+        },
+        "overall_average_return": 16.32245118656842,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CSCO",
+            "ORCL",
+            "HD",
+            "BEN",
+            "MSFT",
+            "FAST",
+            "QCOM",
+            "EXPD",
+            "GPS",
+            "BBY"
+        ]
+    },
+    {
+        "start_jahr": 2011,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.2,
+        "average_yearly_returns": {
+            "2011": -3.7071619054703007,
+            "2012": 16.500878623650365,
+            "2013": 42.934411883826215,
+            "2014": 12.963393494644333,
+            "2015": -9.340941090387037
+        },
+        "overall_average_return": 16.322454483815367,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "CSCO",
+            "ORCL",
+            "HD",
+            "BEN",
+            "MSFT",
+            "FAST",
+            "QCOM",
+            "EXPD",
+            "GPS",
+            "BBY"
+        ]
+    },
+    {
+        "start_jahr": 2011,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 20,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2011": -10.764041488843857,
+            "2012": 7.95124369293807,
+            "2013": 12.766820866419714,
+            "2014": 29.488340611754225,
+            "2015": 0.69240968421167
+        },
+        "overall_average_return": 14.469761869989139,
+        "anzahl_aktien": 1,
+        "aktien": [
+            "CSCO"
+        ]
+    },
+    {
+        "start_jahr": 2012,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.1,
+        "average_yearly_returns": {
+            "2012": 8.179932810395236,
+            "2013": 30.53057491732177,
+            "2014": 1.8736541982022439,
+            "2015": 40636.62792078336,
+            "2016": 3.226676516862022
+        },
+        "overall_average_return": 35.64438086669182,
+        "anzahl_aktien": 10,
+        "aktien": [
+            "TIE",
+            "CTSH",
+            "AMZN",
+            "ESRX",
             "ISRG",
-            "AMZN"
+            "TWX",
+            "CSCO",
+            "WYNN",
+            "HD",
+            "FAST"
         ]
     },
     {
-        "start_jahr": 2014,
+        "start_jahr": 2012,
         "anlagehorizont": 5,
         "aktie_laenge_am_markt": 10,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2014": 37.44503373315455,
-            "2015": 45.96881095267597,
-            "2016": 41.62201242646513,
-            "2017": 53.566598964162196,
-            "2018": 9.29704966712934
+            "2012": 8.179921012960609,
+            "2013": 30.530582773468957,
+            "2014": 1.8736622281512672,
+            "2015": 40636.6279176541,
+            "2016": 3.2266855625847564
         },
-        "overall_average_return": 72.86327736904083,
+        "overall_average_return": 35.64437609275478,
         "anzahl_aktien": 10,
         "aktien": [
-            "NVDA",
-            "EW",
-            "NFLX",
-            "LRCX",
-            "ADBE",
-            "CTAS",
-            "MSFT",
-            "EA",
+            "TIE",
+            "CTSH",
+            "AMZN",
+            "ESRX",
             "ISRG",
-            "AMZN"
+            "TWX",
+            "CSCO",
+            "WYNN",
+            "HD",
+            "FAST"
         ]
     },
     {
-        "start_jahr": 2014,
+        "start_jahr": 2012,
         "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.3,
         "average_yearly_returns": {
-            "2014": 34.02506926873412,
-            "2015": 33.27182821410607,
-            "2016": 50.273857886531815,
-            "2017": 48.93522880632319,
-            "2018": 0.8105430445921612
+            "2012": -5.679093421682473,
+            "2013": 28.764015310715035,
+            "2014": -11.043806256747194,
+            "2015": 81284.1556563764,
+            "2016": -18.120721145781477
         },
-        "overall_average_return": 62.6596822926511,
-        "anzahl_aktien": 10,
+        "overall_average_return": 35.9507054265143,
+        "anzahl_aktien": 5,
         "aktien": [
-            "NVDA",
-            "LRCX",
-            "ADBE",
-            "CTAS",
-            "MSFT",
-            "EA",
+            "TIE",
+            "CTSH",
             "AMZN",
-            "UNH",
-            "DHR",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2014": 34.02506926873412,
-            "2015": 33.27182821410607,
-            "2016": 50.273857886531815,
-            "2017": 48.93522880632319,
-            "2018": 0.8105430445921612
-        },
-        "overall_average_return": 62.6596822926511,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "LRCX",
-            "ADBE",
-            "CTAS",
-            "MSFT",
-            "EA",
-            "AMZN",
-            "UNH",
-            "DHR",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2014": 34.02506926873412,
-            "2015": 33.27182821410607,
-            "2016": 50.273857886531815,
-            "2017": 48.93522880632319,
-            "2018": 0.8105430445921612
-        },
-        "overall_average_return": 62.6596822926511,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "LRCX",
-            "ADBE",
-            "CTAS",
-            "MSFT",
-            "EA",
-            "AMZN",
-            "UNH",
-            "DHR",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2014": 42.097481411463576,
-            "2015": 12.14706373643557,
-            "2016": 34.208728987776766,
-            "2017": 45.37655004967871,
-            "2018": -2.9702223806774963
-        },
-        "overall_average_return": 57.06256928374893,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "LRCX",
-            "ADBE",
-            "CTAS",
-            "MSFT",
-            "EA",
-            "UNH",
-            "DHR",
-            "KLAC",
-            "AAPL",
-            "AMAT"
-        ]
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2014": 42.097481411463576,
-            "2015": 12.14706373643557,
-            "2016": 34.208728987776766,
-            "2017": 45.37655004967871,
-            "2018": -2.9702223806774963
-        },
-        "overall_average_return": 57.06256928374893,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "LRCX",
-            "ADBE",
-            "CTAS",
-            "MSFT",
-            "EA",
-            "UNH",
-            "DHR",
-            "KLAC",
-            "AAPL",
-            "AMAT"
-        ]
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2014": 42.097481411463576,
-            "2015": 12.14706373643557,
-            "2016": 34.208728987776766,
-            "2017": 45.37655004967871,
-            "2018": -2.9702223806774963
-        },
-        "overall_average_return": 57.06256928374893,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "LRCX",
-            "ADBE",
-            "CTAS",
-            "MSFT",
-            "EA",
-            "UNH",
-            "DHR",
-            "KLAC",
-            "AAPL",
-            "AMAT"
-        ]
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2014,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2015": 39.511573424220344,
-            "2016": 47.33916792393556,
-            "2017": 51.87090043826613,
-            "2018": 8.133575675865064,
-            "2019": 58.21996695226112
-        },
-        "overall_average_return": 76.31937711848391,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "NFLX",
-            "AMZN",
-            "ADBE",
-            "LRCX",
-            "DHR",
-            "MSFT",
-            "AAPL",
-            "ADSK",
-            "CTAS"
-        ]
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2015": 39.511573424220344,
-            "2016": 47.33916792393556,
-            "2017": 51.87090043826613,
-            "2018": 8.133575675865064,
-            "2019": 58.21996695226112
-        },
-        "overall_average_return": 76.31937711848391,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "NFLX",
-            "AMZN",
-            "ADBE",
-            "LRCX",
-            "DHR",
-            "MSFT",
-            "AAPL",
-            "ADSK",
-            "CTAS"
-        ]
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2015": 39.511573424220344,
-            "2016": 47.33916792393556,
-            "2017": 51.87090043826613,
-            "2018": 8.133575675865064,
-            "2019": 58.21996695226112
-        },
-        "overall_average_return": 76.31937711848391,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "NFLX",
-            "AMZN",
-            "ADBE",
-            "LRCX",
-            "DHR",
-            "MSFT",
-            "AAPL",
-            "ADSK",
-            "CTAS"
-        ]
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2015": 26.957847057544647,
-            "2016": 47.665869616185915,
-            "2017": 53.87288417827618,
-            "2018": 7.584485242846255,
-            "2019": 58.815928301684984
-        },
-        "overall_average_return": 73.39574464527038,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "AMZN",
-            "ADBE",
-            "LRCX",
-            "DHR",
-            "MSFT",
-            "AAPL",
-            "ADSK",
-            "CTAS",
+            "ESRX",
             "ISRG"
         ]
     },
     {
-        "start_jahr": 2015,
+        "start_jahr": 2012,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 10,
+        "durchschnittliche_rendite": 0.5,
+        "average_yearly_returns": {
+            "2012": -99.76414285387311,
+            "2013": 52.727272727272734,
+            "2014": -99.98438922088303,
+            "2015": 406280.5703972309,
+            "2016": -99.97195282972083
+        },
+        "overall_average_return": 7.428571428571429,
+        "anzahl_aktien": 1,
+        "aktien": [
+            "TIE"
+        ]
+    },
+    {
+        "start_jahr": 2012,
         "anlagehorizont": 5,
         "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
+        "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2015": 26.957847057544647,
-            "2016": 47.665869616185915,
-            "2017": 53.87288417827618,
-            "2018": 7.584485242846255,
-            "2019": 58.815928301684984
+            "2012": 11.500677556906517,
+            "2013": 30.60439645989422,
+            "2014": 2.0426335937720608,
+            "2015": 40635.787045725316,
+            "2016": 5.519373500153046
         },
-        "overall_average_return": 73.39574464527038,
+        "overall_average_return": 35.750490937776945,
         "anzahl_aktien": 10,
         "aktien": [
-            "NVDA",
+            "TIE",
             "AMZN",
-            "ADBE",
-            "LRCX",
-            "DHR",
-            "MSFT",
-            "AAPL",
-            "ADSK",
-            "CTAS",
-            "ISRG"
+            "ESRX",
+            "TWX",
+            "CSCO",
+            "HD",
+            "FAST",
+            "ORCL",
+            "MCHP",
+            "BEN"
         ]
     },
     {
-        "start_jahr": 2015,
+        "start_jahr": 2012,
         "anlagehorizont": 5,
         "aktie_laenge_am_markt": 15,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2015": 26.957847057544647,
-            "2016": 47.665869616185915,
-            "2017": 53.87288417827618,
-            "2018": 7.584485242846255,
-            "2019": 58.815928301684984
+            "2012": 11.500684256738602,
+            "2013": 30.60439967589641,
+            "2014": 2.042634778312733,
+            "2015": 40635.78705252831,
+            "2016": 5.519370870271514
         },
-        "overall_average_return": 73.39574464527038,
+        "overall_average_return": 35.75049076597691,
         "anzahl_aktien": 10,
         "aktien": [
-            "NVDA",
+            "TIE",
             "AMZN",
-            "ADBE",
-            "LRCX",
-            "DHR",
-            "MSFT",
-            "AAPL",
-            "ADSK",
-            "CTAS",
-            "ISRG"
+            "ESRX",
+            "TWX",
+            "CSCO",
+            "HD",
+            "FAST",
+            "ORCL",
+            "MCHP",
+            "BEN"
         ]
     },
     {
-        "start_jahr": 2015,
+        "start_jahr": 2012,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.3,
+        "average_yearly_returns": {
+            "2012": -14.922536221730077,
+            "2013": 44.665680405229374,
+            "2014": -33.65539367128243,
+            "2015": 135467.63527248724,
+            "2016": -34.28147901737501
+        },
+        "overall_average_return": 43.27622021785045,
+        "anzahl_aktien": 3,
+        "aktien": [
+            "TIE",
+            "AMZN",
+            "ESRX"
+        ]
+    },
+    {
+        "start_jahr": 2012,
+        "anlagehorizont": 5,
+        "aktie_laenge_am_markt": 15,
+        "durchschnittliche_rendite": 0.5,
+        "average_yearly_returns": {
+            "2012": -99.76414285387311,
+            "2013": 52.727272727272734,
+            "2014": -99.98438922088303,
+            "2015": 406280.5703972309,
+            "2016": -99.97195282972083
+        },
+        "overall_average_return": 7.428571428571429,
+        "anzahl_aktien": 1,
+        "aktien": [
+            "TIE"
+        ]
+    },
+    {
+        "start_jahr": 2012,
         "anlagehorizont": 5,
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.1,
         "average_yearly_returns": {
-            "2015": 10.998985191357988,
-            "2016": 26.85120006854366,
-            "2017": 45.8586241986583,
-            "2018": 7.778371372917349,
-            "2019": 63.18593161318036
+            "2012": 21.60042912194063,
+            "2013": 26.17123437614103,
+            "2014": 17.695470355649718,
+            "2015": -0.806674445012583,
+            "2016": 14.20259327777284
         },
-        "overall_average_return": 66.2556130260743,
+        "overall_average_return": 29.79506746999624,
         "anzahl_aktien": 10,
         "aktien": [
-            "ADBE",
-            "LRCX",
-            "DHR",
+            "ESRX",
+            "TWX",
+            "CSCO",
+            "HD",
+            "FAST",
+            "ORCL",
+            "BEN",
             "MSFT",
-            "AAPL",
-            "ADSK",
-            "CTAS",
-            "INTU",
-            "PGR",
-            "KLAC"
+            "QCOM",
+            "SBUX"
         ]
     },
     {
-        "start_jahr": 2015,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2015": 10.998985191357988,
-            "2016": 26.85120006854366,
-            "2017": 45.8586241986583,
-            "2018": 7.778371372917349,
-            "2019": 63.18593161318036
-        },
-        "overall_average_return": 66.2556130260743,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "ADBE",
-            "LRCX",
-            "DHR",
-            "MSFT",
-            "AAPL",
-            "ADSK",
-            "CTAS",
-            "INTU",
-            "PGR",
-            "KLAC"
-        ]
-    },
-    {
-        "start_jahr": 2015,
+        "start_jahr": 2012,
         "anlagehorizont": 5,
         "aktie_laenge_am_markt": 20,
         "durchschnittliche_rendite": 0.2,
         "average_yearly_returns": {
-            "2015": 10.998985191357988,
-            "2016": 26.85120006854366,
-            "2017": 45.8586241986583,
-            "2018": 7.778371372917349,
-            "2019": 63.18593161318036
+            "2012": 21.600434555819152,
+            "2013": 26.171237052165054,
+            "2014": 17.69545580965153,
+            "2015": -0.8066829495094241,
+            "2016": 14.202589301351267
         },
-        "overall_average_return": 66.2556130260743,
+        "overall_average_return": 29.79507370735223,
         "anzahl_aktien": 10,
         "aktien": [
-            "ADBE",
-            "LRCX",
-            "DHR",
+            "ESRX",
+            "TWX",
+            "CSCO",
+            "HD",
+            "FAST",
+            "ORCL",
+            "BEN",
             "MSFT",
-            "AAPL",
-            "ADSK",
-            "CTAS",
-            "INTU",
-            "PGR",
-            "KLAC"
+            "QCOM",
+            "SBUX"
         ]
     },
     {
-        "start_jahr": 2015,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2015,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2016": 53.82253167272242,
-            "2017": 42.11624998766449,
-            "2018": -6.368399424156568,
-            "2019": 70.33908593281824,
-            "2020": 69.80338511068881
-        },
-        "overall_average_return": 113.110593680955,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "GME",
-            "LRCX",
-            "AMAT",
-            "DHR",
-            "AAPL",
-            "INTU",
-            "KLAC",
-            "MSFT",
-            "ETN"
-        ]
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2016": 53.82253167272242,
-            "2017": 42.11624998766449,
-            "2018": -6.368399424156568,
-            "2019": 70.33908593281824,
-            "2020": 69.80338511068881
-        },
-        "overall_average_return": 113.110593680955,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "GME",
-            "LRCX",
-            "AMAT",
-            "DHR",
-            "AAPL",
-            "INTU",
-            "KLAC",
-            "MSFT",
-            "ETN"
-        ]
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2016": 53.82253167272242,
-            "2017": 42.11624998766449,
-            "2018": -6.368399424156568,
-            "2019": 70.33908593281824,
-            "2020": 69.80338511068881
-        },
-        "overall_average_return": 113.110593680955,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "GME",
-            "LRCX",
-            "AMAT",
-            "DHR",
-            "AAPL",
-            "INTU",
-            "KLAC",
-            "MSFT",
-            "ETN"
-        ]
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {
-            "2016": 62.91249330754993,
-            "2017": 46.37182806548861,
-            "2018": -11.656251604165288,
-            "2019": 77.88059466527784,
-            "2020": 59.7312525522091
-        },
-        "overall_average_return": 112.32041857270217,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "LRCX",
-            "AMAT",
-            "DHR",
-            "AAPL",
-            "INTU",
-            "KLAC",
-            "MSFT",
-            "ETN",
-            "FCX"
-        ]
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2016": 62.91249330754993,
-            "2017": 46.37182806548861,
-            "2018": -11.656251604165288,
-            "2019": 77.88059466527784,
-            "2020": 59.7312525522091
-        },
-        "overall_average_return": 112.32041857270217,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "LRCX",
-            "AMAT",
-            "DHR",
-            "AAPL",
-            "INTU",
-            "KLAC",
-            "MSFT",
-            "ETN",
-            "FCX"
-        ]
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2016": 62.91249330754993,
-            "2017": 46.37182806548861,
-            "2018": -11.656251604165288,
-            "2019": 77.88059466527784,
-            "2020": 59.7312525522091
-        },
-        "overall_average_return": 112.32041857270217,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "NVDA",
-            "LRCX",
-            "AMAT",
-            "DHR",
-            "AAPL",
-            "INTU",
-            "KLAC",
-            "MSFT",
-            "ETN",
-            "FCX"
-        ]
-    },
-    {
-        "start_jahr": 2016,
+        "start_jahr": 2012,
         "anlagehorizont": 5,
         "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
+        "durchschnittliche_rendite": 0.3,
         "average_yearly_returns": {
-            "2016": 44.91709713821188,
-            "2017": 45.56423041147239,
-            "2018": -11.105843336390917,
-            "2019": 76.96098394101621,
-            "2020": 51.50168867277512
+            "2012": 14.869180872242204,
+            "2013": 26.28550739418245,
+            "2014": 21.034945254419668,
+            "2015": 3.2604868121433928,
+            "2016": -20.593324372045675
         },
-        "overall_average_return": 110.00698118885721,
-        "anzahl_aktien": 10,
+        "overall_average_return": 11.75494663034657,
+        "anzahl_aktien": 1,
         "aktien": [
-            "LRCX",
-            "AMAT",
-            "DHR",
-            "AAPL",
-            "INTU",
-            "KLAC",
-            "MSFT",
-            "ETN",
-            "FCX",
-            "MU"
+            "ESRX"
         ]
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {
-            "2016": 44.91709713821188,
-            "2017": 45.56423041147239,
-            "2018": -11.105843336390917,
-            "2019": 76.96098394101621,
-            "2020": 51.50168867277512
-        },
-        "overall_average_return": 110.00698118885721,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "LRCX",
-            "AMAT",
-            "DHR",
-            "AAPL",
-            "INTU",
-            "KLAC",
-            "MSFT",
-            "ETN",
-            "FCX",
-            "MU"
-        ]
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 5,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {
-            "2016": 44.91709713821188,
-            "2017": 45.56423041147239,
-            "2018": -11.105843336390917,
-            "2019": 76.96098394101621,
-            "2020": 51.50168867277512
-        },
-        "overall_average_return": 110.00698118885721,
-        "anzahl_aktien": 10,
-        "aktien": [
-            "LRCX",
-            "AMAT",
-            "DHR",
-            "AAPL",
-            "INTU",
-            "KLAC",
-            "MSFT",
-            "ETN",
-            "FCX",
-            "MU"
-        ]
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 10,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 10,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 15,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.1,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.15,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
-    },
-    {
-        "start_jahr": 2016,
-        "anlagehorizont": 13,
-        "aktie_laenge_am_markt": 20,
-        "durchschnittliche_rendite": 0.2,
-        "average_yearly_returns": {},
-        "overall_average_return": null,
-        "anzahl_aktien": 0,
-        "aktien": []
     }
 ]

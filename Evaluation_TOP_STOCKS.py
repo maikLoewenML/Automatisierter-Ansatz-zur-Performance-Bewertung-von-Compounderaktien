@@ -10,72 +10,68 @@ from datetime import datetime, timedelta
 from numpy import double
 
 import Unternehmenslisten
+import Datumsbereiche
 
 
 def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite):
     end_jahr = start_jahr + anlagehorizont
     stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
     successful_stocks = []
-    stocks_cagr = {}
     filtered_histories = {}
+    stocks_cagr = {}
 
+    # Filterung der Aktien für die successful_stocks
     for stock in stocks:
         stock_symbol = stock
         try:
             history = yf.Ticker(stock_symbol).history(period="max")
             earliest_date = history.index.min()
+            earliest_year = earliest_date.year + 1
+            formatted_earliest_date = earliest_date.strftime("%Y-%m-%d")
             if start_jahr - earliest_date.year < aktie_laenge_am_markt:
                 continue
 
-            start_date = None
-            end_date = None
-            # Suche nach gültigem start_date
-            for i in range(10):
-                potential_start_date = (pd.Timestamp(f"{start_jahr}-01-02") + pd.Timedelta(days=i)).strftime('%Y-%m-%d')
-                if not pd.isna(history['Close'].get(potential_start_date)):
-                    start_date = potential_start_date
-                    break
-            # Suche nach gültigem end_date
-            for i in range(10):
-                potential_end_date = (pd.Timestamp(f"{end_jahr}-12-31") - pd.Timedelta(days=i)).strftime('%Y-%m-%d')
-                if not pd.isna(history['Close'].get(potential_end_date)):
-                    end_date = potential_end_date
-                    break
-            if start_date is None or end_date is None:
+            start_date_first_time_period, end_date_first_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(earliest_year,
+                                                                                                     start_jahr - 1,
+                                                                                                     history)
+            if start_date_first_time_period is None or end_date_first_time_period is None:
                 print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
                 continue
 
-            # Filtern der Daten für den gegebenen Zeitraum
-            filtered_history = history.loc[start_date:end_date]
-
-            if not filtered_history.empty:
-                filtered_histories[stock_symbol] = filtered_history
-                start_price = filtered_history.iloc[0]['Close']
-                end_price = filtered_history.iloc[-1]['Close']
-                num_years = end_jahr - start_jahr
-
-                # Berechnung der CAGR
+            history_first_time_period = history.loc[formatted_earliest_date:end_date_first_time_period]
+            if not history_first_time_period.empty:
+                start_price = history_first_time_period.iloc[0]['Close']
+                end_price = history_first_time_period.iloc[-1]['Close']
+                num_years = start_jahr - earliest_date.year
                 cagr = (end_price / start_price) ** (1 / num_years) - 1
-
-                print(f"CAGR für {stock}: {cagr}")
                 if cagr >= durchschnittliche_rendite:
                     successful_stocks.append(stock_symbol)
+                    start_date_second_time_period, end_date_second_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(
+                        start_jahr, end_jahr, history)
+                    if start_date_second_time_period is None or end_date_second_time_period is None:
+                        print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
+                        continue
+                    filtered_histories[stock_symbol] = history.loc[
+                                                       start_date_second_time_period:end_date_second_time_period]
                     stocks_cagr[stock_symbol] = cagr
-                    print(f"{stock_symbol} den erfolgreichen Stocks hinzugefügt")
+
             else:
                 print(f"Keine historischen Daten für den angegebenen Zeitraum für {stock_symbol} gefunden.")
+                continue  # Füge continue hinzu
+
         except Exception as e:
             print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
+            continue  # Füge continue hinzu
 
     # Sortieren der Aktien nach ihrer CAGR, in absteigender Reihenfolge
     sorted_stocks = sorted(stocks_cagr.items(), key=lambda item: item[1], reverse=True)
 
     # Auswahl der Top 5 Aktien
-    top_5_stocks = sorted_stocks[:5]
+    top_15_stocks = sorted_stocks[:15]
 
-    if top_5_stocks:
+    if top_15_stocks:
         print("Folgende TOP 5 Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
-        for stock in top_5_stocks:
+        for stock in top_15_stocks:
             print(stock)
     else:
         print("Keine Aktien gefunden, die die Kriterien erfüllen.")
@@ -84,22 +80,32 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     # Liste zur Speicherung der jährlichen Renditen für alle erfolgreichen Aktien
     annual_returns = {year: 0 for year in range(start_jahr, end_jahr)}
     stock_counts = {year: 0 for year in range(start_jahr, end_jahr)}
-    for stock in top_5_stocks:
-        print(stock)
+    for stock in top_15_stocks:
         stock_symbol = stock[0]
+        print(stock)
         try:
             history = filtered_histories[stock_symbol]
             if history.empty:
                 print(f"Keine Daten für {stock} für den angegebenen Zeitraum gefunden.")
                 continue
+
             for year in range(start_jahr, end_jahr):
+                start_date, end_date = Datumsbereiche.finde_gueltige_datumsbereiche(year, year, history)
+                if start_date is None or end_date is None:
+                    print(f"Es wurden keine Daten zu diesem Stock: {stock} für das Jahr {year} gefunden")
+                    continue
+
                 start_price = history['Close'].get(start_date)
                 end_price = history['Close'].get(end_date)
+                if start_price is None or end_price is None:
+                    print(f"Es wurden keine Preise zu diesem Stock: {stock} für das Jahr {year} gefunden")
+                    continue
+
                 yearly_return = (end_price / start_price) - 1
                 annual_returns[year] += yearly_return
                 stock_counts[year] += 1
         except TypeError as e:
-            print("Fehler in der for-schleife!")
+            print("Fehler in der for-Schleife!")
         except Exception as e:
             print(f"Konnte keine Daten für {stock} abrufen: {e}")
 
@@ -129,7 +135,8 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     total_returns_all_time = 0
     total_stock_counts_all_time = 0
 
-    for stock in top_5_stocks:
+    for stock in top_15_stocks:
+        stock_symbol = stock[0]
         print(stock)
         try:
             history = filtered_histories[stock_symbol]
@@ -162,9 +169,9 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     print(f"Aktie Länge am Markt: {aktie_laenge_am_markt}")
     print(f"Durchschnittliche Rendite: {durchschnittliche_rendite}")
     print("\nErgebnis:")
-    print(f"Anzahl an Aktien, die mit den obigen Kriterien ausgewählt wurden: {len(top_5_stocks)}")
+    print(f"Anzahl an Aktien, die mit den obigen Kriterien ausgewählt wurden: {len(top_15_stocks)}")
     print("Aktiensymbole:")
-    for stock in top_5_stocks:
+    for stock in top_15_stocks:
         print(stock[0])  # stock[0] enthält das Symbol, wenn Sie eine Liste von Tupeln haben
     if average_return_all_time is not None:
         print(f"Durchschnittliche Rendite über den gesamten Zeitraum: {average_return_all_time:.2f}%")
@@ -197,8 +204,8 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
         'durchschnittliche_rendite': durchschnittliche_rendite,
         'average_yearly_returns': average_returns,
         'overall_average_return': average_return_all_time,
-        'anzahl_aktien': len(top_5_stocks),
-        'aktien': [stock[0] for stock in top_5_stocks]
+        'anzahl_aktien': len(top_15_stocks),
+        'aktien': [stock[0] for stock in top_15_stocks]
     }
 
 
@@ -206,7 +213,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
 start_jahre = list(range(2008, 2017))
 anlagehorizont_options = [5, 10, 13]
 aktie_laengen_am_markt_options = [10, 15, 20]
-durchschnittliche_renditen_options = [0.10, 0.15, 0.20]
+durchschnittliche_renditen_options = [0.10, 0.20, 0.30, 0.50]
 
 # Liste zur Speicherung der Ergebnisse für jede Kombination
 results = []
@@ -216,12 +223,13 @@ for start_jahr in start_jahre:
     for anlagehorizont in anlagehorizont_options:
         for aktie_laenge in aktie_laengen_am_markt_options:
             for rendite in durchschnittliche_renditen_options:
-                result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
-                if result:
+                if start_jahr + anlagehorizont <= 2017:
+                    result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
+                if result and result.get('overall_average_return') is not None:
                     results.append(result)
 
 
 # Speichern der Ergebnisse in einer JSON-Datei
-with open('top_5_stocks.json', 'w', encoding='utf-8') as f:
+with open('top_15_stocks.json', 'w', encoding='utf-8') as f:
     json.dump(results, f, ensure_ascii=False, indent=4)
 
