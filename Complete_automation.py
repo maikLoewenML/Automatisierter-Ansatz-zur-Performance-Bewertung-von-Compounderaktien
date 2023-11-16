@@ -39,7 +39,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                 continue
 
             start_date_first_time_period, end_date_first_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(earliest_year,
-                                                                                                     start_jahr,
+                                                                                                     start_jahr-1,
                                                                                                      history)
             if start_date_first_time_period is None or end_date_first_time_period is None:
                 print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
