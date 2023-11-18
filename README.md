@@ -253,6 +253,47 @@ REA## Einführung in die tkinter-Bibliothek
 
 --> ist dieses Kapitel überhaupt notwendig. Davor habe ich eigentlich schon viel über dieses Thema geschrieben und der Text wäre redundant, würde ich dieses Unterkapitel auch nochmal ausführen
 
+
+* Algorithmus
+  * Benutzeringabe Abfrage
+    * Startjahr der Analyse
+    * Anlagehorizont
+    * Minimale Zeit der Marktpräsenz einer Aktie
+    * Erwartete durchschnittliche jährliche Rendite
+  * Eingabevalidierung
+    * Überprüfung der Validität der Benutzereingaben
+  * Abrufen von Unternehmensdaten
+    * Liste der S&P 500 Unternehmen für das Startjahr beschaffen
+  * Datenanalyse für jede Aktie
+    * Historische Daten abrufen
+    * Daten basierend auf Benutzereingaben filtern
+    * Durchschnittliche jährliche Rendite berechnen
+    * Erfüllende Aktien in Liste speichern
+  * Datenvisualisierung
+    * Darstellung der jährlichen Renditen in Balkendiagrammform
+    * Kategorisierung und Zuordnung der Jahr zu Balken
+* Implementierung
+  * Bibliothek und Module importieren
+
+    * Datenmanipulation (pandas)
+    * Datenabruf für Finanzdaten (yfinance)
+    * Zeithandhabung (datetime, timedelta, time)
+    * Visualisierung (matplotlib)
+    * Weitere Tools (requests, pickle, numpy)
+    * Benutzerdefinierte Module (Unternehmenslisten)
+  * Filterung der Compounder-Aktien
+
+    * Initialisierung der Aktienliste.
+    * Durchlaufen der Aktienliste und Filtern nach verschiedenen Kriterien
+    * Behandlung von Fehlern
+    * Ausgabe der erfolgreichen Aktien
+  * Weitere Analyse und Visualisierung
+
+    * Initialisierung von Datenstrukturen für Analyseergebnisse
+    * Durchlauf der erfolgreichen Aktien für detailliere Analyse
+    * Zusammenfassung und Kategorisierung der Ergebnisse
+    * Darstellung in einem Balkendiagramm
+
 ### Beschreibung des zu entwickelnden Skripts "Complete_automation"
 
 * die "S&P 500"-Funktion wurde in eine Methode in der Klasse "Complete_automation" erstellt
