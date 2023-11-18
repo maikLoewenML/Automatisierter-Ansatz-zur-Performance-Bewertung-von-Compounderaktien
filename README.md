@@ -2,21 +2,27 @@
 
 ## Einleitung
 
-- Investoren und Marktanalysten suchen ständig nach Wegen, ihre Anlagestrategie zu optimieren
-- ***eine wertvolle Information könnte sein, sogenannte Compounder-Aktien zu identifizieren***. ***Diese könnten tatsächlich*** im Schnitt eine überlegene Performance gegenüber dem S&P 500 ETF haben
+* Investoren und Marktanalysten suchen immer nach besseren Methoden, um ihre Investitionen zu optimieren. Sie möchten verstehen, in welche Bereiche sie investieren sollten, um gute Renditen zu erzielen.
+* Eine nützliche Strategie könnte sein, sich auf sogenannte Compounder-Aktien zu konzentrieren. Diese Aktien sind bekannt dafür, konstant gute Ergebnisse zu liefern und könnten sich als profitabler erweisen als andere Anlageoptionen.
+* Compounder-Aktien könnten im Durchschnitt besser abschneiden als der Standard & Poor's 500 Index, der oft als Maßstab für den Gesamtmarkt dient. Das bedeutet, sie könnten im Laufe der Zeit mehr Geld erbringen.
+* Die genau Definition einer Compounder-Aktie ist nicht eindeutig, was es schwierig macht, solche Aktien zu identifizieren, die den oben genannten Kriterien entsprechen.
 
 ### Kontext und Bedeutung der Compounder-Aktien im Investitionsbereich
 
-- Compounder-Aktien ***definieren sich durch hohe Renditen per anno und dies über einen langen Zeitraum an der Börse und*** sind somit eine wichtige Anlageklasse für Investoren, die ihr Vermögen über einen langen Zeitraum hinweg steigern möchten. Sie bieten die Möglichkeit, von der Kraft des Zinseszinses zu profitieren, da die Gewinne des Unternehmens jedes Jahr reinvestiert werden. Dies kann zu einem exponentiellen Wachstum des Unternehmenswerts führen.
+- Compounder-Aktien definieren sich durch sich durch ihre Fähigkeit, hohe Renditen pro Jahr über einen langen Zeitraum an der Börse zu erzielen. Sie sind daher eine attraktive Anlageklasse für Investoren, die an langfristigem Vermögensaufbau interessiert sind. Sie bieten die Möglichkeit, von der Kraft des Zinseszinses zu profitieren, da die Gewinne des Unternehmens jedes Jahr reinvestiert werden. Dies kann zu einem exponentiellen Wachstum des Unternehmenswerts führen.
 - Die Bewertung der Performance von Compounder-Aktien gegenüber dem S&P 500 ist eine wichtige Aufgabe, wenn sie nach einer besseren Rendite suchen. Der S&P 500 ist ein Index, der die Performance der 500 größten Unternehmen in den USA abbildet. Die Performance von Compounder-Aktien gegenüber dem S&P 500 kann dabei helfen, zu beurteilen, ob diese Aktien alleine eine bessere Investition sind als der S&P 500 ETF.
-- ***Was ist denn das Problem, das wir hier in der Arbeit lösen möchten? --> (i) Identifizieren von Compounder Aktien nach gewissen Bedingungen und (ii) unklar welche Zusammensetzung den Markt schlagen kann*** 
+- ***Was ist denn das Problem, das wir hier in der Arbeit lösen möchten? --> (i) Identifizieren von Compounder Aktien nach gewissen Bedingungen und (ii) unklar welche Zusammensetzung den Markt schlagen kann***
+  - Identifizierung von Compounder-Aktien
+    - Es geht darum, Aktien zu finden, die als "Compounder" gelten. Die Herausforderung liegt darin, diese Aktien basieren auf bestimmten Kriterien auszuwählen.
+  - Erstellung eines überlegenen Portfolios
+    - Das zweite Ziel ist, ein Aktienportfolio zusammenzustellen, das in der Lage ist, die allgemeinen Marktleistungen zu übertreffen. Dies erfordert eine sorgfältige Auswahl und Kombination verschiedener Aktien.
 - Ein automatisierter Ansatz kann dabei helfen, diese Aufgabe effizienter und genauer zu erledigen. Zum Einen bei der Datenerfassung, der Berechnung als auch der Visualisierung der Ergebnisse. Dies kann den Zeitaufwand für die Performancebewertung erheblich reduzieren und die Ergebnisse genauer machen.
 
 ### Zielsetzung der Arbeit
 
 - Mehrdeutigkeit der Definiton von Compounder-Aktien analysieren
 - ***Automatisierte Identifikation vom Compounder Aktien***
-- Analyse, ***inwiefern gewissen Zusammensetzungen von*** Compounder-Aktien gegenüber dem S&P 500 auf Dauer besser performen
+- Analyse, ***inwiefern gewissen Zusammensetzungen von*** Compounder-Aktien (gegenüber dem S&P 500 auf Dauer besser performen)
 - Identifizierung des optimalen Gleichgewichts zwischen Rendite und Risiko bei den Compounder-Aktien
 
 ### Vorgehensweise der Untersuchung
@@ -41,7 +47,7 @@
 - es muss eine gute Kapitalallokation vorliegen --> vermeiden Unternehmen mit zu viel ungenutztem Bargeld in ihrer Bilanz
   - https://hedgenordic.com/2021/11/uncovering-attractively-valued-compounders/
 
-### Überblick über den S&P 500 ETF
+### (Überblick über den S&P 500 ETF
 
 - Definition: Der S&P 500 (Standard & Poor's 500) ist ein Aktienindex, der die Performance von 500 großen Unternehmen an den US-Börsen abbildet und als Barometer für den US-Aktienmarkt gilt.
 - Zusammensetzung: Der Index setzt sich aus Unternehmen diverser Branchen zusammen, wobei die Gewichtung auf Basis der Marktkapitalisierung erfolgt. Dies bedeutet, dass Unternehmen mit einer höheren Marktkapitalisierung (Aktienkurs mulitpliziert mit der Anzahl ausstehenden Aktien) einen größeren Einfluss auf den Index haben.
@@ -76,7 +82,7 @@
   - Compounder-Aktien als potenzielles Instrument zur Portfolio-Optimierung
     - Bernstein, William J., and Chris Ryan. The Four Pillars of Investing: lessons for building a winning portfolio. McGraw Hill, 2010.
 
-## Einführung in die y-finance-Bibliothek 
+## Einführung in die y-finance-Bibliothek
 
 ***--> Eigenes Kapitel, da es hier nun um die eigentlichen Daten geht. Sollte auch weiter nach hinten als Teil der Implementierung***
 
