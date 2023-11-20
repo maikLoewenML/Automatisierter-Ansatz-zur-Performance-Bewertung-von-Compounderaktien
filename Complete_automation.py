@@ -145,6 +145,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
 
     # Berechnung der durchschnittlichen Rendite über alle Jahre hinweg
     total_return_all_time = None
+    average_return_all_time = None
     if start_price_all_successful_stocks > 0 and end_price_all_successful_stocks > 0 :
         total_return_all_time = ((end_price_all_successful_stocks / start_price_all_successful_stocks) - 1) * 100
         average_return_all_time = total_return_all_time / anlagehorizont
@@ -210,7 +211,7 @@ for start_jahr in start_jahre:
     for anlagehorizont in anlagehorizont_options:
         for aktie_laenge in aktie_laengen_am_markt_options:
             for rendite in durchschnittliche_renditen_options:
-                if start_jahr + anlagehorizont <= 2017:
+                if start_jahr + anlagehorizont <= 2022:
                     result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
                 if result and result.get('overall_average_return') is not None:
                     results.append(result)
