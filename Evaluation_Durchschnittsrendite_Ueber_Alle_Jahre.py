@@ -14,14 +14,13 @@ with open('results.json', 'r') as f:
     data = json.load(f)
 
 # Liste zum Speichern der Ergebnisse
-ergebnisse = []
+ergebnisse_5_jahre = []
+ergebnisse_10_jahre = []
 
 # Durchschnittsberechnung und Standardabweichung für jede Kombination
-for anlagehorizont in anlagehorizont_options:
+for anlagehorizont in [5, 10]:  # Beschränkung auf 5 und 10 Jahre
     for aktie_laenge_am_markt in aktie_laengen_am_markt_options:
         for rendite in durchschnittliche_renditen_options:
-
-            # Filtern der Daten, die den aktuellen Kriterien entsprechen
             filtered_data = [
                 entry for entry in data
                 if entry["anlagehorizont"] == anlagehorizont
@@ -29,26 +28,36 @@ for anlagehorizont in anlagehorizont_options:
                    and entry["durchschnittliche_rendite"] == rendite
             ]
 
-            # Überprüfung, ob gefilterte Daten vorhanden sind
+            # Überprüfen, ob gefilterte Daten vorhanden sind
             if filtered_data:
                 renditen = [entry["overall_average_return"] for entry in filtered_data]
+                anzahl_aktien_liste = [entry["anzahl_aktien"] for entry in filtered_data]
                 avg_rendite = sum(renditen) / len(renditen)
+                avg_anzahl_aktien = sum(anzahl_aktien_liste) / len(anzahl_aktien_liste)
 
                 # Berechnung der Standardabweichung, falls mehr als ein Datensatz vorhanden ist
-                if len(renditen) > 1:
-                    std_dev_rendite = statistics.stdev(renditen)
-                else:
-                    std_dev_rendite = 0
+                std_dev_rendite = statistics.stdev(renditen) if len(renditen) > 1 else 0
 
-                # Hinzufügen der Ergebnisse zur Liste
-                ergebnisse.append((
-                    anlagehorizont, aktie_laenge_am_markt, rendite, avg_rendite, std_dev_rendite
-                ))
+                # Hinzufügen der Ergebnisse zur entsprechenden Liste
+                if anlagehorizont == 5:
+                    ergebnisse_5_jahre.append((anlagehorizont, aktie_laenge_am_markt, rendite, avg_rendite,
+                                               std_dev_rendite, avg_anzahl_aktien))
+                elif anlagehorizont == 10:
+                    ergebnisse_10_jahre.append((anlagehorizont, aktie_laenge_am_markt, rendite, avg_rendite,
+                                                std_dev_rendite, avg_anzahl_aktien))
 
-# Sortieren der Ergebnisse nach Standardabweichung in absteigender Reihenfolge
-ergebnisse.sort(key=lambda x: x[4], reverse=False)
+        # Sortieren der Ergebnisse
+        ergebnisse_5_jahre.sort(key=lambda x: (-x[3], -x[5], x[4]))
+        ergebnisse_10_jahre.sort(key=lambda x: (-x[3], -x[5], x[4]))
 
-# Ausdrucken der sortierten Ergebnisse
-for ergebnis in ergebnisse:
-    anlagehorizont, aktie_laenge_am_markt, rendite, avg_rendite, std_dev_rendite, anzahl_aktien = ergebnis
-    print(f"Anlagehorizont: {anlagehorizont}, Aktienlänge am Markt: {aktie_laenge_am_markt}, Durchschnittliche Rendite: {rendite:.2f}, Durchschnitt: {avg_rendite:.2f}, Standardabweichung: {std_dev_rendite:.2f}, Anzahl an Aktien: {anzahl_aktien}")
+# Ausdrucken der sortierten Ergebnisse für 5 Jahre
+print("Ergebnisse für Anlagehorizont von 5 Jahren:")
+for ergebnis in ergebnisse_5_jahre:
+    print(
+        f"Anlagehorizont: {ergebnis[0]}, Aktienlänge am Markt: {ergebnis[1]}, Durchschnittliche Rendite: {ergebnis[2]:.2f}, Durchschnitt: {ergebnis[3]:.2f}, Standardabweichung: {ergebnis[4]:.2f}, Durchschnittliche Anzahl an Aktien: {ergebnis[5]:.2f}")
+
+# Ausdrucken der sortierten Ergebnisse für 10 Jahre
+print("\nErgebnisse für Anlagehorizont von 10 Jahren:")
+for ergebnis in ergebnisse_10_jahre:
+    print(
+        f"Anlagehorizont: {ergebnis[0]}, Aktienlänge am Markt: {ergebnis[1]}, Durchschnittliche Rendite: {ergebnis[2]:.2f}, Durchschnitt: {ergebnis[3]:.2f}, Standardabweichung: {ergebnis[4]:.2f}, Durchschnittliche Anzahl an Aktien: {ergebnis[5]:.2f}")
