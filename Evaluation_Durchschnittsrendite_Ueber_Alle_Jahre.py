@@ -50,5 +50,5 @@ ergebnisse.sort(key=lambda x: x[4], reverse=False)
 
 # Ausdrucken der sortierten Ergebnisse
 for ergebnis in ergebnisse:
-    anlagehorizont, aktie_laenge_am_markt, rendite, avg_rendite, std_dev_rendite = ergebnis
-    print(f"Anlagehorizont: {anlagehorizont}, Aktienlänge am Markt: {aktie_laenge_am_markt}, Durchschnittliche Rendite: {rendite:.2f}, Durchschnitt: {avg_rendite:.2f}, Standardabweichung: {std_dev_rendite:.2f}")
+    anlagehorizont, aktie_laenge_am_markt, rendite, avg_rendite, std_dev_rendite, anzahl_aktien = ergebnis
+    print(f"Anlagehorizont: {anlagehorizont}, Aktienlänge am Markt: {aktie_laenge_am_markt}, Durchschnittliche Rendite: {rendite:.2f}, Durchschnitt: {avg_rendite:.2f}, Standardabweichung: {std_dev_rendite:.2f}, Anzahl an Aktien: {anzahl_aktien}")

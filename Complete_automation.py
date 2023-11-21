@@ -67,15 +67,14 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                     end_price_second_time_period = filtered_histories[stock_symbol].iloc[-1]['Close']
                     start_price_all_successful_stocks += start_price_second_time_period
                     end_price_all_successful_stocks += end_price_second_time_period
-                    # TODO: Hier muss unten noch die Berechnung von den kompletten Start- und Endprice sein
 
             else:
                 print(f"Keine historischen Daten für den angegebenen Zeitraum für {stock_symbol} gefunden.")
-                continue  # Füge continue hinzu
+                continue
 
         except Exception as e:
             print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
-            continue  # Füge continue hinzu
+            continue
 
     # with open('successful_stocks.pkl', 'rb') as f:
     #     successful_stocks = pickle.load(f)
