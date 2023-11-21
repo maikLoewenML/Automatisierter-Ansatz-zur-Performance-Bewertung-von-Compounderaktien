@@ -39,6 +39,10 @@ def update_plot():
         avg_rendites = [filtered_data[0]['average_yearly_returns'][year] for year in years]
         ax.plot(years, avg_rendites, marker='o')
 
+        overall_return = sum(entry['overall_return'] for entry in filtered_data)
+        overall_return = round(overall_return, 2)
+        anzahl_aktien = sum(entry['anzahl_aktien'] for entry in filtered_data)
+
     # Update the figure
     ax.set_title('Durchschnittliche jährliche Renditen')
     ax.set_xlabel('Jahr')
@@ -46,9 +50,17 @@ def update_plot():
     ax.grid(True)
     canvas.draw()
 
+    # Hier wird der Text des Labels aktualisiert
+    info_label.config(
+        text=f"Gesamtrendite: {overall_return}%, Anzahl Aktien: {anzahl_aktien}")
+
 
 root = tk.Tk()
 root.title("Datenanalyse")
+
+# Label für Informationen über dem Plot
+info_label = tk.Label(root, text="Plot Informationen", font=("Helvetica", 12))
+info_label.pack()
 
 start_year_slider = tk.Scale(root, from_=min(start_years), to=max(start_years), resolution=1, orient=tk.HORIZONTAL,
                              label="Startjahr")
