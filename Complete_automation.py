@@ -11,7 +11,6 @@ from numpy import double
 import Unternehmenslisten
 import Datumsbereiche
 
-
 '''
 Das Skript analysiert Aktien des S&P 500 hinsichtlich Ihrer durchschnittlichen
 Rendite (CAGR) über verschiedene Zeiträume und Anlagehorizonte. Es filtert
@@ -20,6 +19,24 @@ Renditeziel.
 Dann gibt es noch eine grafische Darstellung der jährlichen Renditen in verschiedenen
 Kategorien.
 '''
+
+
+def adjust_for_splits(history, start_date_str, end_date_str):
+    """
+    Passt die historischen Daten für Aktiensplits an.
+    """
+    start_date = pd.to_datetime(start_date_str).tz_localize(None)
+    end_date = pd.to_datetime(end_date_str).tz_localize(None)
+
+    if 'Stock Splits' in history.columns:
+        splits = history['Stock Splits'].loc[start_date:end_date]
+        for date, split in splits[splits != 0].iteritems():
+            split_ratio = 1 / split
+            history.loc[:date, 'Open':'Close'] *= split_ratio
+
+    return history
+
+
 
 def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite):
     end_jahr = start_jahr + anlagehorizont
@@ -34,15 +51,17 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
         stock_symbol = stock
         try:
             history = yf.Ticker(stock_symbol).history(period="max")
+            history.index = history.index.tz_localize(None)
             earliest_date = history.index.min()
             earliest_year = earliest_date.year + 1
             formatted_earliest_date = earliest_date.strftime("%Y-%m-%d")
             if start_jahr - earliest_date.year < aktie_laenge_am_markt:
                 continue
 
-            start_date_first_time_period, end_date_first_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(earliest_year,
-                                                                                                     start_jahr-1,
-                                                                                                     history)
+            start_date_first_time_period, end_date_first_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(
+                earliest_year,
+                start_jahr - 1,
+                history)
             if start_date_first_time_period is None or end_date_first_time_period is None:
                 print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
                 continue
@@ -57,6 +76,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                     successful_stocks.append(stock_symbol)
                     start_date_second_time_period, end_date_second_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(
                         start_jahr, end_jahr, history)
+                    history = adjust_for_splits(history, start_date_second_time_period, end_date_second_time_period)
                     if start_date_second_time_period is None or end_date_second_time_period is None:
                         print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
                         continue
@@ -118,7 +138,6 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
         except Exception as e:
             print(f"Konnte keine Daten für {stock} abrufen: {e}")
 
-
     # Kategorisierung für die grafische Darstellung
     categories = list(range(-40, 80, 10))  # Von -40 % bis 70 % in 10 % Schritten
     category_counts = {cat: 0 for cat in categories}
@@ -145,7 +164,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
     # Berechnung der durchschnittlichen Rendite über alle Jahre hinweg
     total_return_all_time = None
     average_return_all_time = None
-    if start_price_all_successful_stocks > 0 and end_price_all_successful_stocks > 0 :
+    if start_price_all_successful_stocks > 0 and end_price_all_successful_stocks > 0:
         total_return_all_time = ((end_price_all_successful_stocks / start_price_all_successful_stocks) - 1) * 100
         average_return_all_time = total_return_all_time / anlagehorizont
         print(f"Gesamtrendite über alle Jahre: {total_return_all_time:.2f}%")
