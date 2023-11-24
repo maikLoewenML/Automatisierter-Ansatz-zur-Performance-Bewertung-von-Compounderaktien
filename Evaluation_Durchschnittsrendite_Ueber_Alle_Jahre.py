@@ -2,114 +2,86 @@ import json
 import statistics
 import matplotlib.pyplot as plt
 
-# Dateipfad der JSON-Datei
-filename = 'results.json'
+'''
+    Dieser Code muss mindestens mit Python 3.8 durchgeführt werden.
+    Dort sind wichtige Statistikfunktionen dazu gekommen, die in diesem Code verwendet werden.
+'''
 
-# Optionen für die verschiedenen Kombinationen
-anlagehorizont_options = [5, 10, 13]
-aktie_laengen_am_markt_options = [10, 15, 20]
-durchschnittliche_renditen_options = [0.10, 0.20, 0.30, 0.50]
 
-# JSON-Datei einlesen
-with open('results.json', 'r') as f:
-    data = json.load(f)
+def read_data(filepath):
+    with open(filepath, 'r') as file:
+        return json.load(file)
 
-# Liste zum Speichern der Ergebnisse
-ergebnisse_5_jahre = []
-ergebnisse_10_jahre = []
 
-import matplotlib.pyplot as plt
+def filter_data(data, investment_horizon, stock_duration_on_market, average_return):
+    return [
+        entry for entry in data
+        if entry["anlagehorizont"] == investment_horizon
+           and entry["aktie_laenge_am_markt"] == stock_duration_on_market
+           and entry["durchschnittliche_rendite"] == average_return
+    ]
 
-def erstelle_boxplot(renditen, anlagehorizont, aktie_laenge_am_markt, vorgabe_durchschnittliche_rendite, durchschnitt, standardabweichung, anzahl_aktien, q1, q3, median, maximum, minimum):
+
+def calculate_statistics(filtered_data):
+    returns = [entry["overall_average_return"] for entry in filtered_data]
+    number_of_stocks = [entry["anzahl_aktien"] for entry in filtered_data]
+    return {
+        "avg_rendite": sum(returns) / len(returns),
+        "avg_anzahl_aktien": sum(number_of_stocks) / len(number_of_stocks),
+        "std_dev_rendite": statistics.stdev(returns) if len(returns) > 1 else 0,
+        "q1": statistics.quantiles(returns, n=4)[0],
+        "q3": statistics.quantiles(returns, n=4)[2],
+        "median": statistics.median(returns),
+        "maximum": max(returns),
+        "minimum": min(returns),
+        "renditen": returns
+    }
+
+
+def create_boxplot(returns, info_text):
     plt.figure(figsize=(10, 6))
-    plt.boxplot(renditen)
-    plt.ylabel("Renditen (%)")
-
-    # Setzen des Y-Achsen-Bereichs von 0% bis 120%
-    # plt.ylim(0, 120) --> bessere Vergleichbarkeit zwischen den einzelnen Boxplots. Allerdings sehen dann einige sehr "gequetscht" aus
-
-    # Werte auf zwei Nachkommastellen runden
-    durchschnitt = round(durchschnitt, 2)
-    standardabweichung = round(standardabweichung, 2)
-    anzahl_aktien = round(anzahl_aktien, 2)
-    q1 = round(q1, 2)
-    q3 = round(q3, 2)
-    median = round(median, 2)
-    maximum = round(maximum, 2)
-    minimum = round(minimum, 2)
-
-    info_text = (f"Anlagehorizont: {anlagehorizont} Jahre\n"
-                 f"Aktienlänge am Markt: {aktie_laenge_am_markt} Jahre\n"
-                 f"Vorgabe Durchschnittliche Rendite: {round(vorgabe_durchschnittliche_rendite, 2)}\n"
-                 f"Durchschnitt: {durchschnitt}\n"
-                 f"Standardabweichung: {standardabweichung}\n"
-                 f"Durchschnittliche Anzahl an Aktien: {anzahl_aktien}\n"
-                 f"Q1: {q1}\n"
-                 f"Q3: {q3}\n"
-                 f"Median: {median}\n"
-                 f"Maximum: {maximum}\n"
-                 f"Minimum: {minimum}")
-
+    plt.boxplot(returns)
+    plt.ylabel("Returns (%)")
     plt.text(1.05, 0.5, info_text, fontsize=10, ha='left', va='center', transform=plt.gca().transAxes)
     plt.subplots_adjust(right=0.6)
     plt.show()
 
 
+def process_results(data, anlagehorizonte, bestand_aktien, vorgegebene_renditen):
+    results = []
+    for anlagehorizont in anlagehorizonte:
+        for bestand_aktie in bestand_aktien:
+            for vorgegebene_rendite in vorgegebene_renditen:
+                filtered_data = filter_data(data, anlagehorizont, bestand_aktie, vorgegebene_rendite)
+                if filtered_data:
+                    statistics = calculate_statistics(filtered_data)
+                    results.append((anlagehorizont, bestand_aktie, vorgegebene_rendite, statistics))
+    return results
 
 
+def print_and_show_results(results):
+    for result in results:
+        investment_horizon, stock_duration, return_option, statistics = result
+        info_text = (f"Anlagehorizont: {investment_horizon} Jahre\n"
+                     f"Bestand der Aktie: {stock_duration} Jahre\n"
+                     f"Vorgegebene durchschnittliche Rendite: {return_option:.2f}\n"
+                     f"Durchschnittliche Rendite: {statistics['avg_rendite']:.2f}\n"
+                     f"Standardabweichung: {statistics['std_dev_rendite']:.2f}\n"
+                     f"Durchschnittliche Anzahl an Aktien: {statistics['avg_anzahl_aktien']:.2f}\n"
+                     f"Q1: {statistics['q1']:.2f}\n"
+                     f"Q3: {statistics['q3']:.2f}\n"
+                     f"Median: {statistics['median']:.2f}\n"
+                     f"Maximum: {statistics['maximum']:.2f}\n"
+                     f"Minimum: {statistics['minimum']:.2f}")
+        create_boxplot(statistics["renditen"], info_text)
 
 
-# Durchschnittsberechnung und Standardabweichung für jede Kombination
-for anlagehorizont in [5, 10]:  # Beschränkung auf 5 und 10 Jahre
-    for aktie_laenge_am_markt in aktie_laengen_am_markt_options:
-        for rendite in durchschnittliche_renditen_options:
-            filtered_data = [
-                entry for entry in data
-                if entry["anlagehorizont"] == anlagehorizont
-                   and entry["aktie_laenge_am_markt"] == aktie_laenge_am_markt
-                   and entry["durchschnittliche_rendite"] == rendite
-            ]
+# Main Program
+filename = 'results.json'
+data = read_data(filename)
+investment_horizon_options = [5, 10, 13]
+stock_durations_on_market_options = [10, 15, 20]
+average_return_options = [0.10, 0.20, 0.30, 0.50]
 
-            # Überprüfen, ob gefilterte Daten vorhanden sind
-            if filtered_data:
-                renditen = [entry["overall_average_return"] for entry in filtered_data]
-                anzahl_aktien_liste = [entry["anzahl_aktien"] for entry in filtered_data]
-                avg_rendite = sum(renditen) / len(renditen)
-                avg_anzahl_aktien = sum(anzahl_aktien_liste) / len(anzahl_aktien_liste)
-
-                # Berechnung der Standardabweichung, falls mehr als ein Datensatz vorhanden ist
-                std_dev_rendite = statistics.stdev(renditen) if len(renditen) > 1 else 0
-                q1 = statistics.quantiles(renditen, n=4)[0]
-                q3 = statistics.quantiles(renditen, n=4)[2]
-                median = statistics.median(renditen)
-                maximum = max(renditen)
-                minimum = min(renditen)
-
-                # Hinzufügen der Ergebnisse zur entsprechenden Liste
-                if anlagehorizont == 5:
-                    ergebnisse_5_jahre.append((anlagehorizont, aktie_laenge_am_markt, rendite, avg_rendite,
-                                               std_dev_rendite, avg_anzahl_aktien, q1, q3, median, maximum, minimum, renditen))
-                elif anlagehorizont == 10:
-                    ergebnisse_10_jahre.append((anlagehorizont, aktie_laenge_am_markt, rendite, avg_rendite,
-                                                std_dev_rendite, avg_anzahl_aktien, q1, q3, median, maximum, minimum, renditen))
-
-        # Sortieren der Ergebnisse
-        ergebnisse_5_jahre.sort(key=lambda x: (-x[3], -x[5], x[4]))
-        ergebnisse_10_jahre.sort(key=lambda x: (-x[3], -x[5], x[4]))
-
-# Ausdrucken der sortierten Ergebnisse für 5 Jahre
-print("Ergebnisse für Anlagehorizont von 5 Jahren:")
-for ergebnis in ergebnisse_5_jahre:
-    print(
-        f"Anlagehorizont: {ergebnis[0]}, Aktienlänge am Markt: {ergebnis[1]}, Durchschnittliche Rendite: {ergebnis[2]:.2f}, Durchschnitt: {ergebnis[3]:.2f}, Standardabweichung: {ergebnis[4]:.2f}, Durchschnittliche Anzahl an Aktien: {ergebnis[5]:.2f}")
-    erstelle_boxplot(ergebnis[11], ergebnis[0], ergebnis[1], ergebnis[2], ergebnis[3], ergebnis[4], ergebnis[5], ergebnis[6], ergebnis[7], ergebnis[8], ergebnis[9], ergebnis[10])
-
-# Ausdrucken der sortierten Ergebnisse für 10 Jahre
-print("\nErgebnisse für Anlagehorizont von 10 Jahren:")
-for ergebnis in ergebnisse_10_jahre:
-    print(
-        f"Anlagehorizont: {ergebnis[0]}, Aktienlänge am Markt: {ergebnis[1]}, Durchschnittliche Rendite: {ergebnis[2]:.2f}, Durchschnitt: {ergebnis[3]:.2f}, Standardabweichung: {ergebnis[4]:.2f}, Durchschnittliche Anzahl an Aktien: {ergebnis[5]:.2f}")
-    erstelle_boxplot(ergebnis[11], ergebnis[0], ergebnis[1], ergebnis[2], ergebnis[3], ergebnis[4], ergebnis[5], ergebnis[6], ergebnis[7], ergebnis[8], ergebnis[9], ergebnis[10])
-
-
-
+results = process_results(data, [5, 10], stock_durations_on_market_options, average_return_options)
+print_and_show_results(results)
