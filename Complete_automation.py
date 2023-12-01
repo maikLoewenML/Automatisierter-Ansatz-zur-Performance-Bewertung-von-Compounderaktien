@@ -30,25 +30,37 @@ def adjust_for_splits(history, start_date_str, end_date_str):
 
     if 'Stock Splits' in history.columns:
         splits = history['Stock Splits'].loc[start_date:end_date]
-        for date, split in splits[splits != 0].iteritems():
+        for date, split in splits[splits != 0].items():
             split_ratio = 1 / split
             history.loc[:date, 'Open':'Close'] *= split_ratio
 
     return history
 
 
-
-def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite):
+def add_successful_stock(successful_stocks, filtered_histories, stock_symbol, history, start_price_all_successful_stocks, end_price_all_successful_stocks):
     end_jahr = start_jahr + anlagehorizont
-    stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
+    successful_stocks.append(stock_symbol)
+    start_date_second_time_period, end_date_second_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(start_jahr, end_jahr, history)
+    history = adjust_for_splits(history, start_date_second_time_period, end_date_second_time_period)
+    if start_date_second_time_period is None or end_date_second_time_period is None:
+        print(f"Es wurden keine Daten zu diesem Stock: {stock_symbol} gefunden")
+
+    filtered_histories[stock_symbol] = history.loc[start_date_second_time_period:end_date_second_time_period]
+    # Berechnen der durchschnittlichen Rendite der zweiten Zeitperiode
+    start_price_second_time_period = filtered_histories[stock_symbol].iloc[0]['Close']
+    end_price_second_time_period = filtered_histories[stock_symbol].iloc[-1]['Close']
+    start_price_all_successful_stocks += start_price_second_time_period
+    end_price_all_successful_stocks += end_price_second_time_period
+    return successful_stocks, filtered_histories, start_price_all_successful_stocks, end_price_all_successful_stocks
+
+
+def filter_successful_stocks(stocks, start_jahr, aktie_laenge_am_markt, durchschnittliche_rendite):
     successful_stocks = []
     filtered_histories = {}
     start_price_all_successful_stocks = 0
     end_price_all_successful_stocks = 0
 
-    # Filterung der Aktien für die successful_stocks
-    for stock in stocks:
-        stock_symbol = stock
+    for stock_symbol in stocks:
         try:
             history = yf.Ticker(stock_symbol).history(period="max")
             history.index = history.index.tz_localize(None)
@@ -58,12 +70,9 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
             if start_jahr - earliest_date.year < aktie_laenge_am_markt:
                 continue
 
-            start_date_first_time_period, end_date_first_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(
-                earliest_year,
-                start_jahr - 1,
-                history)
+            start_date_first_time_period, end_date_first_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(earliest_year, start_jahr - 1, history)
             if start_date_first_time_period is None or end_date_first_time_period is None:
-                print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
+                print(f"Es wurden keine Daten zu diesem Stock: {stock_symbol} gefunden")
                 continue
 
             history_first_time_period = history.loc[formatted_earliest_date:end_date_first_time_period]
@@ -73,20 +82,7 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
                 num_years = start_jahr - earliest_date.year
                 cagr = (end_price / start_price) ** (1 / num_years) - 1
                 if cagr >= durchschnittliche_rendite:
-                    successful_stocks.append(stock_symbol)
-                    start_date_second_time_period, end_date_second_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(
-                        start_jahr, end_jahr, history)
-                    history = adjust_for_splits(history, start_date_second_time_period, end_date_second_time_period)
-                    if start_date_second_time_period is None or end_date_second_time_period is None:
-                        print(f"Es wurden keine Daten zu diesem Stock: {stock} gefunden")
-                        continue
-                    filtered_histories[stock_symbol] = history.loc[
-                                                       start_date_second_time_period:end_date_second_time_period]
-                    # Berechnen der durchschnittlichen Rendite der zweiten Zeitperiode
-                    start_price_second_time_period = filtered_histories[stock_symbol].iloc[0]['Close']
-                    end_price_second_time_period = filtered_histories[stock_symbol].iloc[-1]['Close']
-                    start_price_all_successful_stocks += start_price_second_time_period
-                    end_price_all_successful_stocks += end_price_second_time_period
+                    successful_stocks, filtered_histories = add_successful_stock(successful_stocks, filtered_histories, stock_symbol, history, start_price_all_successful_stocks, end_price_all_successful_stocks)
 
             else:
                 print(f"Keine historischen Daten für den angegebenen Zeitraum für {stock_symbol} gefunden.")
@@ -95,6 +91,14 @@ def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschni
         except Exception as e:
             print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
             continue
+
+    return successful_stocks, filtered_histories, start_price_all_successful_stocks, end_price_all_successful_stocks
+
+
+def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite):
+    end_jahr = start_jahr + anlagehorizont
+    stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
+    successful_stocks, filtered_histories, start_price_all_successful_stocks, end_price_all_successful_stocks = filter_successful_stocks(stocks, start_jahr, aktie_laenge_am_markt, durchschnittliche_rendite)
 
     # with open('successful_stocks.pkl', 'rb') as f:
     #     successful_stocks = pickle.load(f)
