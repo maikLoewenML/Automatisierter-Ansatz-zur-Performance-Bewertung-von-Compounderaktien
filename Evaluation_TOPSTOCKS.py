@@ -38,6 +38,7 @@ def adjust_for_splits(history, start_date_str, end_date_str):
 
 
 def add_successful_stock(successful_stocks, filtered_histories, stock_symbol, history, start_price_all_successful_stocks, end_price_all_successful_stocks, start_jahr, end_jahr):
+    stocks_cagr = {}
     successful_stocks.append(stock_symbol)
     start_date_second_time_period, end_date_second_time_period = Datumsbereiche.finde_gueltige_datumsbereiche(start_jahr, end_jahr, history)
     history = adjust_for_splits(history, start_date_second_time_period, end_date_second_time_period)
@@ -58,6 +59,7 @@ def filter_successful_stocks(stocks, start_jahr, aktie_laenge_am_markt, durchsch
     filtered_histories = {}
     start_price_all_successful_stocks = 0
     end_price_all_successful_stocks = 0
+    stocks_cagr = {}
 
     for stock_symbol in stocks:
         try:
@@ -87,6 +89,7 @@ def filter_successful_stocks(stocks, start_jahr, aktie_laenge_am_markt, durchsch
                                                                                                                                                          start_price_all_successful_stocks,
                                                                                                                                                          end_price_all_successful_stocks, start_jahr,
                                                                                                                                                          end_jahr)
+                        stocks_cagr[stock_symbol] = cagr
 
             else:
                 print(f"Keine historischen Daten für den angegebenen Zeitraum für {stock_symbol} gefunden.")
@@ -96,7 +99,7 @@ def filter_successful_stocks(stocks, start_jahr, aktie_laenge_am_markt, durchsch
             print(f"Konnte keine historischen Daten für {stock_symbol} abrufen: {e}")
             continue
 
-    return successful_stocks, filtered_histories, start_price_all_successful_stocks, end_price_all_successful_stocks
+    return successful_stocks, filtered_histories, start_price_all_successful_stocks, end_price_all_successful_stocks, stocks_cagr
 
 
 def calculate_annual_average_returns(start_jahr, end_jahr, successful_stocks, filtered_histories):
@@ -108,8 +111,9 @@ def calculate_annual_average_returns(start_jahr, end_jahr, successful_stocks, fi
 
     # Berechnung der jährlichen Renditen
     for stock in successful_stocks:
+        stock_symbol = stock[0]
         try:
-            history = filtered_histories[stock]
+            history = filtered_histories[stock_symbol]
             if history.empty:
                 continue
 
@@ -214,27 +218,43 @@ def show_bar_chart(categories, category_counts, years_mapping):
     plt.show()
 
 
-def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite):
+def calculate_start_end_topstocks(top_stocks, filtered_histories):
+    start_price_all_top_stocks = 0
+    end_price_all_top_stocks = 0
+    for stock in top_stocks:
+        stock_symbol = stock[0]
+        start_price_second_time_period = filtered_histories[stock_symbol].iloc[0]['Close']
+        end_price_second_time_period = filtered_histories[stock_symbol].iloc[-1]['Close']
+        start_price_all_top_stocks += start_price_second_time_period
+        end_price_all_top_stocks += end_price_second_time_period
+    return start_price_second_time_period, end_price_second_time_period
+
+
+def analyse_stocks(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite, top_stock_limitierung):
     end_jahr = start_jahr + anlagehorizont
     stocks = Unternehmenslisten.lese_sp500_unternehmen(start_jahr)
-    successful_stocks, filtered_histories, start_price_all_successful_stocks, end_price_all_successful_stocks = filter_successful_stocks(stocks, start_jahr, aktie_laenge_am_markt,
-                                                                                                                                         durchschnittliche_rendite, end_jahr)
+    successful_stocks, filtered_histories, start_price_all_successful_stocks, end_price_all_successful_stocks, stocks_cagr = filter_successful_stocks(stocks, start_jahr, aktie_laenge_am_markt,
+                                                                                                                                                      durchschnittliche_rendite, end_jahr)
 
-    if successful_stocks:
+    sorted_stocks = sorted(stocks_cagr.items(), key=lambda item: item[1], reverse=True)
+    top_stocks = sorted_stocks[:top_stock_limitierung]
+
+    if top_stocks:
         print("Folgende Aktien hatten eine durchschnittliche jährliche Rendite von 15% oder höher:")
-        for stock in successful_stocks:
+        for stock in top_stocks:
             print(stock)
     else:
         print("Keine Aktien gefunden, die die Kriterien erfüllen.")
 
-    annual_returns, stock_counts = calculate_annual_average_returns(start_jahr, end_jahr, successful_stocks, filtered_histories)
+    annual_returns, stock_counts = calculate_annual_average_returns(start_jahr, end_jahr, top_stocks, filtered_histories)
     categories, category_counts, years_mapping = categorize_average_returns(annual_returns, stock_counts)
-    total_return_all_time, average_return_all_time = calculate_total_return(start_price_all_successful_stocks, end_price_all_successful_stocks, anlagehorizont)
-    print_results(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite, successful_stocks, average_return_all_time)
+    start_price_all_topstocks, end_price_all_topstocks = calculate_start_end_topstocks(top_stocks, filtered_histories)
+    total_return_all_time, average_return_all_time = calculate_total_return(start_price_all_topstocks, end_price_all_topstocks, anlagehorizont)
+    print_results(start_jahr, anlagehorizont, aktie_laenge_am_markt, durchschnittliche_rendite, top_stocks, average_return_all_time)
     show_bar_chart(categories, category_counts, years_mapping)
 
     return {'start_jahr': start_jahr, 'anlagehorizont': anlagehorizont, 'aktie_laenge_am_markt': aktie_laenge_am_markt, 'durchschnittliche_rendite': durchschnittliche_rendite,
-            'average_yearly_returns': annual_returns, 'overall_yearly_return': average_return_all_time, 'overall_return': total_return_all_time, 'anzahl_aktien': len(successful_stocks)}
+            'average_yearly_returns': annual_returns, 'overall_yearly_return': average_return_all_time, 'overall_return': total_return_all_time, 'anzahl_aktien': len(top_stocks)}
 
 
 def main():
@@ -243,6 +263,7 @@ def main():
     anlagehorizont_options = [5, 10, 13]
     aktie_laengen_am_markt_options = [10, 15, 20]
     durchschnittliche_renditen_options = [0.10, 0.20, 0.30, 0.50]
+    top_stock_limitierung = 5
 
     # Liste zur Speicherung der Ergebnisse für jede Kombination
     results = []
@@ -253,13 +274,13 @@ def main():
             for aktie_laenge in aktie_laengen_am_markt_options:
                 for rendite in durchschnittliche_renditen_options:
                     if start_jahr + anlagehorizont <= 2022:
-                        result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite)
+                        result = analyse_stocks(start_jahr, anlagehorizont, aktie_laenge, rendite, top_stock_limitierung)
                         if result and result.get('overall_yearly_return') is not None:
                             results.append(result)
                             print(f"{result} wurde den results hinzugefügt*******************************************************************************")
 
     # Speichern der Ergebnisse in einer JSON-Datei
-    with open('results.json', 'w', encoding='utf-8') as f:
+    with open('top_5_stocks.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
 
