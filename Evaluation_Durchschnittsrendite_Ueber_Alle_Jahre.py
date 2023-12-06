@@ -23,7 +23,7 @@ def filter_data(data, investment_horizon, stock_duration_on_market, average_retu
 
 
 def calculate_statistics(filtered_data):
-    returns = [entry["overall_average_return"] for entry in filtered_data]
+    returns = [entry["overall_yearly_return"] for entry in filtered_data]
     number_of_stocks = [entry["anzahl_aktien"] for entry in filtered_data]
     return {
         "avg_rendite": sum(returns) / len(returns),
