@@ -221,6 +221,8 @@ def show_bar_chart(categories, category_counts, years_mapping):
 def calculate_start_end_topstocks(top_stocks, filtered_histories):
     start_price_all_top_stocks = 0
     end_price_all_top_stocks = 0
+    start_price_second_time_period = 0
+    end_price_second_time_period = 0
     for stock in top_stocks:
         stock_symbol = stock[0]
         start_price_second_time_period = filtered_histories[stock_symbol].iloc[0]['Close']
@@ -263,7 +265,7 @@ def main():
     anlagehorizont_options = [5, 10, 13]
     aktie_laengen_am_markt_options = [10, 15, 20]
     durchschnittliche_renditen_options = [0.10, 0.20, 0.30, 0.50]
-    top_stock_limitierung = 5
+    top_stock_limitierung = 15
 
     # Liste zur Speicherung der Ergebnisse für jede Kombination
     results = []
@@ -280,7 +282,7 @@ def main():
                             print(f"{result} wurde den results hinzugefügt*******************************************************************************")
 
     # Speichern der Ergebnisse in einer JSON-Datei
-    with open('top_5_stocks.json', 'w', encoding='utf-8') as f:
+    with open('top_15_stocks.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
 

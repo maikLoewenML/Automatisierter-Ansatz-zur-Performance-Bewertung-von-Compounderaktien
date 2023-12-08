@@ -169,7 +169,6 @@ def calculate_total_return(start_price_all_successful_stocks, end_price_all_succ
     total_return_all_time = None
     average_return_all_time = None
 
-    # Überprüfen, ob gültige Start- und Endpreise vorhanden sind
     if start_price_all_successful_stocks > 0 and end_price_all_successful_stocks > 0:
         total_return_all_time = ((end_price_all_successful_stocks / start_price_all_successful_stocks) - 1) * 100
         average_return_all_time = total_return_all_time / anlagehorizont
