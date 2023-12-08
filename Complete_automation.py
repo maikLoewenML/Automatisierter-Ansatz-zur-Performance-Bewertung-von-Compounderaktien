@@ -100,7 +100,6 @@ def filter_successful_stocks(stocks, start_jahr, aktie_laenge_am_markt, durchsch
 
 
 def calculate_annual_average_returns(start_jahr, end_jahr, successful_stocks, filtered_histories):
-    # Initialisierung der Datenstrukturen
     annual_returns = {year: 0 for year in range(start_jahr, end_jahr)}
     stock_counts = {year: 0 for year in range(start_jahr, end_jahr)}
     start_price_yearly_successful_stocks = {year: 0 for year in range(start_jahr, end_jahr)}
@@ -141,7 +140,6 @@ def calculate_annual_average_returns(start_jahr, end_jahr, successful_stocks, fi
 
 
 def categorize_average_returns(annual_returns, stock_counts):
-    # Kategorisierungsbereiche festlegen
     categories = list(range(-40, 80, 10))  # Von -40 % bis 70 % in 10 % Schritten
     category_counts = {cat: 0 for cat in categories}
     years_mapping = {cat: [] for cat in categories}
