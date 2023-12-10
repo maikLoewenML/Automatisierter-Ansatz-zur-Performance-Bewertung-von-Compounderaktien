@@ -47,6 +47,15 @@ def create_boxplot(returns, info_text):
     plt.show()
 
 
+def create_histogram(returns, title):
+    plt.figure(figsize=(10, 6))
+    plt.hist(returns, bins=10, edgecolor='black')
+    plt.title(title)
+    plt.xlabel('Returns (%)')
+    plt.ylabel('Frequency')
+    plt.show()
+
+
 def process_results(data, anlagehorizonte, bestand_aktien, vorgegebene_renditen):
     results = []
     for anlagehorizont in anlagehorizonte:
@@ -74,12 +83,26 @@ def print_and_show_results(results):
                      f"Maximum: {statistics['maximum']:.2f}\n"
                      f"Minimum: {statistics['minimum']:.2f}")
         create_boxplot(statistics["renditen"], info_text)
+        title = (f"Histogramm für {investment_horizon} Jahre Anlagehorizont, "
+                 f"{stock_duration} Jahre Bestand, {return_option:.2f} durchschnittliche Rendite")
+        create_histogram(statistics["renditen"], title)
+        print(f"Anlagehorizont: {investment_horizon} Jahre\n"
+                         f"Bestand der Aktie: {stock_duration} Jahre\n"
+                         f"Vorgegebene durchschnittliche Rendite: {return_option:.2f}\n"
+                         f"Durchschnittliche Rendite: {statistics['avg_rendite']:.2f}\n"
+                         f"Standardabweichung: {statistics['std_dev_rendite']:.2f}\n"
+                         f"Durchschnittliche Anzahl an Aktien: {statistics['avg_anzahl_aktien']:.2f}\n"
+                         f"Q1: {statistics['q1']:.2f}\n"
+                         f"Q3: {statistics['q3']:.2f}\n"
+                         f"Median: {statistics['median']:.2f}\n"
+                         f"Maximum: {statistics['maximum']:.2f}\n"
+                         f"Minimum: {statistics['minimum']:.2f}\n")
 
 
 # Main Program
 filename = 'results.json'
 data = read_data(filename)
-investment_horizon_options = [5, 10, 13]
+investment_horizon_options = [5, 10]
 stock_durations_on_market_options = [10, 15, 20]
 average_return_options = [0.10, 0.20, 0.30, 0.50]
 
